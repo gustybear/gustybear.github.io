@@ -61,7 +61,9 @@ abstract: Orthogonal blinding based schemes for wireless physical layer security
   the level of random guessing, even if she knows all the symbols transmitted through
   other antenna modes.
 publication: '*IEEE INFOCOM 2020 - IEEE Conference on Computer Communications*'
-doi: 10.1109/INFOCOM41043.2020.9155439
+hugoblox:
+  ids:
+    doi: 10.1109/INFOCOM41043.2020.9155439
 
 # Custom links (uncomment lines below)
 # links:

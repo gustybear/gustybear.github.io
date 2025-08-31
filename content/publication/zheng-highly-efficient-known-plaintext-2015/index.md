@@ -54,7 +54,9 @@ abstract: In this letter, we describe highly effective known-plaintext attacks a
   work of Schulz et al., e.g., by lowering the eavesdropper's SER by 82% while using
   95% less known plaintext.
 publication: '*IEEE Wireless Communications Letters*'
-doi: 10.1109/LWC.2014.2363176
+hugoblox:
+  ids:
+    doi: 10.1109/LWC.2014.2363176
 
 # Custom links (uncomment lines below)
 # links:

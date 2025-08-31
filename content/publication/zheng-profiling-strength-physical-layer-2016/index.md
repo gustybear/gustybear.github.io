@@ -59,7 +59,9 @@ abstract: Physical layer security for wireless communication is broadly consider
   receiving data and a general knowledge about the format of the wireless packets.
 publication: "*WiSec '16: Proceedings of the 9th ACM Conference on Security & Privacy\
   \ in Wireless and Mobile Networks*"
-doi: 10.1145/2939918.2939933
+hugoblox:
+  ids:
+    doi: 10.1145/2939918.2939933
 
 # Custom links (uncomment lines below)
 # links:

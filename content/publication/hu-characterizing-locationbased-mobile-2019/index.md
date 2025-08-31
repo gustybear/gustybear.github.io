@@ -44,7 +44,9 @@ publication_types:
 - 1
 abstract: Mobile apps nowadays are often packaged with third-party ad libraries to monetize user data. Many mobile ad networks exploit these mobile apps to extract sensitive real-time geographical data about the users for location-based targeted advertising. However, the massive collection of sensitive information by the ad networks has raised serious privacy concerns. Unfortunately, the extent and granularity of private data collection of the location-based ad networks remain obscure. In this work, we present a mobile tracking measurement study to characterize the severity and significance of location-based private data collection in mobile ad networks, by using an automated fine-grained data collection instrument running across different geographical areas. We perform extensive threat assessments for different ad networks using 1,100 popular apps running across 10 different cities. This study discovers that the number of location-based ads tend to be positively correlated with the population density of locations, ad networks' data collection behaviors differ across different locations, and most ad networks are capable of collecting precise location data. Detailed analysis further reveals the significant impact of geolocation on the tracking behavior of targeted ads, and a noteworthy security concern for advertising organizations to aggregate different types of private user data across multiple apps for a better targeted ad experience.
 publication: '*2019 IEEE Conference on Communications and Network Security (CNS)*'
-doi: 10.1109/CNS.2019.8802632
+hugoblox:
+  ids:
+    doi: 10.1109/CNS.2019.8802632
 
 # Custom links (uncomment lines below)
 # links:

@@ -56,7 +56,9 @@ abstract: Cloud computing has become the real trend of enterprise IT service mod
   simulation results show that our architecture can effectively and efficiently address
   the security challenges brought by the new network paradigm.
 publication: '*2014 IEEE 22nd International Conference on Network Protocols*'
-doi: 10.1109/ICNP.2014.99
+hugoblox:
+  ids:
+    doi: 10.1109/ICNP.2014.99
 
 
 # Custom links (uncomment lines below)

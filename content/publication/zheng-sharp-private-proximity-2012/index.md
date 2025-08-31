@@ -63,7 +63,9 @@ abstract: A location proximity test service allows mobile users to determine whe
   We conduct extensive analysis and real experiments to demonstrate the feasibility,
   security, and efficiency of our scheme.
 publication: '*ESORICS 2012: 17th European Symposium on Research in Computer Security*'
-doi: 10.1007/978-3-642-33167-1_21
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-642-33167-1_21
 
 # Custom links (uncomment lines below)
 # links:

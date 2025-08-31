@@ -57,7 +57,9 @@ abstract: This demonstration shows the beam steering capability of a new liquid 
   link implemented with a software-defined radio.
 publication: '*IEEE INFOCOM 2023 - IEEE Conference on Computer Communications Workshops
   (INFOCOM WKSHPS)*'
-doi: 10.1109/INFOCOMWKSHPS57453.2023.10225972
+hugoblox:
+  ids:
+    doi: 10.1109/INFOCOMWKSHPS57453.2023.10225972
 links:
 - name: PDF
   url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-dacuycuy-critical-element-first-2023/Dacuycuy+et+al_2023_Critical+Element+First.pdf

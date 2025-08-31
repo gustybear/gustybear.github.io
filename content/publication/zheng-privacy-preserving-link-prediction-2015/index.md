@@ -44,7 +44,9 @@ abstract: We consider the privacy-preserving link prediction problem in decentra
   workload, and limited communication overhead. Additionally, we demonstrate that
   our method copes well with link reconstruction attack.
 publication: '*ESORICS 2015: 20th European Symposium on Research in Computer Security*'
-doi: 10.1007/978-3-319-24177-7_4
+hugoblox:
+  ids:
+    doi: 10.1007/978-3-319-24177-7_4
 
 # Custom links (uncomment lines below)
 # links:

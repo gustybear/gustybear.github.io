@@ -37,7 +37,9 @@ publication_types:
 abstract: Continuous-wave Doppler radar (CWDR) can be used to remotely detect physiological parameters, such as respiration and heart signals. However, detecting and separating multiple targets remains a challenging task for CWDR. While complex transceiver architectures and advanced signal processing algorithms have been demonstrated effective for multiple target separations in some scenarios, the separation of equidistant sources within a single antenna beam remains a challenge. This paper presents an alternative phase tuning approach that exploits the diversity among target distances and physiological parameters for multi-target detection. The design utilizes a voltage-controlled analog phase shifter to manipulate the phase correlation of the CWDR and thus create different signal mixtures from the multiple targets, then separates them in frequency domain by suppressing individual signals sequentially. We implemented the phase correlation system based on a 2.4GHz single-channel CWDR and evaluated it against multiple mechanical and human targets. The experimental results demonstrated successful separation of nearly equidistant targets within an antenna beam, equivalent to separating physiological signals of two people seated shoulder to shoulder.
 
 publication: '*MDPI Sensors*'
-doi: 10.3390/s22030970
+hugoblox:
+  ids:
+    doi: 10.3390/s22030970
 
 # Custom links (uncomment lines below)
 # links:

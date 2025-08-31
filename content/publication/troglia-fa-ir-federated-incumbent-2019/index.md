@@ -65,7 +65,9 @@ abstract: "The next-generation spectrum access system (SAS) for the Citizens Bro
   \ method, using a fraction of the bandwidth compared to the naive multi-node method."
 publication: '*2019 IEEE International Symposium on Dynamic Spectrum Access Networks
   (DySPAN) - Workshop on Data-Driven Dynamic Spectrum Sharing*'
-doi: 10.1109/DySPAN.2019.8935736
+hugoblox:
+  ids:
+    doi: 10.1109/DySPAN.2019.8935736
 
 # Custom links (uncomment lines below)
 # links:

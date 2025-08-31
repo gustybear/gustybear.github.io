@@ -58,7 +58,9 @@ abstract: With the accelerating adaption of Cloud and Edge computing, cloud-base
   and constant size wrapper.
 
 publication: '*IEEE/ACM Transactions on Networking*'
-doi: 10.1109/TNET.2023.3294019
+hugoblox:
+  ids:
+    doi: 10.1109/TNET.2023.3294019
 
 # Custom links (uncomment lines below)
 # links:

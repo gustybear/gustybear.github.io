@@ -53,6 +53,10 @@ abstract: Advanced botnets adopt a peer-to-peer (P2P) infrastructure for more re
   PeerClean on real-world flow records from a campus network. Our evaluation shows
   that PeerClean is able to achieve high detection rates with few false positives.
 publication: '*2015 IEEE Conference on Computer Communications (INFOCOM)*'
-doi: 10.1109/INFOCOM.2015.7218396
-url_pdf: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-yan-peer-clean-unveiling-peertopeer-2015/Yan+et+al_2015_PeerClean.pdf
+hugoblox:
+  ids:
+    doi: 10.1109/INFOCOM.2015.7218396
+links:
+- name: PDF
+  url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-yan-peer-clean-unveiling-peertopeer-2015/Yan+et+al_2015_PeerClean.pdf
 ---

@@ -60,7 +60,9 @@ abstract: At-home screening systems for obstructive sleep apnea (OSA) can bring 
   user's breathing biometrics.
 
 publication: '*IEEE Internet of Things Journal*'
-doi: 10.1109/JIOT.2023.3275099
+hugoblox:
+  ids:
+    doi: 10.1109/JIOT.2023.3275099
 
 # Custom links (uncomment lines below)
 # links:

@@ -62,7 +62,9 @@ abstract: Personal health record (PHR) is an emerging patient-centric model of h
   emergency scenarios. Extensive analytical and experimental results are presented
   which show the security, scalability, and efficiency of our proposed scheme.
 publication: '*IEEE Transactions on Parallel and Distributed Systems*'
-doi: 10.1109/TPDS.2012.97
+hugoblox:
+  ids:
+    doi: 10.1109/TPDS.2012.97
 
 
 # Custom links (uncomment lines below)

@@ -57,7 +57,9 @@ abstract: The increasingly sophisticated at-home screening systems for obstructi
   achieve reliable ($>$ 90% success rate) device pairing under a noisy environment
   and is robust against the attacker with full knowledge of the context information.
 publication: '*2021 IEEE Global Communications Conference: Communication & Information Systems Security*'
-doi: 10.1109/GLOBECOM46510.2021.9685852.
+hugoblox:
+  ids:
+    doi: 10.1109/GLOBECOM46510.2021.9685852.
 
 links:
 - name: PDF

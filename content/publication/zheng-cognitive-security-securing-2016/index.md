@@ -62,7 +62,9 @@ abstract: The rapid proliferation of personal wearable as well as embedded devic
   in the context of cognitive security. We conclude by offering some insight into
   solution approaches to these challenges.
 publication: '*IEEE Network*'
-doi: 10.1109/MNET.2016.7513866
+hugoblox:
+  ids:
+    doi: 10.1109/MNET.2016.7513866
 
 
 # Custom links (uncomment lines below)

@@ -63,7 +63,9 @@ abstract: Future generation (FutureG) wireless communication systems are envisio
   for three human subjects within 6% of photoplethysmography (PPG) reference, with
   clear benefits of frequency diversity among OFDM subcarriers.
 publication: '*2024 21st European Radar Conference (EuRAD)*'
-doi: 10.23919/EuRAD61604.2024.10734895
+hugoblox:
+  ids:
+    doi: 10.23919/EuRAD61604.2024.10734895
 links:
 - name: PDF
   url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-ishmael-heart-signal-sensing-2024/Ishmael+et+al_2024_Heart+signal+sensing+using+millimeter-wave+OFDM+waveform+in+FutureG.pdf

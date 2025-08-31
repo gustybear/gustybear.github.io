@@ -59,7 +59,9 @@ abstract: Cloud computing has become the real trend of enterprise IT service mod
   brought by the new network paradigm and our attack detection system can effectively
   report various attacks using real-world network traffic.
 publication: '*Computer Networks*'
-doi: 10.1016/j.comnet.2015.02.026
+hugoblox:
+  ids:
+    doi: 10.1016/j.comnet.2015.02.026
 
 
 # Custom links (uncomment lines below)

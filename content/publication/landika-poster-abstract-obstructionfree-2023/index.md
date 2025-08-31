@@ -49,7 +49,9 @@ abstract: This poster abstract shows the possibilities of incorporating an Intel
   sensing are discussed and evaluated.
 publication: '*Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design
   and Implementation*'
-doi: 10.1145/3576842.3589171
+hugoblox:
+  ids:
+    doi: 10.1145/3576842.3589171
 links:
 - name: PDF
   url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-landika-poster-abstract-obstructionfree-2023/Landika+et+al_2023_Poster+abstract.pdf

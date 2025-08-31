@@ -52,7 +52,9 @@ abstract: The online advertising ecosystem is built upon the massive data collec
   while minimizing the impact to mobile ad businesses.
 publication: '*IEEE INFOCOM 2018 - IEEE Conference on Computer Communications Workshops
   (INFOCOM WKSHPS)*'
-doi: 10.1109/INFCOMW.2018.8406986
+hugoblox:
+  ids:
+    doi: 10.1109/INFCOMW.2018.8406986
 
 # Custom links (uncomment lines below)
 # links:

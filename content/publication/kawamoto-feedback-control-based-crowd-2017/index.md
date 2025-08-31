@@ -55,7 +55,9 @@ abstract: The development of technologies related to the Internet of Things (IoT
   methods under various scenarios. We also provide extensive numerical results to
   verify the effectiveness of the model.
 publication: '*IEEE Internet of Things Journal*'
-doi: 10.1109/JIOT.2017.2724642
+hugoblox:
+  ids:
+    doi: 10.1109/JIOT.2017.2724642
 
 # Custom links (uncomment lines below)
 # links:

@@ -57,7 +57,9 @@ abstract: Wireless communications systems provide channel state information (CSI
   in NextG millimeter-wave communications systems.
 
 publication: '*IEEE Journal of Microwaves*'
-doi: 10.1109/JMW.2022.3224375
+hugoblox:
+  ids:
+    doi: 10.1109/JMW.2022.3224375
 
 # Custom links (uncomment lines below)
 # links:
