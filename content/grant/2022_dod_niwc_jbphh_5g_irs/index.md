@@ -14,9 +14,9 @@ tags:
 - active grant
 
 authors:
+- Yao Zheng
 - Aaron Ohta
 - Wayne A. Shiroma
-- Yao Zheng
 
 summary: 'Total: ＄1,949,742, UH-Contract: ＄362,461 (year 1), $ 354,458 (year 2), UH-PI'
 
