@@ -73,6 +73,7 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 | Semester    | ENGR196 | ENGR296 | ENGR396 | ECE496 |
 | ---         | ---     | ---     | ---     | ---    |
 | Spring 2025 | TBD     | TBD     | TBD     | TBD    |
+| Fall   2025 | 79483   | 76390   | 76469   | 77488  |
 
 - **Personnel**
 | Advisor                                                                                                                          | Office Hours                |
@@ -122,6 +123,7 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 | SEMESTER     | TOPICS                                                 | DOCUMENTS                    |
 | ---          | ---                                                    | ---                          |
 | Spring, 2025 | Designing 3.5GHz reflectarray with transistors         | [doc sp2025][doc sp2025 url] |
+| Fall, 2025   | Designing 3.5GHz reflectarray with transistors         | [doc fa2025][doc fa2025 url] |
 
  ***
 
@@ -131,5 +133,5 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 
 [doc urls]: # (doc urls)
 [doc sp2025 url]: https://drive.google.com/drive/folders/1tHfBRH6r_y3a_MFIbG5wmJlmmtjjZKw-?usp=share_link
-
+[doc fa2025 url]: https://drive.google.com/drive/folders/1yWxJkORRLIZ9vvQscuiULGIWMOdnfKWE?usp=share_link
 

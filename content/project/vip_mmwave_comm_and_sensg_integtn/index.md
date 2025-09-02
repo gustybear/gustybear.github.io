@@ -18,6 +18,10 @@ date: 2024-12-09T00:00:00-10:00
 
 authors:
 - Yao Zheng
+- Hanqing Guo
+- Liuwan Zhu
+- Haofan Cai
+- Xiaochan Xue
 - Aaron Ohta
 - Wayne A. Shiroma
 
@@ -72,6 +76,7 @@ Imagine a future where our wireless devices do more than just talk to each other
 | Spring 2022 | 90034   | 90035   | 90036   | 85708 |
 | Fall   2022 | 80343   | 80344   | 80345   | 75344 |
 | Spring 2025 | 89726   | 86653   | 86654   | 88158 |
+| Fall   2025 | 79483   | 76390   | 76469   | 77488 |
 
 - **Personnel**
 | Advisor                                                                                                                          | Office Hours                |
@@ -121,6 +126,7 @@ Imagine a future where our wireless devices do more than just talk to each other
 | SEMESTER     | TOPICS                                       | DOCUMENTS                    |
 | ---          | ---                                          | ---                          |
 | Spring, 2025 | Setup an O-RAN based ISAC System at FR2 band | [doc sp2025][doc sp2025 url] |
+| Fall, 2025   | Setup an O-RAN based ISAC System at FR2 band | [doc fa2025][doc fa2025 url] |
 
  ***
 
@@ -130,5 +136,6 @@ Imagine a future where our wireless devices do more than just talk to each other
 
 [doc urls]: # (doc urls)
 [doc sp2025 url]: https://drive.google.com/drive/folders/1Ux0zfHDvQM3pQBudNF2OqI25NsptN4W7?usp=share_link
+[doc fa2025 url]: https://drive.google.com/drive/folders/17DP23g4ebklurbNWsmJpjMxZMJsr7ndR?usp=share_link
 
 
