@@ -28,7 +28,7 @@ S3_BUCKET                     = s3://gustybear-websites
 .PHONY : build_webpages
 build_webpages:
 	# @academic import --overwrite --bibtex ./content/publication/yao-zheng.bib
-	@academic import --bibtex ./content/publication/yao-zheng.bib
+	# @academic import --bibtex ./content/publication/yao-zheng.bib
 	# @git submodule update --init --recursive --remote
 	@rm -rf $(WEBSITE_SRC)
 	@find . -name "Icon?" -exec rm {} \;
@@ -38,7 +38,7 @@ build_webpages:
 
 # Rule to publish webpages {{{2
 .PHONY : publish_webpages
-#publish_webpages: build_webpages
+publish_webpages: build_webpages
 publish_webpages:
 	@rsync -urzP --delete --rsync-path=$(RSYNC_PATH) $(WEBSITE_SRC)/ $(SSH_USER)@$(SSH_HOST):$(WEBSITE_DES)
 
