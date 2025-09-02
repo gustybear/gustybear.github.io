@@ -16,13 +16,14 @@ tags:
 - active project
 - active vip project
 
-date: 2024-12-10T00:00:00-10:00
+date: 2025-09-01T00:00:00-10:00
 
 authors:
 - Yao Zheng
 - Hanqing Guo
 - Liuwan Zhu
 - Haofan Cai
+- Xiaochan Xue
 
 # Optional external URL for project (replaces project detail page).
 # external_link: "http://www2.hawaii.edu/~viprasre/"
