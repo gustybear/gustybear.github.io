@@ -22,12 +22,12 @@ main:
 #  - name: News
 #    url: /#news
 #    weight: 30
-#  - name: Team
-#    url: /#team
-#    weight: 40
-#  - name: Facility
-#    url: facility/yaolab/
-#    weight: 50
+  - name: Team
+    url: team/
+    weight: 40
+  - name: Facility
+    url: facility/yaolab/
+    weight: 9
 #  - name: Contact
 #    url: /#contact
 #    weight: 60
