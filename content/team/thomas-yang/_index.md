@@ -36,25 +36,25 @@ skills:
   - "Machine Learning"
 
 experience:
-  - position: "Graduate Research Assistant"
+  - position: "RF Software Test Engineer"
     company: "University of Hawaii at Manoa"
-    duration: "2023-Present"
+    duration: "Sep 2025 - Present"
     description: "Working on RF software engineering and physical layer security for wireless communication systems."
-  - position: "Undergraduate Research Assistant"
-    company: "Pacific University"
-    duration: "2021-2023"
-    description: "Contributed to research projects involving RF circuit design and signal processing."
-  - position: "Engineering Intern"
-    company: "Tech Solutions Inc."
-    duration: "Summer 2022"
+  - position: "Software Development Engineer - Marketing Technologies"
+    company: "Hawaiian Airlines"
+    duration: "Feb 2022 - Sep 2025"
+    description: "Created and maintained data collection for a user's journey throughout the website."
+  - position: "Software Engineering Intern"
+    company: "Nalu Scientific"
+    duration: "Jan 2021 - Feb 2022"
     description: "Developed automated testing systems for RF components."
 ---
 
 Thomas is a graduate research assistant at the University of Hawaii at Manoa, working in RF software engineering. His research interests include analytics, pookie, cutting-edge research.
 
-Currently, he is working on developing physical layer security for wireless communication systems. Work involves knowledge of curving wireless beams around pookie so that the government doesnt read her mind and that all love beams lead to pookie. innovative solutions for 5G/6G communications systems, with a particular focus on intelligent reflecting surfaces and beamforming optimization. Thomas has experience in both simulation and practical implementation of wireless communication systems.
+Currently, he is working on developing physical layer security for wireless communication systems, creating innovative solutions for 5G/6G communications systems, with a particular focus on intelligent reflecting surfaces and beamforming optimization. Thomas has experience in both simulation and practical implementation of wireless communication systems.
 
-In her previous work, she contributed to several projects involving:
+In his previous work, she contributed to several projects involving:
 - Design and optimization of RF circuits
 - Implementation of machine learning algorithms for signal processing
 - Development of automated testing systems for RF components
