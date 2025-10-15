@@ -1,0 +1,187 @@
+{{- define "main" -}}
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12" style="padding-left: 20%; padding-right: 20%;">
+      <div class="article-style">
+        <div class="text-center mb-5">
+          <h1 style="font-size: 4.5rem; font-weight: 900; margin-bottom: 1rem; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;">{{ .Title }}</h1>
+        </div>
+
+        {{ with .Content }}
+          <div class="article-style mb-4">
+            {{ . }}
+          </div>
+        {{ end }}
+
+        <div class="row g-4">
+          {{ range .Pages }}
+          <div class="col-12 mb-4">
+            <div class="card h-100 border shadow-sm facility-card" style="border: 2px solid #dee2e6 !important; border-radius: 8px; padding: 20px; transition: transform 0.2s, box-shadow 0.2s;">
+              <a href="{{ .RelPermalink }}" style="text-decoration: none; color: inherit; display: contents;">
+                <div class="facility-content">
+                  <div class="facility-text">
+                    <h3 class="card-title" style="font-weight: 700;">{{ .Title }}</h3>
+                    <div class="card-text">
+                      {{ .Content }}
+                    </div>
+                    {{ with .Params.specs }}
+                      <div class="mt-3">
+                        <h4 class="h5">Specifications:</h4>
+                        <ul class="list-unstyled">
+                          {{ range . }}
+                            <li class="mb-2">
+                              <i class="fas fa-check-circle text-success me-2"></i>{{ . }}
+                            </li>
+                          {{ end }}
+                        </ul>
+                      </div>
+                    {{ end }}
+                    <div class="mt-3">
+                      <span class="btn btn-outline-primary btn-sm">Read more... →</span>
+                    </div>
+                  </div>
+                  <div class="facility-image">
+                    {{ with .Params.image }}
+                      {{ $imagePath := .filename }}
+                      {{ $image := false }}
+                      
+                      {{/* Try multiple ways to find the image */}}
+                      {{ with resources.GetMatch (printf "media/%s" $imagePath) }}
+                        {{ $image = . }}
+                      {{ else }}
+                        {{ with resources.Get (printf "media/%s" $imagePath) }}
+                          {{ $image = . }}
+                        {{ else }}
+                          {{ with resources.GetMatch $imagePath }}
+                            {{ $image = . }}
+                          {{ else }}
+                            {{ with resources.Get $imagePath }}
+                              {{ $image = . }}
+                            {{ end }}
+                          {{ end }}
+                        {{ end }}
+                      {{ end }}
+                      
+                      {{ with $image }}
+                        {{ $processed := .Fill "500x500 Center" }}
+                        <img src="{{ $processed.RelPermalink }}" class="img-fluid rounded" alt="{{ if $.Params.image.caption }}{{ $.Params.image.caption }}{{ else }}{{ $.Title }}{{ end }}">
+                      {{ else }}
+                        <div class="bg-light d-flex align-items-center justify-content-center" style="width: 100%; aspect-ratio: 1/1; border-radius: 8px; min-height: 300px;">
+                          <div class="text-center text-muted">
+                            <i class="fas fa-microscope fa-4x mb-3"></i>
+                            <p class="small">Image not found: {{ $imagePath }}</p>
+                          </div>
+                        </div>
+                      {{ end }}
+                    {{ else }}
+                      <div class="bg-light d-flex align-items-center justify-content-center" style="width: 100%; aspect-ratio: 1/1; border-radius: 8px; min-height: 300px;">
+                        <i class="fas fa-microscope fa-4x text-muted"></i>
+                      </div>
+                    {{ end }}
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.facility-card {
+  overflow: hidden;
+}
+
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+}
+
+.facility-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+  width: 100%;
+  max-width: 100%;
+}
+
+.facility-text {
+  padding: 20px;
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  position: relative;
+}
+
+.facility-text .card-text {
+  max-height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.facility-text h3,
+.facility-text .card-text,
+.facility-text ul,
+.facility-text p {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
+}
+
+.facility-text .card-text * {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.facility-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-width: 0;
+  width: 100%;
+  max-width: 350px;
+  max-height: 400px;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.facility-image img {
+  width: 100%;
+  height: auto;
+  max-width: 310px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+}
+
+/* Responsive layout for smaller screens */
+@media (max-width: 992px) {
+  .facility-content {
+    grid-template-columns: 1fr;
+  }
+  
+  .facility-image {
+    order: 2;
+    margin-top: 20px;
+  }
+  
+  .facility-text {
+    order: 1;
+  }
+}
+</style>
+
+{{- end -}}

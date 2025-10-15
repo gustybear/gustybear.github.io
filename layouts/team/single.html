@@ -1,0 +1,494 @@
+{{ define "main" }}
+<style>
+/* Minimal Bootstrap Grid System */
+.container-fluid { width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+.row { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; }
+.col-lg-4, .col-lg-8, .col-md-6 { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
+@media (min-width: 768px) {
+  .col-md-6 { flex: 0 0 50%; max-width: 50%; }
+}
+@media (min-width: 992px) {
+  .col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+  .col-lg-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+}
+.mb-4 { margin-bottom: 1.5rem; }
+.mb-5 { margin-bottom: 3rem; }
+.mt-4 { margin-top: 1.5rem; }
+.me-2 { margin-right: 0.5rem; }
+.text-center { text-align: center; }
+.text-muted { color: #6c757d; }
+.btn { display: inline-block; font-weight: 400; text-align: center; white-space: nowrap; vertical-align: middle; user-select: none; border: 1px solid transparent; padding: 0.375rem 0.75rem; font-size: 1rem; line-height: 1.5; border-radius: 0.25rem; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out; text-decoration: none; }
+.btn-dark { color: #fff; background-color: #343a40; border-color: #343a40; }
+.btn-dark:hover { color: #fff; background-color: #23272b; border-color: #1d2124; }
+</style>
+<div class="container-fluid" style="min-height: 100vh;">
+  <div class="row">
+    <!-- Left Column - Profile Card -->
+    <div class="col-lg-4 profile-sidebar">
+      <div class="profile-card text-center">
+        <!-- Avatar -->
+        <div class="avatar-container mb-4">
+          {{ with .Params.avatar }}
+            {{ $image := resources.GetMatch . }}
+            {{ if not $image }}
+              {{ $image = resources.Get . }}
+            {{ end }}
+            {{ with $image }}
+              {{ $processed := .Fill "300x300 Center" }}
+              <img src="{{ $processed.RelPermalink }}" class="profile-avatar" alt="{{ $.Title }}">
+            {{ else }}
+              <div class="avatar-placeholder">
+                <i class="fas fa-user fa-5x"></i>
+              </div>
+            {{ end }}
+          {{ else }}
+            <div class="avatar-placeholder">
+              <i class="fas fa-user fa-5x"></i>
+            </div>
+          {{ end }}
+        </div>
+
+        <!-- Name and Title -->
+        <h2 class="profile-name">{{ .Title }}</h2>
+        {{ with .Params.role }}
+          <p class="profile-role">{{ . }}</p>
+        {{ end }}
+        
+        {{ with .Params.organization }}
+          <p class="profile-org">{{ . }}</p>
+        {{ end }}
+        
+        {{ with .Params.department }}
+          <p class="profile-dept">{{ . }}</p>
+        {{ end }}
+
+        <!-- Social Links -->
+        <div class="social-links mt-4">
+          {{ with .Params.social }}
+            {{ with .cv }}
+              <a href="{{ . }}" class="social-icon" title="CV" target="_blank"><i class="fas fa-calendar"></i></a>
+            {{ end }}
+            {{ with .linkedin }}
+              <a href="{{ . }}" class="social-icon" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            {{ end }}
+            {{ with .google_scholar }}
+              <a href="{{ . }}" class="social-icon" title="Google Scholar" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+            {{ end }}
+            {{ with .github }}
+              <a href="{{ . }}" class="social-icon" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+            {{ end }}
+            {{ with .email }}
+              <a href="mailto:{{ . }}" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Column - Content -->
+    <div class="col-lg-8 content-area">
+      <div class="content-container">
+        <!-- CV Download Button -->
+        {{ with .Params.social }}
+          {{ with .cv }}
+            <div class="cv-download mb-5">
+              <a href="{{ . }}" class="btn btn-dark" target="_blank">
+                <i class="fas fa-download me-2"></i>Download CV
+              </a>
+            </div>
+          {{ end }}
+        {{ end }}
+
+        <!-- Main Content -->
+        {{ with .Content }}
+          <div class="main-content mb-5">
+            <h2 class="section-title">Curriculum Vitae</h2>
+            <div class="content-text">
+              {{ . }}
+            </div>
+          </div>
+        {{ end }}
+
+        <div class="row">
+          <!-- Interests Column -->
+          {{ with .Params.interests }}
+            <div class="col-md-6 mb-4">
+              <h3 class="section-title">Interests</h3>
+              <ul class="interests-list">
+                {{ range . }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            </div>
+          {{ end }}
+
+          <!-- Education Column -->
+          {{ with .Params.education }}
+            <div class="col-md-6 mb-4">
+              <h3 class="section-title">Education</h3>
+              <div class="education-list">
+                {{ range . }}
+                  <div class="education-item mb-4">
+                    <i class="fas fa-graduation-cap me-2"></i>
+                    <div class="education-content">
+                      {{ with .degree }}
+                        <div class="degree">{{ . }}</div>
+                      {{ end }}
+                      {{ with .institution }}
+                        <div class="institution">{{ . }}</div>
+                      {{ end }}
+                      {{ with .year }}
+                        <div class="year text-muted">{{ . }}</div>
+                      {{ end }}
+                    </div>
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+
+        <!-- Skills -->
+        {{ with .Params.skills }}
+          <div class="skills-section mb-5">
+            <h3 class="section-title">Skills</h3>
+            <div class="skills-list">
+              {{ range . }}
+                <span class="skill-tag">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+
+        <!-- Experience -->
+        {{ with .Params.experience }}
+          <div class="experience-section">
+            <h3 class="section-title">Experience</h3>
+            <div class="experience-list">
+              {{ range . }}
+                <div class="experience-item mb-4">
+                  <h4 class="position">{{ .position }}</h4>
+                  {{ with .company }}
+                    <p class="company">{{ . }}</p>
+                  {{ end }}
+                  {{ with .duration }}
+                    <p class="duration text-muted">{{ . }}</p>
+                  {{ end }}
+                  {{ with .description }}
+                    <p class="description">{{ . }}</p>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.profile-sidebar {
+  background: linear-gradient(135deg, #1e5f4f 0%, #2d7a66 100%);
+  color: white;
+  min-height: 100vh;
+  padding: 60px 40px;
+}
+
+.profile-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.avatar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.avatar-placeholder {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.profile-role {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.profile-org {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.profile-dept {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.social-icon:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+  color: white;
+}
+
+.content-area {
+  padding: 60px 80px;
+  background: #f8f9fa;
+}
+
+.content-container {
+  max-width: 900px;
+}
+
+.cv-download {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.cv-download .btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1e5f4f;
+}
+
+.main-content h2:first-child {
+  margin-top: 0;
+}
+
+.content-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+.interests-list {
+  list-style: none;
+  padding: 0;
+}
+
+.interests-list li {
+  padding: 10px 0;
+  font-size: 1.05rem;
+  color: #555;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.interests-list li:last-child {
+  border-bottom: none;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.education-item i {
+  color: #1e5f4f;
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-content .degree {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.05rem;
+}
+
+.education-content .institution {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.education-content .year {
+  font-size: 0.9rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  padding: 8px 16px;
+  background: #1e5f4f;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  display: inline-block;
+}
+
+.experience-item {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid #1e5f4f;
+}
+
+.experience-item .position {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e5f4f;
+  margin-bottom: 0.5rem;
+}
+
+.experience-item .company {
+  font-weight: 500;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.experience-item .duration {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.experience-item .description {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .profile-sidebar {
+    min-height: auto;
+    padding: 40px 20px;
+  }
+  
+  .content-area {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-area {
+    padding: 30px 20px;
+  }
+  
+  .profile-name {
+    font-size: 1.75rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+}
+
+/* Dark Mode Support */
+html.dark .content-area {
+  background: #1a1a1a;
+}
+
+html.dark .section-title {
+  color: #4db6ac;
+}
+
+html.dark .content-text {
+  color: #e0e0e0;
+}
+
+html.dark .interests-list li {
+  color: #b0b0b0;
+  border-bottom: 1px solid #333;
+}
+
+html.dark .education-content .degree {
+  color: #e0e0e0;
+}
+
+html.dark .education-content .institution {
+  color: #b0b0b0;
+}
+
+html.dark .education-item i {
+  color: #4db6ac;
+}
+
+html.dark .experience-item {
+  background: #2a2a2a;
+  border-left-color: #4db6ac;
+}
+
+html.dark .experience-item .position {
+  color: #4db6ac;
+}
+
+html.dark .experience-item .company,
+html.dark .experience-item .description {
+  color: #b0b0b0;
+}
+
+html.dark .skill-tag {
+  background: #4db6ac;
+  color: #1a1a1a;
+}
+</style>
+
+{{ end }}

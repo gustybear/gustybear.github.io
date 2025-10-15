@@ -26,7 +26,7 @@ main:
     url: team/
     weight: 40
   - name: Facility
-    url: facility/yaolab/
+    url: facility/
     weight: 9
 #  - name: Contact
 #    url: /#contact
