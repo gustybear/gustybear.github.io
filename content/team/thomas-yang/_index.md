@@ -9,9 +9,9 @@ avatar: "media/team/tyang_profile.jpg"
 
 social:
   cv: "/uploads/thomas-yang-cv.pdf"
-  linkedin: "https://linkedin.com/in/thomasyang"
+  linkedin: "https://linkedin.com/in/thomasyang-hi"
   google_scholar: "https://scholar.google.com/citations?user=XXXXX"
-  github: "https://github.com/thomasyang"
+  github: "https://github.com/toomasyang"
   email: "thomasy4@hawaii.edu"
 
 interests:
