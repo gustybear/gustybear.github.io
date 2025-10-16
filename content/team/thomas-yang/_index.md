@@ -50,7 +50,7 @@ experience:
     description: "Developed automated testing systems for RF components."
 ---
 
-Thomas is a graduate research assistant at the University of Hawaii at Manoa, working in RF software engineering. His research interests include analytics, pookie, cutting-edge research.
+Thomas is a graduate research assistant at the University of Hawaii at Manoa, working in RF software engineering. His research interests include analytics, communication standards, and cybersecurity.
 
 Currently, he is working on developing physical layer security for wireless communication systems, creating innovative solutions for 5G/6G communications systems, with a particular focus on intelligent reflecting surfaces and beamforming optimization. Thomas has experience in both simulation and practical implementation of wireless communication systems.
 
