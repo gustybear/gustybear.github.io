@@ -1,5 +1,5 @@
 ---
-title: "Alvin Yang"
+title: "Alvin Yang 2"
 role: "Drink Loser"
 avatar: "media/team/ayang_profile.png"
 education:

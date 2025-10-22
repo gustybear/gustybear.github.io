@@ -2,7 +2,7 @@
 type: "team"
 layout: "single"
 title: "Thomas Yang"
-role: "Graduate Research Assistant"
+role: "RF Software Test Engineer"
 organization: "University of Hawai'i at Mānoa"
 department: "Department of Electrical and Computer Engineering"
 avatar: "media/team/tyang_profile.jpg"
@@ -20,12 +20,12 @@ interests:
   - "mmWave/sub-THz radar sensing and integration"
 
 education:
-  - degree: "M.S. in Electrical Engineering"
-    institution: "University of Hawaii at Manoa"
+  - degree: "M.S. in Electrical & Computer Engineering"
+    institution: "University of Hawai'i at Mānoa"
     year: "In Progress"
   - degree: "B.S. in Computer Engineering"
-    institution: "Pacific University"
-    year: "2023"
+    institution: "University of Hawai'i at Mānoa"
+    year: "Fall 2020"
 
 skills:
   - "RF/Microwave Engineering"

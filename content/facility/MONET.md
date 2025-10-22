@@ -1,12 +1,10 @@
 ---
-title: VINES - Verticals-enabling Intelligent Network Systems
+title: MONET - Millimeter-Wave Communication and Sensing Integration
 type: facility
 image:
   filename: facility/vines/vines.png
   caption: Experimental Setup to Identify Drones w/ Reflectarrays
   focal_point: Smart
-tags:
-- 5G
 
 ---
 

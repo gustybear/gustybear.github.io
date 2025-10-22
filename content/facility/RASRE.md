@@ -1,12 +1,10 @@
 ---
-title: VINES - Verticals-enabling Intelligent Network Systems
+title: RASRE - Reflectarray and Applications in Smart Radio Environment
 type: facility
 image:
   filename: facility/vines/vines.png
   caption: Experimental Setup to Identify Drones w/ Reflectarrays
   focal_point: Smart
-tags:
-- 5G
 
 ---
 
