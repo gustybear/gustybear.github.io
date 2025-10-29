@@ -1,113 +1,180 @@
 {{- define "main" -}}
 
 <div class="facility-list-page">
-  <!-- Decorative Background Elements -->
+  <!-- Decorative Background Bars -->
   <div class="decorative-bg decorative-bg-left"></div>
   <div class="decorative-bg decorative-bg-right"></div>
   
-  <div class="facility-content-wrapper">
-    <!-- Header Section -->
-    <div class="facility-header">
-      <h1 class="facility-main-title">{{ .Title }}</h1>
-      <p class="facility-subtitle">State-of-the-art research facilities and experimental testbeds</p>
+  <div class="facility-split-layout">
+    <!-- Left Side - Image Display -->
+    <div class="facility-images-section">
+      <div class="image-container top-image">
+        <img id="topImage" src="" alt="Facility Image 1" class="facility-display-image">
+      </div>
+      <div class="image-container bottom-image">
+        <img id="bottomImage" src="" alt="Facility Image 2" class="facility-display-image">
+      </div>
     </div>
 
-    <!-- Facilities List -->
-    <div class="facilities-list">
-      {{ range .Pages }}
-      <div class="facility-card">
-        <a href="{{ .RelPermalink }}" class="facility-link">
-          <div class="facility-image-section">
-            {{ with .Params.image }}
-              {{ $imagePath := .filename }}
-              {{ $image := false }}
-              
-              {{/* Try multiple ways to find the image */}}
-              {{ with resources.GetMatch (printf "media/%s" $imagePath) }}
-                {{ $image = . }}
-              {{ else }}
-                {{ with resources.Get (printf "media/%s" $imagePath) }}
-                  {{ $image = . }}
-                {{ else }}
-                  {{ with resources.GetMatch $imagePath }}
-                    {{ $image = . }}
-                  {{ else }}
-                    {{ with resources.Get $imagePath }}
-                      {{ $image = . }}
-                    {{ end }}
+    <!-- Right Side - Content -->
+    <div class="facility-content-section">
+      <div class="facility-header">
+        <h1 class="facility-main-title">{{ .Title }}</h1>
+        <p class="facility-subtitle">Equipments and tools used to conduct research experiments</p>
+      </div>
+
+      <!-- Projects Section -->
+      <div class="facility-section">
+        <h2 class="section-title">Projects</h2>
+        <div class="facilities-list">
+          {{ $firstProject := true }}
+          {{ range .Pages.ByDate.Reverse }}
+            {{ if eq .Params.subtype "project" }}
+              {{ $imageUrlTop := "" }}
+              {{ $imageUrlBottom := "" }}
+              {{ with .Params.image }}
+                {{ $topFilename := .filename_top | default .filename }}
+                {{ $bottomFilename := .filename_bottom | default .filename }}
+                {{ with $topFilename }}
+                  {{ $topResource := resources.Get (printf "media/%s" .) }}
+                  {{ if $topResource }}
+                    {{ $imageUrlTop = $topResource.RelPermalink }}
+                  {{ end }}
+                {{ end }}
+                {{ with $bottomFilename }}
+                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
+                  {{ if $bottomResource }}
+                    {{ $imageUrlBottom = $bottomResource.RelPermalink }}
                   {{ end }}
                 {{ end }}
               {{ end }}
               
-              {{ with $image }}
-                {{ $processed := .Fill "500x500 Center" }}
-                <img src="{{ $processed.RelPermalink }}" class="facility-image" alt="{{ if $.Params.image.caption }}{{ $.Params.image.caption }}{{ else }}{{ $.Title }}{{ end }}">
-              {{ else }}
-                <div class="facility-image-placeholder">
-                  <i class="fas fa-microscope fa-4x" style="color: #ccc;"></i>
+              <a href="{{ .RelPermalink }}" class="facility-card-link">
+                <div class="facility-item" 
+                     data-image-top="{{ $imageUrlTop }}"
+                     data-image-bottom="{{ $imageUrlBottom }}"
+                     data-first="{{ $firstProject }}">
+                  <div class="facility-item-header">
+                    <h3 class="facility-item-title">{{ .Title }}</h3>
+                    {{ with .Date }}
+                    <div class="facility-sponsor">
+                      <span>{{ .Format "January 2006" }}</span>
+                    </div>
+                    {{ end }}
+                  </div>
+                  <div class="facility-item-description">
+                    {{ .Summary | plainify | truncate 200 }}
+                  </div>
+                  <span class="read-more-link">Read more →</span>
                 </div>
-              {{ end }}
-            {{ else }}
-              <div class="facility-image-placeholder">
-                <i class="fas fa-microscope fa-4x" style="color: #ccc;"></i>
-              </div>
+              </a>
+              {{ $firstProject = false }}
             {{ end }}
-          </div>
-          
-          <div class="facility-info">
-            <h3 class="facility-name">{{ .Title }}</h3>
-            <div class="facility-description">
-              {{ .Content | truncate 300 }}
-            </div>
-            
-            {{ with .Params.specs }}
-            <div class="facility-specs">
-              <h4 class="specs-title">Key Specifications:</h4>
-              <ul class="specs-list">
-                {{ range first 3 . }}
-                <li>
-                  <i class="fas fa-check-circle"></i>
-                  <span>{{ . }}</span>
-                </li>
-                {{ end }}
-              </ul>
-            </div>
-            {{ end }}
-            
-            <div class="see-more">
-              Read more <i class="fas fa-chevron-right"></i>
-            </div>
-          </div>
-        </a>
+          {{ end }}
+        </div>
       </div>
-      {{ end }}
+
+      <!-- Tools Section -->
+      <div class="facility-section">
+        <h2 class="section-title">Tools</h2>
+        <div class="facilities-list">
+          {{ range .Pages.ByDate.Reverse }}
+            {{ if eq .Params.subtype "tool" }}
+              {{ $imageUrlTop := "" }}
+              {{ $imageUrlBottom := "" }}
+              {{ with .Params.image }}
+                {{ $topFilename := .filename_top | default .filename }}
+                {{ $bottomFilename := .filename_bottom | default .filename }}
+                {{ with $topFilename }}
+                  {{ $topResource := resources.Get (printf "media/%s" .) }}
+                  {{ if $topResource }}
+                    {{ $imageUrlTop = $topResource.RelPermalink }}
+                  {{ end }}
+                {{ end }}
+                {{ with $bottomFilename }}
+                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
+                  {{ if $bottomResource }}
+                    {{ $imageUrlBottom = $bottomResource.RelPermalink }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              
+              <a href="{{ .RelPermalink }}" class="facility-card-link">
+                <div class="facility-item" 
+                     data-image-top="{{ $imageUrlTop }}"
+                     data-image-bottom="{{ $imageUrlBottom }}">
+                  <div class="facility-item-header">
+                    <h3 class="facility-item-title">{{ .Title }}</h3>
+                    {{ with .Date }}
+                    <div class="facility-sponsor">
+                      <span>{{ .Format "January 2006" }}</span>
+                    </div>
+                    {{ end }}
+                  </div>
+                  <div class="facility-item-description">
+                    {{ .Summary | plainify | truncate 200 }}
+                  </div>
+                  <span class="read-more-link">Read more →</span>
+                </div>
+              </a>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
-<style>
-/* Remove default page body margins */
-.page-body.my-10 {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const facilityItems = document.querySelectorAll('.facility-item');
+  const topImage = document.getElementById('topImage');
+  const bottomImage = document.getElementById('bottomImage');
+  
+  // Set initial images from the first project
+  const firstProject = document.querySelector('.facility-item[data-first="true"]');
+  if (firstProject) {
+    const topImageUrl = firstProject.getAttribute('data-image-top');
+    const bottomImageUrl = firstProject.getAttribute('data-image-bottom');
+    if (topImageUrl) {
+      topImage.src = topImageUrl;
+    }
+    if (bottomImageUrl) {
+      bottomImage.src = bottomImageUrl;
+    }
+  }
+  
+  // Add hover effects
+  facilityItems.forEach(item => {
+    item.addEventListener('mouseenter', function() {
+      const topImageUrl = this.getAttribute('data-image-top');
+      const bottomImageUrl = this.getAttribute('data-image-bottom');
+      if (topImageUrl) {
+        topImage.src = topImageUrl;
+      }
+      if (bottomImageUrl) {
+        bottomImage.src = bottomImageUrl;
+      }
+    });
+  });
+});
+</script>
 
+<style>
 /* Main Container */
 .facility-list-page {
   position: relative;
   min-height: 100vh;
-  padding: 0 20px 60px;
-  overflow: hidden;
+  background: #ffffff;
 }
 
-/* Decorative Background Elements */
+/* Decorative Background Bars */
 .decorative-bg {
-  position: absolute;
-  width: 300px;
-  min-height: 100%;
+  position: fixed;
+  width: 80px;
   top: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: 0;
   pointer-events: none;
 }
 
@@ -123,26 +190,60 @@
   opacity: 0.95;
 }
 
-/* Content Wrapper */
-.facility-content-wrapper {
+/* Split Layout */
+.facility-split-layout {
   position: relative;
   z-index: 1;
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 320px;
+  display: grid;
+  grid-template-columns: 45% 55%;
+  min-height: 100vh;
+  margin-left: 80px;
+  margin-right: 80px;
+  align-items: start;
 }
 
-/* Header Section */
+/* Left Side - Images */
+.facility-images-section {
+  position: sticky;
+  top: 80px;
+  height: calc(100vh - 160px);
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #ffffff;
+  padding: 20px;
+}
+
+.image-container {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.facility-display-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+/* Right Side - Content */
+.facility-content-section {
+  background: #ffffff;
+  padding: 60px 80px 60px 60px;
+  overflow-y: auto;
+}
+
+/* Header */
 .facility-header {
-  text-align: center;
-  margin-bottom: 60px;
-  padding: 60px 20px 40px;
+  margin-bottom: 50px;
 }
 
 .facility-main-title {
   font-size: 4rem;
   font-weight: 900;
-  color: #2c3e50;
+  color: #1a5f4f;
   margin-bottom: 15px;
   letter-spacing: 2px;
 }
@@ -154,147 +255,98 @@
   margin: 0;
 }
 
-/* Facilities List - One per row */
+/* Section */
+.facility-section {
+  margin-bottom: 60px;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a5f4f;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border-bottom: 1px solid #d4c9b8;
+  border-left: 6px solid #1a5f4f !important;
+  display: block;
+}
+
+/* Facilities List */
 .facilities-list {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 20px;
 }
 
-/* Facility Card */
-.facility-card {
-  background: #ffffff;
-  border-radius: 20px;
-  overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  position: relative;
-}
-
-.facility-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-}
-
-.facility-link {
+/* Facility Card Link */
+.facility-card-link {
   text-decoration: none;
   color: inherit;
-  display: grid;
-  grid-template-columns: 400px 1fr;
-  gap: 40px;
-  align-items: start;
+  display: block;
 }
 
-/* Image Section */
-.facility-image-section {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
-  padding: 30px;
-}
-
-.facility-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 12px;
-}
-
-.facility-image-placeholder {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
-  border-radius: 12px;
-}
-
-/* Facility Info Section */
-.facility-info {
-  padding: 40px 40px 40px 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.facility-name {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #2c3e50;
-  margin-bottom: 20px;
-  line-height: 1.3;
-}
-
-.facility-description {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.7;
-  margin-bottom: 25px;
-}
-
-/* Specifications */
-.facility-specs {
-  margin-bottom: 25px;
-  padding: 20px;
-  background: #f8f9fa;
-  border-radius: 12px;
-  border-left: 4px solid #2d7a66;
-}
-
-.specs-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #2d7a66;
-  margin-bottom: 15px;
-}
-
-.specs-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.specs-list li {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  color: #555;
-  font-size: 0.95rem;
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
-.specs-list li:last-child {
-  margin-bottom: 0;
-}
-
-.specs-list i {
-  color: #2d7a66;
-  font-size: 1rem;
-  margin-top: 2px;
-  flex-shrink: 0;
-}
-
-.see-more {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  color: #2d7a66;
-  font-weight: 600;
-  font-size: 1rem;
+/* Facility Item */
+.facility-item {
+  padding: 30px 0;
+  border-bottom: 1px solid #d4c9b8;
+  cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.see-more i {
-  transition: transform 0.3s ease;
+.facility-card-link:hover .facility-item {
+  padding-left: 20px;
+  background: rgba(26, 95, 79, 0.03);
 }
 
-.facility-card:hover .see-more i {
+.facility-card-link:last-child .facility-item {
+  border-bottom: none;
+}
+
+.facility-item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 15px;
+}
+
+.facility-item-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a5f4f;
+  margin: 0;
+  flex: 1;
+}
+
+.facility-sponsor {
+  font-size: 0.95rem;
+  color: #666;
+  font-style: italic;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+.facility-item-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.read-more-link {
+  display: inline-block;
+  color: #1a5f4f;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+.read-more-link:hover {
+  color: #2d7a66;
   transform: translateX(5px);
 }
 
@@ -303,111 +355,123 @@ html.dark .facility-list-page {
   background: #1a1a1a;
 }
 
+html.dark .decorative-bg-left,
+html.dark .decorative-bg-right {
+  opacity: 0.8;
+}
+
+html.dark .facility-images-section {
+  background: #1a1a1a;
+}
+
+html.dark .facility-content-section {
+  background: #1a1a1a;
+}
+
 html.dark .facility-main-title {
-  color: #ffffff;
+  color: #4db6ac;
 }
 
 html.dark .facility-subtitle {
   color: #b0b0b0;
 }
 
-html.dark .facility-card {
-  background: #2a2a2a;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+html.dark .section-title {
+  color: #4db6ac;
+  border-bottom-color: #3a3a3a;
+  border-left-color: #4db6ac !important;
 }
 
-html.dark .facility-image-section {
-  background: linear-gradient(180deg, #1f1f1f 0%, #2a2a2a 100%);
+html.dark .facility-item {
+  border-bottom-color: #3a3a3a;
 }
 
-html.dark .facility-name {
-  color: #ffffff;
+html.dark .facility-item:hover {
+  background: rgba(77, 182, 172, 0.05);
 }
 
-html.dark .facility-description {
+html.dark .facility-item-title {
+  color: #4db6ac;
+}
+
+html.dark .facility-sponsor {
+  color: #888;
+}
+
+html.dark .facility-item-description {
   color: #b0b0b0;
 }
 
-html.dark .facility-specs {
-  background: #1f1f1f;
-  border-left-color: #4db6ac;
-}
-
-html.dark .specs-title {
+html.dark .read-more-link {
   color: #4db6ac;
 }
 
-html.dark .specs-list li {
-  color: #b0b0b0;
-}
-
-html.dark .specs-list i {
-  color: #4db6ac;
-}
-
-html.dark .see-more {
-  color: #4db6ac;
+html.dark .read-more-link:hover {
+  color: #6ec9bf;
 }
 
 /* Responsive Design */
 @media (max-width: 1200px) {
   .decorative-bg {
-    width: 200px;
+    width: 60px;
   }
   
-  .facility-content-wrapper {
-    padding: 0 220px;
+  .facility-split-layout {
+    grid-template-columns: 40% 60%;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   
-  .facility-link {
-    grid-template-columns: 350px 1fr;
-    gap: 30px;
+  .facility-content-section {
+    padding: 50px 60px 50px 40px;
   }
   
-  .facility-image-section {
-    height: 350px;
+  .facility-main-title {
+    font-size: 3.5rem;
   }
 }
 
 @media (max-width: 992px) {
   .decorative-bg {
-    width: 150px;
+    width: 40px;
+  }
+  
+  .facility-split-layout {
+    grid-template-columns: 1fr;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .facility-images-section {
+    position: relative;
+    height: 60vh;
+  }
+  
+  .facility-content-section {
+    padding: 40px 30px;
   }
   
   .facility-main-title {
     font-size: 3rem;
   }
-  
-  .facility-content-wrapper {
-    padding: 0 170px;
-  }
-  
-  .facility-link {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-  
-  .facility-image-section {
-    height: 300px;
-  }
-  
-  .facility-info {
-    padding: 30px;
-  }
 }
 
 @media (max-width: 768px) {
   .decorative-bg {
-    width: 80px;
-    opacity: 0.7;
+    width: 30px;
   }
   
-  .facility-list-page {
-    padding: 40px 15px;
+  .facility-split-layout {
+    margin-left: 30px;
+    margin-right: 30px;
   }
   
-  .facility-content-wrapper {
-    padding: 0 100px;
+  .facility-images-section {
+    height: 50vh;
+  }
+  
+  .facility-content-section {
+    padding: 30px 20px;
   }
   
   .facility-main-title {
@@ -415,44 +479,44 @@ html.dark .see-more {
   }
   
   .facility-subtitle {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   
-  .facilities-list {
-    gap: 30px;
-    padding: 10px;
+  .facility-item-title {
+    font-size: 1.5rem;
   }
   
-  .facility-name {
-    font-size: 1.6rem;
+  .facility-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .facility-sponsor {
+    margin-left: 0;
+    margin-top: 5px;
   }
 }
 
 @media (max-width: 480px) {
   .decorative-bg {
-    width: 50px;
-    opacity: 0.5;
+    width: 20px;
   }
   
-  .facility-content-wrapper {
-    padding: 0 70px;
+  .facility-split-layout {
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .facility-main-title {
     font-size: 2rem;
-    letter-spacing: 1px;
   }
   
   .facility-subtitle {
     font-size: 1rem;
   }
   
-  .facility-info {
-    padding: 25px;
-  }
-  
-  .facility-name {
-    font-size: 1.4rem;
+  .facility-item-title {
+    font-size: 1.3rem;
   }
 }
 </style>

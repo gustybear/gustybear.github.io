@@ -1,17 +1,21 @@
 ---
 title: RASRE - Reflectarray and Applications in Smart Radio Environment
 type: facility
+subtype: project
 image:
-  filename: facility/vines/vines.png
-  caption: Experimental Setup to Identify Drones w/ Reflectarrays
+  filename: facility/rasre/rasre-featured.png
+  caption: Usage of Reflectarrays to distribute signals
   focal_point: Smart
+params:
+  author: [Yao Zheng]
+date: 2025-09-01T04:14:54-08:00
 
 ---
 
-This project develops an integrated sensing and communication (ISAC) system using active holographic reflectarrays (HRAs) and Open Radio Access Network (O-RAN) technology to detect, classify, and authenticate low-altitude unmanned aerial vehicles (UAVs) below 500 feet for critical infrastructure security. The system coordinates multiple base stations to create dynamic volumetric detection corridors that provide high-resolution monitoring and resilient connectivity where conventional cellular coverage is inadequate. The research combines hardware innovation, AI-driven control, and multi-modal sensing to enable secure airspace access control through advanced beamforming, adaptive resource coordination, and drone identification using micro-Doppler signatures and RFID technology.
+This project aims to investigate the fundamental principles of RIS operation, develop novel RIS architectures and control algorithms, and explore their application in a wide range of wireless communication, sensing, energy transfer, and security scenarios.
 
 ## Principal Research Laboratory
-PI Zheng’s laboratory supports advanced RF device and system research across sub-6 GHz and mmWave bands (Fig. 1). The facility curates RIS prototypes, mmWave phased-array beamformers, high-performance SDRs (Ettus Research, NI), precision RF instrumentation (Keysight, Rohde & Schwarz, Anritsu), diverse antenna arrays, and advanced IC/PCB design platforms (Cadence Virtuoso, Ansys Electronics Suite, Keysight ADS, CST Studio Suite). Electronic fabrication capabilities include professional soldering and rework stations (Metcal, Hakko), an LPKF PCB prototyping system, and a comprehensive inventory of RF interconnects, attenuators, and passive components, enabling end-to-end design, fabrication, integration, and testing of next-generation holographic RIS technologies. In addition, the laboratory hosts an O-RAN development and testbed environment that integrates SDR-based open RAN stacks with RIS-assisted architectures, supporting real-time experimentation in multi-domain resource slicing, cross-layer ISAC algorithm validation, and system-level performance benchmarking for 5G/6G networks.
+PI Zheng’s laboratory supports advanced RF device and system research across sub-6 GHz and mmWave bands. The facility curates RIS prototypes, mmWave phased-array beamformers, high-performance SDRs (Ettus Research, NI), precision RF instrumentation (Keysight, Rohde & Schwarz, Anritsu), diverse antenna arrays, and advanced IC/PCB design platforms (Cadence Virtuoso, Ansys Electronics Suite, Keysight ADS, CST Studio Suite). Electronic fabrication capabilities include professional soldering and rework stations (Metcal, Hakko), an LPKF PCB prototyping system, and a comprehensive inventory of RF interconnects, attenuators, and passive components, enabling end-to-end design, fabrication, integration, and testing of next-generation holographic RIS technologies. In addition, the laboratory hosts an O-RAN development and testbed environment that integrates SDR-based open RAN stacks with RIS-assisted architectures, supporting real-time experimentation in multi-domain resource slicing, cross-layer ISAC algorithm validation, and system-level performance benchmarking for 5G/6G networks.
 
 ## Principal Research Facility (Co-PIs)
 The Co-PI Guo and Xue's lab maintain an integrated AI and wireless-sensing research facility supporting edge intelligence, autonomous systems, and RF device experimentation. The facility includes a high-performance AI server equipped with an NVIDIA RTX A6000 GPU for large-scale model training and inference, as well as multiple drone platforms, ranging from consumer camera drones, racing/FPV quads, industrial inspection UAVs, agricultural drones, and specialized research systems, spanning quadcopters, fixed-wing, heavy-lift models made available by UHM drone research and competition team for autonomous flight and sensing research. Specialized hardware resources include custom backscatter communication nodes, an impedance measurement device, a Keysight oscilloscope, and a diverse inventory of RF circuits and components. These are complemented by precision RF instrumentation and prototyping tools for signal characterization, hardware-in-the-loop testing, and rapid development of edge-deployable intelligent sensing systems. This environment enables end-to-end design, integration, and evaluation of next-generation wireless AI and cyber-physical platforms.

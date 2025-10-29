@@ -1,11 +1,14 @@
 ---
 title: MONET - Millimeter-Wave Communication and Sensing Integration
 type: facility
+subtype: project
 image:
-  filename: facility/vines/vines.png
+  filename: facility/monet/monet-featured.png
+  # filename_top: facility/monet/monet-top.png
+  # filename_bottom: facility/monet/monet-bottom.png
   caption: Experimental Setup to Identify Drones w/ Reflectarrays
   focal_point: Smart
-
+date: 2025-09-01T04:14:54-08:00
 ---
 
 This project develops an integrated sensing and communication (ISAC) system using active holographic reflectarrays (HRAs) and Open Radio Access Network (O-RAN) technology to detect, classify, and authenticate low-altitude unmanned aerial vehicles (UAVs) below 500 feet for critical infrastructure security. The system coordinates multiple base stations to create dynamic volumetric detection corridors that provide high-resolution monitoring and resilient connectivity where conventional cellular coverage is inadequate. The research combines hardware innovation, AI-driven control, and multi-modal sensing to enable secure airspace access control through advanced beamforming, adaptive resource coordination, and drone identification using micro-Doppler signatures and RFID technology.

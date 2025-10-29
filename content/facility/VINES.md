@@ -1,10 +1,12 @@
 ---
 title: VINES - Verticals-enabling Intelligent Network Systems
 type: facility
+subtype: project
 image:
-  filename: facility/vines/vines.png
+  filename: facility/vines/vines-featured.png
   caption: Experimental Setup to Identify Drones w/ Reflectarrays
   focal_point: Smart
+date: 2025-05-19T04:14:54-08:00
 tags:
 - 5G
 
