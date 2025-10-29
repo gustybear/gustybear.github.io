@@ -71,7 +71,6 @@ This course explores the foundation of digital circuit design, starting from Boo
 | TA: [Kamea McMillan Zilberman](mailto:kameamz@hawaii.edu)       | Session 1 (R  9:00am - 11:45am)      | HH451, R 12:00pm - 13:00pm                                           |
 | TA: [Milan Bukovics](mailto:milanabu@hawaii.edu)                | Session 2 (R  13:30pm - 16:15pm)     | HH451, R 19:30pm - 20:30pm                                           |
 | TA: [Milan Bukovics](mailto:milanabu@hawaii.edu)                | Session 3 (R  16:30pm - 19:15pm)     | HH451, R 19:30pm - 20:30pm                                           |
-| Grader: [Nathaniel Gideon Castro](mailto:ncastro7@hawaii.edu)   | NA                                                                                                          |
 
 - **Classroom**
 | Time                 | Location            | Textbook/HW                                                                                          | HW/Exam Effort |
@@ -115,22 +114,22 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 3 (9/8, 9/10, 9/12)     | Combinational Logic: Switches, Transistors, Logic Gates                | [Read/HW 03][read 03 url]    | 9/14, 11:59PM |
 | Week 4 (9/15, 9/17, 9/19)    | Combinational Logic: Boolean Algebra                                   | [Read/HW 04][read 04 url]    | 9/21, 11:59PM |
 | Week 5 (9/22, 9/24, 9/26)    | Combinational Logic: Design Process, More Gates                        | [Read/HW 05][read 05 url]    | 9/28, 11:59PM |
-| Week 6 (9/29)                | Practice Midterm I                                                     | --                           | --            |
-| Week 6 (10/1)                | Midterm I: 9:30AM - 10:20AM                                            | --                           | --            |
-| Week 6 (10/3)                | Midterm I Review                                                       | --                           | --            |
+| Week 6 (9/29)                | Encoder, Priority Encoder, Decoder                                     | --                           | --            |
+| Week 6 (10/1)                | Arithmetic Logic Unit                                                  | --                           | --            |
+| Week 6 (10/3)                | [Midterm I: Take Home][midterm 01 url]                                 | [Submission link][midt 01 dp], [Solution][midt 01 sol url] | 10/05, 11:59PM|
 | Week 7 (10/6, 10/8, 10/10)   | Sequential Logic: Clock, Latches, and Flip-Flops                       | [Read/HW 07][read 07 url]    | 10/12, 11:59PM|
 | Week 8 (10/15, 10/17)        | Sequential Logic: Finite State Machines                                | [Read/HW 08][read 08 url]    | 10/19, 11:59PM|
-| Week 9 (10/20, 10/22, 10/24) | Sequential Logic: Registers, Counters, Shifters, and Arithmetic        | [Read/HW 09][read 09 url]    | 10/26, 11:59PM|
-| Week 10 (10/27)              | Practice Midterm II                                                    | --                           | --            |
-| Week 10 (10/29)              | Midterm II: 9:30AM - 10:20AM                                           | --                           | --            |
-| Week 10 (10/31)              | Midterm II Review                                                      | --                           | --            |
+| Week 9 (10/20, 10/22, 10/24) | Sequential Logic: Registers                                            | [Read/HW 09][read 09 url]    | 10/26, 11:59PM|
+| Week 10 (10/27)              | Sequential Logic: Counters, Shifters                                   | --                           | --            |
+| Week 10 (10/29)              | Sequential Logic: Sequential Processor                                 | --                           | --            |
+| Week 6 (10/31)               | Midterm II: Take Home                                                  | Submission link              | 11/02, 11:59PM|
 | Week 11 (11/3, 11/5, 11/7)   | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 11/9, 11:59PM |
 | Week 12 (11/10, 11/12, 11/14)| Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 11/16, 11:59PM|
 | Week 13 (11/17, 11/19, 11/21)| Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]    | 11/23, 11:59PM|
 | Week 14 (11/24, 11/26, 11/28)| Physical Implementation on ICs                                         | [Read/HW 14][read 14 url]    | 11/30, 11:59PM|
 | Week 15 (12/1, 12/3, 12/5)   | Programmable Processors                                                | [Read/HW 15][read 15 url]    | 12/7, 11:59PM |
 | Week 16 (12/8, 12/10)        | Review, Practice Final                                                 | --                           | --            |
-| Week 17 (12/19)              | [Final: 9:45AM - 11:45AM][game final url]                              | --                           | 12/19, 11:45AM|
+| Week 17 (12/19)              | Final: 9:45AM - 11:45AM                                                | --                           | 12/19, 11:45AM|
 
 ## Laboratory
 | TIME                                 | Materials                                                      | Virtual               | DEADLINE                      |
@@ -247,8 +246,6 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 
 [exam urls]: # (exam urls)
-[practice midterm 01 url]: ../../docs/exams/course_ece260_2025_spring/miterm_01_practice/
-[game midterm 01 url]: ../../docs/exams/course_ece260_2025_spring/miterm_01_game/
-[practice midterm 02 url]: ../../docs/exams/course_ece260_2025_spring/miterm_02_practice/
-[game midterm 02 url]: ../../docs/exams/course_ece260_2025_spring/miterm_02_game/
-[game final url]: ../../docs/exams/course_ece260_2025_spring/final_game/
+[midterm 01 url]: ../../docs/exams/course_ece260_2025_fall/miterm_01_game/
+[midt 01 dp]: https://www.dropbox.com/request/PTjkJb7T3UnYWkwVlziF
+[midt 01 sol url]: ../../docs/exams/course_ece260_2025_fall/miterm_01_solutions/
