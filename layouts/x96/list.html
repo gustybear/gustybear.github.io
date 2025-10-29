@@ -9,10 +9,10 @@
     <!-- Left Side - Image Display -->
     <div class="facility-images-section">
       <div class="image-container top-image">
-        <img id="topImage" src="" alt="Facility Image 1" class="facility-display-image">
+        <img id="topImage" src="" alt="x96 Image 1" class="facility-display-image">
       </div>
       <div class="image-container bottom-image">
-        <img id="bottomImage" src="" alt="Facility Image 2" class="facility-display-image">
+        <img id="bottomImage" src="" alt="x96 Image 2" class="facility-display-image">
       </div>
     </div>
 
@@ -20,7 +20,7 @@
     <div class="facility-content-section">
       <div class="facility-header">
         <h1 class="facility-main-title">{{ .Title }}</h1>
-        <p class="facility-subtitle">Equipments and tools used to conduct research experiments</p>
+        <p class="facility-subtitle">A list of available x96 projects offered by Professor Zheng</p>
       </div>
 
       <!-- Projects Section -->
@@ -56,9 +56,9 @@
                      data-first="{{ $firstProject }}">
                   <div class="facility-item-header">
                     <h3 class="facility-item-title">{{ .Title }}</h3>
-                    {{ with .Date }}
+                    {{ with .Params.subtext }}
                     <div class="facility-sponsor">
-                      <span>{{ .Format "January 2006" }}</span>
+                      <span>{{ . }}</span>
                     </div>
                     {{ end }}
                   </div>
@@ -73,56 +73,6 @@
           {{ end }}
         </div>
       </div>
-
-      <!--Tools Section -->
-      <div class="facility-section">
-        <h2 class="section-title">Tools</h2>
-        <div class="facilities-list">
-          {{ range .Pages.ByDate.Reverse }}
-            {{ if eq .Params.subtype "tool" }}
-              {{ $imageUrlTop := "" }}
-              {{ $imageUrlBottom := "" }}
-              {{ with .Params.image }}
-                {{ $topFilename := .filename_top | default .filename }}
-                {{ $bottomFilename := .filename_bottom | default .filename }}
-                {{ with $topFilename }}
-                  {{ $topResource := resources.Get (printf "media/%s" .) }}
-                  {{ if $topResource }}
-                    {{ $imageUrlTop = $topResource.RelPermalink }}
-                  {{ end }}
-                {{ end }}
-                {{ with $bottomFilename }}
-                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
-                  {{ if $bottomResource }}
-                    {{ $imageUrlBottom = $bottomResource.RelPermalink }}
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-              
-              <a href="{{ .RelPermalink }}" class="facility-card-link">
-                <div class="facility-item" 
-                     data-image-top="{{ $imageUrlTop }}"
-                     data-image-bottom="{{ $imageUrlBottom }}"
-                     data-debug-top="{{ .Params.image.filename_top }}"
-                     data-debug-bottom="{{ .Params.image.filename_bottom }}">
-                  <div class="facility-item-header">
-                    <h3 class="facility-item-title">{{ .Title }}</h3>
-                    {{ with .Date }}
-                    <div class="facility-sponsor">
-                      <span>{{ .Format "January 2006" }}</span>
-                    </div>
-                    {{ end }}
-                  </div>
-                  <div class="facility-item-description">
-                    {{ .Summary | plainify | truncate 200 }}
-                  </div>
-                  <span class="read-more-link">Read more →</span>
-                </div>
-              </a>
-            {{ end }}
-          {{ end }}
-        </div>
-      </div>
     </div>
   </div>
 </div>
@@ -133,15 +83,11 @@ document.addEventListener('DOMContentLoaded', function() {
   const topImage = document.getElementById('topImage');
   const bottomImage = document.getElementById('bottomImage');
   
-  console.log('Found', facilityItems.length, 'facility items');
-  
   // Set initial images from the first project
   const firstProject = document.querySelector('.facility-item[data-first="true"]');
   if (firstProject) {
     const topImageUrl = firstProject.getAttribute('data-image-top');
     const bottomImageUrl = firstProject.getAttribute('data-image-bottom');
-    console.log('Initial top image:', topImageUrl);
-    console.log('Initial bottom image:', bottomImageUrl);
     if (topImageUrl) {
       topImage.src = topImageUrl;
     }
@@ -155,7 +101,6 @@ document.addEventListener('DOMContentLoaded', function() {
     item.addEventListener('mouseenter', function() {
       const topImageUrl = this.getAttribute('data-image-top');
       const bottomImageUrl = this.getAttribute('data-image-bottom');
-      console.log('Hovering - Top:', topImageUrl, 'Bottom:', bottomImageUrl);
       if (topImageUrl) {
         topImage.src = topImageUrl;
       }

@@ -28,6 +28,9 @@ main:
   - name: Facility
     url: facility/
     weight: 9
+  - name: x96
+    url: x96/
+    weight: 50
 #  - name: Contact
 #    url: /#contact
 #    weight: 60
