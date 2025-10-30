@@ -12,68 +12,6 @@
       <p class="team-subtitle">A diverse group of individuals bringing together a breadth of skills and experience</p>
     </div>
 
-    <!-- Faculty Section -->
-    <div class="team-section">
-      <h2 class="section-title">Faculty</h2>
-      <div class="team-members-grid">
-        {{ range .Pages }}
-          {{ if eq .Params.status "faculty" }}
-          <div class="team-member-card">
-        <a href="{{ .RelPermalink }}" class="member-link">
-          <div class="member-image-container">
-            <div class="image-frame">
-              {{ with .Params.avatar }}
-                {{ $image := resources.GetMatch . }}
-                {{ if not $image }}
-                  {{ $image = resources.Get . }}
-                {{ end }}
-                {{ if $image }}
-                  {{ $processed := $image.Fill "300x300 Center" }}
-                  <img src="{{ $processed.RelPermalink }}" alt="{{ $.Title }}" class="member-image">
-                {{ else }}
-                  <div class="member-image-placeholder">
-                    <i class="fas fa-user fa-3x" style="color: #ccc;"></i>
-                  </div>
-                {{ end }}
-              {{ else }}
-                <div class="member-image-placeholder">
-                  <i class="fas fa-user fa-3x" style="color: #ccc;"></i>
-                </div>
-              {{ end }}
-            </div>
-          </div>
-          
-          <div class="member-info">
-            <h3 class="member-name">{{ .Title }}</h3>
-            {{ with .Params.role }}
-            <p class="member-role">{{ . }}</p>
-            {{ end }}
-            {{ with .Params.organization }}
-            <p class="member-org">{{ . }}</p>
-            {{ end }}
-            
-            <div class="member-contact">
-              {{ with .Params.social }}
-                {{ with .email }}
-                <div class="contact-item">
-                  <i class="fas fa-envelope"></i>
-                  <span>{{ . }}</span>
-                </div>
-                {{ end }}
-              {{ end }}
-              
-              <div class="see-more">
-                See more <i class="fas fa-chevron-right"></i>
-              </div>
-            </div>
-          </div>
-        </a>
-      </div>
-          {{ end }}
-        {{ end }}
-      </div>
-    </div>
-
     <!-- Current Students Section -->
     <div class="team-section">
       <h2 class="section-title">Current Students</h2>
