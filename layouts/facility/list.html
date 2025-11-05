@@ -29,7 +29,7 @@
         <div class="facilities-list">
           {{ $firstProject := true }}
           {{ range .Pages.ByDate.Reverse }}
-            {{ if eq .Params.subtype "project" }}
+            {{ if eq .Params.subtype "testbed" }}
               {{ $imageUrlTop := "" }}
               {{ $imageUrlBottom := "" }}
               {{ with .Params.image }}
