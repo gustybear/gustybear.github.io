@@ -11,7 +11,7 @@ image:
 date: 2025-05-19T04:14:54-08:00
 tags: MIMO
 authors:  
-  - thomas-yang
+  - alvin-yang
   - yao-zheng
 ---
 ![](facility/IRS-MIMO-28GHz/MIMO_Setup_Wide.png)

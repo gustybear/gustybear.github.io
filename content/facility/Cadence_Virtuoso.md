@@ -10,7 +10,6 @@ image:
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
 authors:  
-  - thomas-yang
   - yao-zheng
 ---
 ![](facility/cadence/cadence-featured-top.png)

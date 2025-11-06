@@ -10,7 +10,7 @@ image:
   focal_point: Smart
 date: 2025-10-29T04:14:54-08:00
 authors:
-  - thomas-yang
+  - galen-sasaki
   - yao-zheng
 ---
 

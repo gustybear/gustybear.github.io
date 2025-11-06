@@ -9,8 +9,7 @@ image:
   caption: Simulation of a circuit
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
-authors:  
-  - thomas-yang
+authors:
   - yao-zheng
 ---
 

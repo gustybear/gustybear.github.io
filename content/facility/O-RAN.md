@@ -10,8 +10,8 @@ image:
   focal_point: Smart
 date: 2025-09-01T04:14:54-08:00
 authors:  
-  - thomas-yang
   - yao-zheng
+  - thomas-yang
 ---
 ![](facility/O-RAN/x410.png)
 
