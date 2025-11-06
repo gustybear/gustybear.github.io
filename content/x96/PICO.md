@@ -44,13 +44,105 @@ Pi Pico (RP2040).
 
 
 ### Course Structure:
-* Labs: Nine hands-on laboratories.
+* Labs: Seven hands-on laboratories.
 * Homework: Assignments for the labs.
 * Final Project: Students will design, develop, and demonstrate a personal project applying the
 concepts learned throughout the course.
 
 
+### Lab Schedule:
+
+<table>
+<thead>
+<tr>
+<th>Lab Name</th>
+<th>Time Range</th>
+<th>Tasks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lab 1: Introduction to Computers</td>
+<td>Week 1</td>
+<td>
+<ul>
+<li>Introduction to Raspberry Pi Pico W</li>
+<li>Development environment setup</li>
+<li>First program execution</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 2: Circuits & Breadboards</td>
+<td>Week 2</td>
+<td>
+<ul>
+<li>Using breadboard to prototype</li>
+<li>Understanding resistors & LEDs</li>
+<li>Creating simple circuits</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 3: Digital Circuits</td>
+<td>Week 3</td>
+<td>
+<ul>
+<li>Digital circuit design</li>
+<li>Using a push button for input</li>
+<li>Interface with temperature sensor</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 4: OLED Display</td>
+<td>Week 4-5</td>
+<td>
+<ul>
+<li>Displaying with I2C & SPI interface</li>
+<li>Debouncing buttons</li>
+<li>Create Pong w/ joystick</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 5: Client Server</td>
+<td>Week 6-7</td>
+<td>
+<ul>
+<li>Creating a simple web server </li>
+<li>Render graphics and text on OLED display</li>
+<li>Control RGB LEDs with sockets</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 6: Internet-Continued & Performance</td>
+<td>Week 8-10</td>
+<td>
+<ul>
+<li>Creating a simple web server continued</li>
+<li>Pull data from 3rd party APIs</li>
+<li>Create a sensorless weater station</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 7: Multitask: Temperature & Humidity Sensor</td>
+<td>Week 10+</td>
+<td>
+<ul>
+<li>Read environmental data from temperature and humidity sensor on one core</li>
+<li>Display sensor data on OLED on another core</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+
+
 ### Required Lab Components:
+Components will be purchased and provided by the ECE department.
 * [SunFounder Raspberry Pi Pico W kit ($70)](https://www.amazon.com/SunFounder-Raspberry-Kit-MicroPython-Compatible/dp/B0BDFVL6FX)
 * [OLED display ($7)](https://www.amazon.com/gp/product/B072Q2X2LL)
 
