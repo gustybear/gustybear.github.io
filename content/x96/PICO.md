@@ -1,6 +1,6 @@
 ---
 title: ECE 296 Sophomore Project - R-Pi Pico W  
-type: facility
+type: x96
 subtype: project
 subtext: Spring 2026
 image:
@@ -9,6 +9,9 @@ image:
   filename_bottom: x96/pico/pico-featured-bottom.png
   focal_point: Smart
 date: 2025-10-29T04:14:54-08:00
+authors:
+  - thomas-yang
+  - yao-zheng
 ---
 
 ![](x96/pico/raspi-pico.png)

@@ -10,7 +10,11 @@ image:
   focal_point: Smart
 date: 2025-05-19T04:14:54-08:00
 tags: MIMO
+authors:  
+  - thomas-yang
+  - yao-zheng
 ---
+![](facility/IRS-MIMO-28GHz/MIMO_Setup_Wide.png)
 ## Equipment
 - 2 Mi-Wave Omni-Directional Antennas, 26.4GHz – 40GHz Operating Frequency, Model# 267A-599
 - 1 TMYTEK Horn Antenna, Dual-Polarization, 15-19 dBi Gain, 25-31 GHz Operating Frequency

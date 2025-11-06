@@ -9,8 +9,11 @@ image:
   caption: Simulation of a circuit
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
+authors:  
+  - thomas-yang
+  - yao-zheng
 ---
-
+![](facility/ansys/ansys-featured-top.png)
 ANSYS - HFSS is utilized in this laboratory to design antennas for a range of frequencies, notably C-band. 
 
 ## Online Resources for ANSYS Electronics Design Suite and HFSS

@@ -9,8 +9,12 @@ image:
   caption: Simulation of a circuit
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
+authors:  
+  - thomas-yang
+  - yao-zheng
 ---
 
+![](facility/remcom/remcom-featured-top.png)
 Remcom Wireless InSite is a radio frequency (RF) propagation simulation software that uses 3D ray-tracing and empirical models to analyze wireless communication systems. It provides efficient and accurate predictions of signal coverage, channel characteristics, and data throughput in a variety of environments.
 The laboratory utilizes Wireless InSite to simulate RIS communications.
 

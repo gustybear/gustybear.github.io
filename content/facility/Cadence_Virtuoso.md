@@ -9,8 +9,11 @@ image:
   caption: A mockup of a series of resistors
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
+authors:  
+  - thomas-yang
+  - yao-zheng
 ---
-
+![](facility/cadence/cadence-featured-top.png)
 Cadence Virtuoso is a suite of Electronic Design Automation (EDA) tools used for designing custom integrated circuits (ICs), including analog, mixed-signal, and radio-frequency (RF) circuits.
 
 ## Online Resources for Cadence Virtuoso

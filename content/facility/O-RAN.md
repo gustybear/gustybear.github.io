@@ -9,7 +9,11 @@ image:
   caption: Ettus USRP X410
   focal_point: Smart
 date: 2025-09-01T04:14:54-08:00
+authors:  
+  - thomas-yang
+  - yao-zheng
 ---
+![](facility/O-RAN/x410.png)
 
 ## Equipment
 - 1 Ettus USRP X410, 1 MHz - 7.2 GHz, 400 MHz Bandwidth, 4 TX / 4 RX
