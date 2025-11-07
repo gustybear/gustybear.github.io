@@ -1,7 +1,7 @@
 ---
 title: ECE 296 Sophomore Project - R-Pi Pico W  
-type: x96
-subtype: project
+type: projects
+project_type: x96
 subtext: Spring 2026
 image:
   filename: x96/pico/pico-featured.png

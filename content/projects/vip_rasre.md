@@ -1,15 +1,18 @@
 ---
 draft: false
-title: "Monet: Millimeter-wave Communication and Sensing Integration"
+title: "RASRE: Reflectarray and Applications in Smart Radio Environment"
+type: projects
+project_type: VIP
+subtext: "Fall 2025 - present"
 
-subtitle: "Vertically Integrated Project (VIP), Spring 2022 - present"
-
-summary: "This VIP project aims to develop mmWave communication systems with integrated radar sensing functionality in cellular networks and Wi-Fi networks for drone detection, physiological sensing, smart RAN, etc."
+summary: "This VIP project aims to investigate the fundamental principles of reflectarray operation, develop novel reflectarray architectures and control algorithms, and explore their application in a wide range of wireless communication, sensing, energy transfer, and security scenarios."
 
 tags:
-- integrated sensing and communication
-- drone detection
-- physiological sensing
+- reflectarray
+- communication
+- sensing
+- 3D print
+- wireless charging
 - recent project
 - active project
 - active vip project
@@ -22,11 +25,9 @@ authors:
 - Liuwan Zhu
 - Haofan Cai
 - Xiaochan Xue
-- Aaron Ohta
-- Wayne A. Shiroma
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://www2.hawaii.edu/~viprasre"
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
@@ -34,9 +35,10 @@ external_link: ""
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 # Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  caption: ""
-  focal_point: ""
-  preview_only: true
+  filename: x96/rasre/rasre-featured.png
+  filename_top: x96/rasre/rasre-featured-top.png
+  filename_bottom: x96/rasre/rasre-featured-bottom.png
+  focal_point: Smart
 
 links:
 #- icon: twitter
@@ -44,7 +46,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 - name: CRN
-  url: ./project/research/vip_mmwave_comm_and_sensg_integtn/#logistics
+  url: '#logistics'
 #- name: PUB
 #  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 #- name: Slides
@@ -66,17 +68,15 @@ links:
 ---
 ***
 # Executive Summary
-Imagine a future where our wireless devices do more than just talk to each other. They can also "see" and "feel" their surroundings, gathering valuable information about the environment. This is the promise of Integrated Sensing and Communication (ISAC), and millimeter-wave (mmWave) frequencies are the key to unlocking its full potential. Leveraging the abundant bandwidth at mmWave band (30GHz ~ 300GHz), which are currently being explored for future generation of wireless communication systems (cellular and Wi-Fi), radar-like precise and multi-target detection can be implemented, with applications in drone detection, physiological monitoring, smart RAN etc. This VIP project, therefore, see to develop new techniques and technologies to make ISAC a reality at mmWave frequencies.
+Reflectarray present a paradigm shift in wireless communication and sensing in mmWave and sub-THz region by offering unprecedented control over the propagation environment. Traditional wireless systems are largely at the mercy of the channel, which can be severely impaired by obstacles, fading, and interference. Reflectarray, however, introduce a new degree of freedom by enabling programmable manipulation of the wireless channel. Through precise control of the reflection and refraction properties of an array of elements, reflectarray can be used to mitigate path loss, combat fading, null interference, and shape radiation patterns, which can be used to enhancing spectral efficiency, energy efficiency, and expanding coverage. This project aims to investigate the fundamental principles of reflectarray operation, develop novel reflectarray architectures and control algorithms, and explore their applications in a wide range of wireless communication, sensing, energy transfer, and security scenarios. 
 ***
 
 # Logistics {#logistics}
 - **CRN**
 | Semester    | ENGR196 | ENGR296 | ENGR396 | ECE496 |
-| ---         | ---     | ---     | ---     | ---   |
-| Spring 2022 | 90034   | 90035   | 90036   | 85708 |
-| Fall   2022 | 80343   | 80344   | 80345   | 75344 |
-| Spring 2025 | 89726   | 86653   | 86654   | 88158 |
-| Fall   2025 | 79483   | 76390   | 76469   | 77488 |
+| ---         | ---     | ---     | ---     | ---    |
+| Spring 2025 | TBD     | TBD     | TBD     | TBD    |
+| Fall   2025 | 79483   | 76390   | 76469   | 77488  |
 
 - **Personnel**
 | Advisor                                                                                                                          | Office Hours                |
@@ -123,10 +123,10 @@ Imagine a future where our wireless devices do more than just talk to each other
 
 ***
 # Iterations
-| SEMESTER     | TOPICS                                       | DOCUMENTS                    |
-| ---          | ---                                          | ---                          |
-| Spring, 2025 | Setup an O-RAN based ISAC System at FR2 band | [doc sp2025][doc sp2025 url] |
-| Fall, 2025   | Setup an O-RAN based ISAC System at FR2 band | [doc fa2025][doc fa2025 url] |
+| SEMESTER     | TOPICS                                                 | DOCUMENTS                    |
+| ---          | ---                                                    | ---                          |
+| Spring, 2025 | Designing 3.5GHz reflectarray with transistors         | [doc sp2025][doc sp2025 url] |
+| Fall, 2025   | Designing 3.5GHz reflectarray with transistors         | [doc fa2025][doc fa2025 url] |
 
  ***
 
@@ -135,7 +135,5 @@ Imagine a future where our wireless devices do more than just talk to each other
 [^2]: Reports should be uploaded to the Google Drive before the deadline. Late reports are subject to a minimum 15% reduction in grade. Presentation files (PowerPoint or PDF) should be uploaded to the Google Drive before or immediately after your presentation. 
 
 [doc urls]: # (doc urls)
-[doc sp2025 url]: https://drive.google.com/drive/folders/1Ux0zfHDvQM3pQBudNF2OqI25NsptN4W7?usp=share_link
-[doc fa2025 url]: https://drive.google.com/drive/folders/17DP23g4ebklurbNWsmJpjMxZMJsr7ndR?usp=share_link
-
-
+[doc sp2025 url]: https://drive.google.com/drive/folders/1tHfBRH6r_y3a_MFIbG5wmJlmmtjjZKw-?usp=share_link
+[doc fa2025 url]: https://drive.google.com/drive/folders/1yWxJkORRLIZ9vvQscuiULGIWMOdnfKWE?usp=share_link

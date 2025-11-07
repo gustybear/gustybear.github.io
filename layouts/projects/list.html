@@ -1,10 +1,6 @@
 {{- define "main" -}}
 
 <div class="facility-list-page">
-  <!-- Decorative Background Bars -->
-  <div class="decorative-bg decorative-bg-left"></div>
-  <div class="decorative-bg decorative-bg-right"></div>
-  
   <div class="facility-split-layout">
     <!-- Left Side - Image Display -->
     <div class="facility-images-section">
@@ -20,16 +16,16 @@
     <div class="facility-content-section">
       <div class="facility-header">
         <h1 class="facility-main-title">{{ .Title }}</h1>
-        <p class="facility-subtitle">A list of available x96 projects offered by Professor Zheng</p>
+        <p class="facility-subtitle">A list of available projects offered by Professor Zheng</p>
       </div>
 
-      <!-- Projects Section -->
+      <!-- VIP Projects Section -->
       <div class="facility-section">
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title">VIP Projects</h2>
         <div class="facilities-list">
           {{ $firstProject := true }}
           {{ range .Pages.ByDate.Reverse }}
-            {{ if eq .Params.subtype "project" }}
+            {{ if (eq .Params.project_type "VIP") }}
               {{ $imageUrlTop := "" }}
               {{ $imageUrlBottom := "" }}
               {{ with .Params.image }}
@@ -49,7 +45,11 @@
                 {{ end }}
               {{ end }}
               
-              <a href="{{ .RelPermalink }}" class="facility-card-link">
+              {{ $link := .RelPermalink }}
+              {{ if .Params.external_link }}
+                {{ $link = .Params.external_link }}
+              {{ end }}
+              <a href="{{ $link }}" class="facility-card-link" {{ if .Params.external_link }}target="_blank" rel="noopener noreferrer"{{ end }}>
                 <div class="facility-item" 
                      data-image-top="{{ $imageUrlTop }}"
                      data-image-bottom="{{ $imageUrlBottom }}"
@@ -69,6 +69,61 @@
                 </div>
               </a>
               {{ $firstProject = false }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- x96 Projects Section -->
+      <div class="facility-section">
+        <h2 class="section-title">x96 Projects</h2>
+        <div class="facilities-list">
+          {{ $firstX96Project := true }}
+          {{ range .Pages.ByDate.Reverse }}
+            {{ if (eq .Params.project_type "x96") }}
+              {{ $imageUrlTop := "" }}
+              {{ $imageUrlBottom := "" }}
+              {{ with .Params.image }}
+                {{ $topFilename := .filename_top | default .filename }}
+                {{ $bottomFilename := .filename_bottom | default .filename }}
+                {{ with $topFilename }}
+                  {{ $topResource := resources.Get (printf "media/%s" .) }}
+                  {{ if $topResource }}
+                    {{ $imageUrlTop = $topResource.RelPermalink }}
+                  {{ end }}
+                {{ end }}
+                {{ with $bottomFilename }}
+                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
+                  {{ if $bottomResource }}
+                    {{ $imageUrlBottom = $bottomResource.RelPermalink }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              
+              {{ $link := .RelPermalink }}
+              {{ if .Params.external_link }}
+                {{ $link = .Params.external_link }}
+              {{ end }}
+              <a href="{{ $link }}" class="facility-card-link" {{ if .Params.external_link }}target="_blank" rel="noopener noreferrer"{{ end }}>
+                <div class="facility-item" 
+                     data-image-top="{{ $imageUrlTop }}"
+                     data-image-bottom="{{ $imageUrlBottom }}"
+                     data-first="{{ if not $firstProject }}{{ $firstX96Project }}{{ end }}">
+                  <div class="facility-item-header">
+                    <h3 class="facility-item-title">{{ .Title }}</h3>
+                    {{ with .Params.subtext }}
+                    <div class="facility-sponsor">
+                      <span>{{ . }}</span>
+                    </div>
+                    {{ end }}
+                  </div>
+                  <div class="facility-item-description">
+                    {{ .Summary | plainify | truncate 200 }}
+                  </div>
+                  <span class="read-more-link">Read more →</span>
+                </div>
+              </a>
+              {{ $firstX96Project = false }}
             {{ end }}
           {{ end }}
         </div>
@@ -126,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function() {
   width: 80px;
   top: 0;
   bottom: 0;
-  z-index: 0;
+  z-index: 5;
   pointer-events: none;
 }
 
@@ -145,7 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
 /* Split Layout */
 .facility-split-layout {
   position: relative;
-  z-index: 1;
+  z-index: 0;
   display: grid;
   grid-template-columns: 45% 55%;
   min-height: 100vh;
@@ -158,8 +213,8 @@ document.addEventListener('DOMContentLoaded', function() {
 .facility-images-section {
   position: sticky;
   top: 80px;
-  height: calc(100vh - 160px);
-  max-height: 800px;
+  height: calc(100vh - 130px);
+  max-height: 1100px;
   display: flex;
   flex-direction: column;
   gap: 20px;
