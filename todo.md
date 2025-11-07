@@ -1,0 +1,3 @@
+- simulation/plot of the RIS to normalize the signal (in phase)
+- simulation/plot of the field that will steer the beam
+- Overall plot of the signal incoming to the field, and reflecting off

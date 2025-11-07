@@ -1,0 +1,414 @@
+{{ define "main" }}
+
+<article class="facility-single-page">
+  <div class="facility-content-container">
+    <!-- Page Header -->
+    <header class="facility-header">
+      <h1 class="facility-title">{{ .Title }}</h1>
+      {{ with .Date }}
+        <p class="facility-date">
+          <time datetime="{{ .Format "2006-01-02" }}">{{ .Format "January 2, 2006" }}</time>
+        </p>
+      {{ end }}
+    </header>
+
+    <!-- Main Content -->
+    <div class="facility-content">
+      {{ .Content }}
+    </div>
+
+    <!-- Author Section -->
+    {{ with .Params.authors }}
+      <footer class="facility-author-section">
+        <h3>Authors</h3>
+        <div class="author-list">
+          {{ range . }}
+            {{ $authorID := . }}
+            {{ $authorPath := printf "authors/%s/_index.md" $authorID }}
+            {{ with site.GetPage $authorPath }}
+              <div class="author-card">
+                <a href="{{ .RelPermalink }}" class="author-link">
+                  {{ with .Params.avatar }}
+                    {{ $avatar := resources.Get . }}
+                    {{ if $avatar }}
+                      {{ $processed := $avatar.Fill "80x80 Center" }}
+                      <img src="{{ $processed.RelPermalink }}" alt="{{ $.Title }}" class="author-avatar">
+                    {{ else }}
+                      <div class="author-avatar-placeholder">
+                        <i class="fas fa-user"></i>
+                      </div>
+                    {{ end }}
+                  {{ else }}
+                    <div class="author-avatar-placeholder">
+                      <i class="fas fa-user"></i>
+                    </div>
+                  {{ end }}
+                  <div class="author-info">
+                    <div class="author-name">{{ .Title }}</div>
+                    {{ with .Params.role }}
+                      <div class="author-role">{{ . }}</div>
+                    {{ end }}
+                  </div>
+                </a>
+                <!-- Social Links -->
+                {{ with .Params.social }}
+                  <div class="author-social">
+                    {{ with .email }}
+                      <a href="mailto:{{ . }}" title="Email"><i class="fas fa-envelope"></i></a>
+                    {{ end }}
+                    {{ with .linkedin }}
+                      <a href="{{ . }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    {{ end }}
+                    {{ with .google_scholar }}
+                      <a href="{{ . }}" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                    {{ end }}
+                    {{ with .github }}
+                      <a href="{{ . }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    {{ end }}
+                  </div>
+                {{ end }}
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </footer>
+    {{ end }}
+  </div>
+</article>
+
+<style>
+.facility-single-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+.facility-content-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.facility-header {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.facility-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a5f4f;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.facility-date {
+  font-size: 0.95rem;
+  color: #888;
+  font-style: italic;
+}
+
+.facility-content {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+.facility-content h1,
+.facility-content h2,
+.facility-content h3,
+.facility-content h4 {
+  color: #1a5f4f;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.facility-content h2 {
+  font-size: 1.8rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.facility-content h3 {
+  font-size: 1.5rem;
+}
+
+.facility-content ul,
+.facility-content ol {
+  margin-left: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.facility-content ul {
+  list-style-type: disc;
+}
+
+.facility-content ol {
+  list-style-type: decimal;
+}
+
+.facility-content li {
+  margin-bottom: 0.5rem;
+  display: list-item;
+}
+
+.facility-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.facility-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+.facility-content table th,
+.facility-content table td {
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.facility-content table th {
+  background: #f8f9fa;
+  font-weight: 600;
+  color: #1a5f4f;
+}
+
+.facility-content table tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.facility-author-section {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.facility-author-section h3 {
+  font-size: 1.3rem;
+  color: #1a5f4f;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.author-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.author-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.author-card:hover {
+  background: #e9ecef;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.author-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: inherit;
+  flex: 1;
+}
+
+.author-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1a5f4f;
+}
+
+.author-avatar-placeholder {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 2rem;
+  border: 3px solid #1a5f4f;
+}
+
+.author-info {
+  flex: 1;
+}
+
+.author-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a5f4f;
+  margin-bottom: 5px;
+}
+
+.author-role {
+  font-size: 1rem;
+  color: #666;
+}
+
+.author-social {
+  display: flex;
+  gap: 10px;
+}
+
+.author-social a {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #1a5f4f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.author-social a:hover {
+  background: #2d7a66;
+  transform: scale(1.1);
+}
+
+/* Dark Mode Support */
+html.dark .facility-content-container {
+  background: #1a1a1a;
+}
+
+html.dark .facility-header {
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark .facility-title {
+  color: #6ee7b7;
+}
+
+html.dark .facility-date {
+  color: #888;
+}
+
+html.dark .facility-content {
+  color: #e0e0e0;
+}
+
+html.dark .facility-content h1,
+html.dark .facility-content h2,
+html.dark .facility-content h3,
+html.dark .facility-content h4 {
+  color: #6ee7b7;
+}
+
+html.dark .facility-content h2 {
+  border-bottom-color: #3a3a3a;
+}
+
+html.dark .facility-content table th,
+html.dark .facility-content table td {
+  border-color: #3a3a3a;
+}
+
+html.dark .facility-content table th {
+  background: #2a2a2a;
+  color: #6ee7b7;
+}
+
+html.dark .facility-content table tr:nth-child(even) {
+  background: #2a2a2a;
+}
+
+html.dark .facility-author-section {
+  border-top-color: #3a3a3a;
+}
+
+html.dark .facility-author-section h3 {
+  color: #6ee7b7;
+}
+
+html.dark .author-card {
+  background: #2a2a2a;
+}
+
+html.dark .author-card:hover {
+  background: #333;
+}
+
+html.dark .author-name {
+  color: #6ee7b7;
+}
+
+html.dark .author-role {
+  color: #b0b0b0;
+}
+
+html.dark .author-avatar {
+  border-color: #6ee7b7;
+}
+
+html.dark .author-avatar-placeholder {
+  background: #333;
+  border-color: #6ee7b7;
+}
+
+html.dark .author-social a {
+  background: #6ee7b7;
+  color: #1a1a1a;
+}
+
+html.dark .author-social a:hover {
+  background: #6ee7b7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .facility-single-page {
+    padding: 40px 20px;
+  }
+  
+  .facility-content-container {
+    padding: 30px 20px;
+  }
+  
+  .facility-title {
+    font-size: 2rem;
+  }
+  
+  .facility-content {
+    font-size: 1rem;
+  }
+  
+  .author-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .author-link {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .author-social {
+    justify-content: center;
+  }
+}
+</style>
+
+{{ end }}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}" {{ if in site.Language.Lang "ar" }}dir="rtl"{{ end }}>
+<head>
+  {{ partial "site_head" . }}
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    /* Ensure navbar stays above decorative bars */
+    header,
+    header nav,
+    .navbar,
+    [role="navigation"],
+    body > header {
+      position: relative;
+      z-index: 1000 !important;
+    }
+  </style>
+</head>
+<body>
+  {{ partial "components/headers/navbar" . }}
+  
+  <!-- Decorative Background Bars -->
+  <div class="decorative-bg decorative-bg-left"></div>
+  <div class="decorative-bg decorative-bg-right"></div>
+  
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  {{ partial "site_footer" . }}
+</body>
+</html>
