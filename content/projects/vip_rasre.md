@@ -35,9 +35,9 @@ external_link: "https://www2.hawaii.edu/~viprasre"
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 # Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  filename: x96/rasre/rasre-featured.png
-  filename_top: x96/rasre/rasre-featured-top.png
-  filename_bottom: x96/rasre/rasre-featured-bottom.png
+  filename: projects/rasre/rasre-featured.png
+  filename_top: projects/rasre/rasre-featured-top.png
+  filename_bottom: projects/rasre/rasre-featured-bottom.png
   focal_point: Smart
 
 links:

@@ -4,17 +4,20 @@ type: projects
 project_type: x96
 subtext: Spring 2026
 image:
-  filename: x96/pico/pico-featured.png
-  filename_top: x96/pico/pico-featured-top.png
-  filename_bottom: x96/pico/pico-featured-bottom.png
+  filename: projects/pico/pico-featured.png
+  filename_top: projects/pico/pico-featured-top.png
+  filename_bottom: projects/pico/pico-featured-bottom.png
   focal_point: Smart
 date: 2025-10-29T04:14:54-08:00
 authors:
   - galen-sasaki
   - yao-zheng
+tags:
+- x296 project
+- active project
 ---
 
-![](x96/pico/raspi-pico.png)
+![](projects/pico/raspi-pico.png)
 
 ECE 296 Sophomore Projects is required by all computer engineering (CENG) students, as well as
 electrical engineering (EE) students. Each faculty member offers their own version of this course.
@@ -152,4 +155,4 @@ Components will be purchased and provided by the ECE department.
 
 Time Commitment: Average of 5-6 hours per week.
 
-![](x96/pico/oled-pika-cat.png)
+![](projects/pico/oled-pika-cat.png)

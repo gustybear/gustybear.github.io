@@ -1,6 +1,6 @@
 ---
 draft: false
-title: "Monet: Millimeter-wave Communication and Sensing Integration"
+title: "MONET: Millimeter-wave Communication and Sensing Integration"
 type: projects
 project_type: VIP
 subtext: "Fall 2025 - present"
@@ -35,9 +35,9 @@ external_link: "https://www2.hawaii.edu/~vipmonet"
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 # Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  filename: x96/monet/monet-featured.png
-  filename_top: x96/monet/monet-featured-top.png
-  filename_bottom: x96/monet/monet-featured-bottom.png
+  filename: projects/monet/monet-featured.png
+  filename_top: projects/monet/monet-featured-top.png
+  filename_bottom: projects/monet/monet-featured-bottom.png
   focal_point: Smart
 
 links:

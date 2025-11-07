@@ -60,7 +60,7 @@ sections:
     content:
       title: Projects
       filters:
-        folders: [project]
+        folders: [projects]
         tag: active project
         # featured_only: false
     design:
