@@ -22,10 +22,10 @@ tags:
 ECE 296 Sophomore Projects is required by all computer engineering (CENG) students, as well as
 electrical engineering (EE) students. Each faculty member offers their own version of this course.
 
-Professor Yao Zheng’s version is: Introduction to Computer Engineering for Freshmen.
+Professor Yao Zheng's version is: Introduction to Computer Engineering for Freshmen.
 To sign up (register) with Professor Zheng, send a request to yaozheng@hawaii.edu
 
-**Prerequisite: EE 160 – Programming for Engineers (Python)**
+**Prerequisite: ECE 160 – Programming for Engineers (Python)**
 
 
 ### Course Overview:
@@ -50,7 +50,7 @@ Pi Pico (RP2040).
 
 
 ### Course Structure:
-* Labs: Seven hands-on laboratories.
+* Labs: Nine hands-on laboratories.
 * Homework: Assignments for the labs.
 * Final Project: Students will design, develop, and demonstrate a personal project applying the
 concepts learned throughout the course.
@@ -129,17 +129,38 @@ concepts learned throughout the course.
 <ul>
 <li>Creating a simple web server continued</li>
 <li>Pull data from 3rd party APIs</li>
-<li>Create a sensorless weater station</li>
+<li>Create a sensorless weather station</li>
 </ul>
 </td>
 </tr>
 <tr>
 <td>Lab 7: Multitask: Temperature & Humidity Sensor</td>
-<td>Week 10+</td>
+<td>Week 10-12</td>
 <td>
 <ul>
 <li>Read environmental data from temperature and humidity sensor on one core</li>
 <li>Display sensor data on OLED on another core</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 8: Version Control</td>
+<td>Week 13</td>
+<td>
+<ul>
+<li>Creating and managing a repository w/ Git</li>
+<li>Learn to push, pull, and create PRs</li>
+<li>Collaboratively work with peers on same codebase</li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Lab 9: AI as a Development Tool</td>
+<td>Week 14+</td>
+<td>
+<ul>
+<li>Utilize AI to streamline code development</li>
+<li>Learn how to best use AI via prompting</li>
 </ul>
 </td>
 </tr>
