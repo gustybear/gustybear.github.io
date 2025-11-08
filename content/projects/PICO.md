@@ -144,7 +144,7 @@ concepts learned throughout the course.
 </td>
 </tr>
 <tr>
-<td>Lab 8: Version Control</td>
+<td>Lab 8: Version Control: Git & GitHub</td>
 <td>Week 13</td>
 <td>
 <ul>
