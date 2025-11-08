@@ -58,114 +58,17 @@ concepts learned throughout the course.
 
 ### Lab Schedule:
 
-<table>
-<thead>
-<tr>
-<th>Lab Name</th>
-<th>Time Range</th>
-<th>Tasks</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Lab 1: Introduction to Computers</td>
-<td>Week 1</td>
-<td>
-<ul>
-<li>Introduction to Raspberry Pi Pico W</li>
-<li>Development environment setup</li>
-<li>First program execution</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 2: Circuits & Breadboards</td>
-<td>Week 2</td>
-<td>
-<ul>
-<li>Using breadboard to prototype</li>
-<li>Understanding resistors & LEDs</li>
-<li>Creating simple circuits</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 3: Digital Circuits</td>
-<td>Week 3</td>
-<td>
-<ul>
-<li>Digital circuit design</li>
-<li>Using a push button for input</li>
-<li>Interface with temperature sensor</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 4: OLED Display</td>
-<td>Week 4-5</td>
-<td>
-<ul>
-<li>Displaying with I2C & SPI interface</li>
-<li>Debouncing buttons</li>
-<li>Create Pong w/ joystick</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 5: Client Server</td>
-<td>Week 6-7</td>
-<td>
-<ul>
-<li>Creating a simple web server </li>
-<li>Render graphics and text on OLED display</li>
-<li>Control RGB LEDs with sockets</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 6: Internet-Continued & Performance</td>
-<td>Week 8-10</td>
-<td>
-<ul>
-<li>Creating a simple web server continued</li>
-<li>Pull data from 3rd party APIs</li>
-<li>Create a sensorless weather station</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 7: Multitask: Temperature & Humidity Sensor</td>
-<td>Week 10-12</td>
-<td>
-<ul>
-<li>Read environmental data from temperature and humidity sensor on one core</li>
-<li>Display sensor data on OLED on another core</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 8: Version Control: Git & GitHub</td>
-<td>Week 13</td>
-<td>
-<ul>
-<li>Creating and managing a repository w/ Git</li>
-<li>Learn to push, pull, and create PRs</li>
-<li>Collaboratively work with peers on same codebase</li>
-</ul>
-</td>
-</tr>
-<tr>
-<td>Lab 9: AI as a Development Tool</td>
-<td>Week 14+</td>
-<td>
-<ul>
-<li>Utilize AI to streamline code development</li>
-<li>Learn how to best use AI via prompting</li>
-</ul>
-</td>
-</tr>
-</tbody>
-</table>
+| **Lab Name** | **Time Range** | **Tasks** |
+|---------------|----------------|------------|
+| **Lab 1: Introduction to Computers** | Week 1 | • Introduction to Raspberry Pi Pico W<br>• Development environment setup<br>• First program execution |
+| **Lab 2: Circuits & Breadboards** | Week 2 | • Using breadboard to prototype<br>• Understanding resistors & LEDs<br>• Creating simple circuits |
+| **Lab 3: Digital Circuits** | Week 3 | • Digital circuit design<br>• Using a push button for input<br>• Interface with temperature sensor |
+| **Lab 4: OLED Display** | Week 4–5 | • Displaying with I2C & SPI interface<br>• Debouncing buttons<br>• Create Pong w/ joystick |
+| **Lab 5: Client Server** | Week 6–7 | • Creating a simple web server<br>• Render graphics and text on OLED display<br>• Control RGB LEDs with sockets |
+| **Lab 6: Internet – Continued & Performance** | Week 8–10 | • Creating a simple web server continued<br>• Pull data from 3rd party APIs<br>• Create a sensorless weather station |
+| **Lab 7: Multitask: Temperature & Humidity Sensor** | Week 10–12 | • Read environmental data from temperature and humidity sensor on one core<br>• Display sensor data on OLED on another core |
+| **Lab 8: Version Control: Git & GitHub** | Week 13 | • Creating and managing a repository w/ Git<br>• Learn to push, pull, and create PRs<br>• Collaboratively work with peers on same codebase |
+| **Lab 9: AI as a Development Tool** | Week 14+ | • Utilize AI to streamline code development<br>• Learn how to best use AI via prompting |
 
 
 ### Required Lab Components:
