@@ -16,7 +16,7 @@ main:
   - name: Teaching
     url: teaching/
     weight: 13
-  - name: Talks
+  - name: Events
     url: event/
     weight: 20
 #  - name: News
@@ -27,7 +27,7 @@ main:
     weight: 40
   - name: Facility
     url: facility/
-    weight: 9
+    weight: 30
 #  - name: Contact
 #    url: /#contact
 #    weight: 60

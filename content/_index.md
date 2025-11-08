@@ -82,9 +82,9 @@ sections:
       columns: 2
 
   - block: collection
-    id: talks
+    id: events
     content:
-      title: Recent & Upcoming Talks
+      title: Recent & Upcoming Events
       filters:
         folders: [event]
     design:

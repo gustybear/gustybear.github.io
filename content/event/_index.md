@@ -1,6 +1,6 @@
 ---
-title: Talks
-summary: My talks
+title: Events
+summary: Recent and upcoming events
 type: landing
 
 cascade:
@@ -11,9 +11,9 @@ cascade:
 
 sections:
   - block: collection
-    id: talks
+    id: events
     content:
-      title: Talks
+      title: Events
       filters:
         folders:
           - event
