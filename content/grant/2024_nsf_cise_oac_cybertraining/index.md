@@ -37,9 +37,9 @@ image:
 #   url: http://example.org
 Links:
 - name: Training Project 1
-  url: './project/research/vip_mmwave_comm_and_sensg_integtn'
+  url: './projects/vip_mmwave_comm_and_sensg_integtn'
 - name: Training Project 2
-  url: './project/research/vip_reflectarray_and_applications'
+  url: './projects/vip_reflectarray_and_applications'
 #- name: Dataset
 #  url: 'https://github.com/gustybear-research/x96_distbed_wifi_sensing'
 #- name: Dataset
