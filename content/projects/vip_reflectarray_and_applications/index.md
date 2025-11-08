@@ -44,7 +44,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 - name: CRN
-  url: ./project/research/vip_reflectarray_and_applications/#logistics
+  url: ./projects/vip_reflectarray_and_applications/#logistics
 #- name: PUB
 #  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 #- name: Slides

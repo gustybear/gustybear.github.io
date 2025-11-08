@@ -40,7 +40,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 - name: CRN
-  url: ./project/research/vip_mmwave_comm_and_sensg_integtn/#logistics
+  url: ./projects/vip_mmwave_comm_and_sensg_integtn/#logistics
 #- name: PUB
 #  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 #- name: Slides
@@ -76,7 +76,7 @@ Imagine a future where our wireless devices do more than just talk to each other
 - **Personnel**
 | Advisor                                                                                                                          | Office Hours                |
 | ----                                                                                                                             | ---                         |
-| {{< spoiler text="Yao Zheng">}} Email yao.zheng@hawaii.edu with ''[VIP RASRE]'' in the subject line.{{< /spoiler >}} | See [here](https://calendly.com/yaozheng-hawaii/30min) |
+| {{< spoiler text="Yao Zheng">}} Email yao.zheng@hawaii.edu with ''[VIP MONET]'' in the subject line.{{< /spoiler >}} | See [here](https://calendly.com/yaozheng-hawaii/30min) |
 
 - **Meeting**:
 | Time | Location    |

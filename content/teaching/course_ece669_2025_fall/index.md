@@ -59,7 +59,7 @@ links:
   url: ./project/teaching/course_ece669_2025_fall/#logistics
 ---
 
-# Overview
+# Executive Summary
 **ECE 669 – Wireless and Mobile Security** explores emerging **FutureG (6G)** wireless systems that integrate communication, sensing, and security through **Open RAN (O-RAN)**, **Integrated Sensing and Communication (ISAC)**, and **Reconfigurable Intelligent Surfaces (RIS)**.  
 Students will investigate the vulnerabilities and protection strategies at physical, link, and system layers, emphasizing experimental understanding through open-source O-RAN and mmWave SDR platforms.
 

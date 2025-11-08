@@ -1,41 +1,78 @@
 ---
-title: Introduction to Computer Engineering with R-Pi Pico W  
-type: projects
-project_type: x96
-subtext: Spring 2026
+title: "Introduction to Computer Engineering with R-Pi Pico W"
+subtitle: "x96 Project, Spring 2026 - present"  
+
+summary: "Hands-on introduction to embedded and wireless systems using the Pico platform. Students design small prototypes integrating sensors, hardware, and software, building skills for advanced VIP and capstone projects in automation and intelligent sensing."
+
 image:
   filename: projects/pico/pico-featured.png
   filename_top: projects/pico/pico-featured-top.png
   filename_bottom: projects/pico/pico-featured-bottom.png
   focal_point: Smart
+
 date: 2025-10-29T04:14:54-08:00
+
 authors:
   - Galen Sasaki
   - Yao Zheng
+
 tags:
-- x296 project
-- active project
+  - pico
+  - embedded-systems
+  - cyber-physical-systems
+  - ceng
+  - wireless
+  - sensor
+  - prototyping
+  - iot
+  - robotics
+  - automation
+  - microcontroller
+  - vip-project
+  - hands-on-learning
+  - hardware-design
+  - software-integration
+  - edge-computing
+  - system-design
+  - rapid-prototyping
+  - engineering-education
+  - undergraduate-research
+  - x96 project
+  - active project
+links:
+#- icon: twitter
+#  icon_pack: fab
+#  name: Follow
+#  url: https://twitter.com/georgecushen
+  - name: CRN
+    url: ./projects/x296_intro_ceng_pico/#logistics
 ---
 
 ![](projects/pico/raspi-pico.png)
 
-ECE 296 Sophomore Projects is required by all computer engineering (CENG) students, as well as
-electrical engineering (EE) students. Each faculty member offers their own version of this course.
 
-Professor Yao Zheng's version is: Introduction to Computer Engineering for Freshmen.
-To sign up (register) with Professor Zheng, send a request to yaozheng@hawaii.edu
+# Executive Summary
+ECE 296 introduces students to hands-on Computer Engineering (CENG) projects through the Pico platform. Students learn fundamentals of embedded systems, sensors, and wireless communication while designing small-scale prototypes that integrate hardware and software. The course emphasizes practical experimentation, teamwork, and iterative design—preparing students for advanced VIP and capstone projects in automation, robotics, and intelligent sensing systems.
 
-**Prerequisite: ECE 160 – Programming for Engineers (Python)**
+# Logistics {#logistics}
+- **CRN**
+| Semester    | ECE 296   | 
+| ---         | ---       | 
+| Spring 2025 | 86945     | 
+
+- **Personnel**
+| Advisor                                                                                                                          | Office Hours                |
+| ----                                                                                                                             | ---                         |
+| {{< spoiler text="Yao Zheng">}} Email yao.zheng@hawaii.edu with ''[x296 R-Pi Pico W ]'' in the subject line.{{< /spoiler >}}  | See [here](https://calendly.com/yaozheng-hawaii/30min) |
+| Galen Sasaki                        | N/A |
+
+- **Meeting**:
+| Time                 | Location    |
+| ----                 | ---         |
+| T 11:00am - 12:00am  | HH488       |
 
 
-### Course Overview:
-This lab-based course is designed for first-year Computer Engineering (CENG) students to expand their
-knowledge of programming in Python and gain hands-on experience with computer hardware. Freshmen
-students will develop a solid foundation in Python programming and practical computer
-hardware/software technologies.
-
-
-### Learning Objectives:
+# Learning Objectives:
 * Enhance their Python programming skills through practical applications.
 * Explore computer hardware concepts, including microcontrollers, with a focus on the Raspberry
 Pi Pico (RP2040).
@@ -49,14 +86,14 @@ Pi Pico (RP2040).
 * Cultivate creativity and innovation in engineering design.
 
 
-### Course Structure:
+# Course Structure:
 * Labs: Nine hands-on laboratories.
 * Homework: Assignments for the labs.
 * Final Project: Students will design, develop, and demonstrate a personal project applying the
 concepts learned throughout the course.
 
 
-### Lab Schedule:
+# Lab Schedule:
 
 | **Lab Name** | **Time Range** | **Tasks** |
 |---------------|----------------|------------|
@@ -72,9 +109,9 @@ concepts learned throughout the course.
 
 
 ### Required Lab Components:
-Components will be purchased and provided by the ECE department.
-* [SunFounder Raspberry Pi Pico W kit ($70)](https://www.amazon.com/SunFounder-Raspberry-Kit-MicroPython-Compatible/dp/B0BDFVL6FX)
-* [OLED display ($7)](https://www.amazon.com/gp/product/B072Q2X2LL)
+Components will be  provided.
+* [SunFounder Raspberry Pi Pico W kit](https://www.amazon.com/SunFounder-Raspberry-Kit-MicroPython-Compatible/dp/B0BDFVL6FX)
+* [OLED display](https://www.amazon.com/gp/product/B072Q2X2LL)
 
 
 Time Commitment: Average of 5-6 hours per week.
