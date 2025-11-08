@@ -23,9 +23,10 @@ authors:
 - Hanqing Guo
 - Liuwan Zhu
 - Haofan Cai
+- Xiaochan Xue
 
 # Optional external URL for project (replaces project detail page).
-# external_link: "http://www2.hawaii.edu/~viprasre/"
+external_link: "http://www2.hawaii.edu/~viprasre/"
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.

@@ -22,7 +22,7 @@ authors:
 - Wayne A. Shiroma
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://www2.hawaii.edu/~vipmonet/"
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
