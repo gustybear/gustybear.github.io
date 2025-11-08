@@ -1,5 +1,5 @@
 ---
-title: "RIS-Assisted Integrated Sensing and Communication (ISAC) for Drone Detection and Physiological Monitoring"
+title: "DoD-NSF: RIS-Assisted Integrated Sensing and Communication (ISAC) for Drone Detection and Physiological Monitoring"
 date: 2025-04-10
 conference: "NSF–DoD Workshop on Integrated Sensing and Communication (ISAC)"
 location: "George Mason University, Fairfax, VA"

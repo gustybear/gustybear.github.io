@@ -1,5 +1,5 @@
 ---
-title: "ISAC for Physiological Motion Monitoring"
+title: "IEEE IMS 2025: ISAC for Physiological Motion Monitoring"
 date: 2025-06-15
 conference: "IEEE MTT-S International Microwave Symposium (IMS 2025)"
 session: "Workshop on FR2 OAI, ORAN, and Dynamic RIS Integration"
@@ -46,7 +46,7 @@ By combining sensing and communication functions within the same mmWave infrastr
 
 📅 **Date:** Sunday, June 15 2025  
 🕗 **Time:** 8:00 AM – 11:50 AM (Local) / 11:00 AM – 2:50 PM EDT  
-🏛️ **Venue:** Room 206, Washington, D.C.  
+🏛️ **Venue:** Room 206, Moscone Center, San Francisco, CA.  
 🔗 **Workshop Page:** [IMS 2025 Workshops](https://ims-ieee.org/technical-program/workshops?date=2025-06-15)
 📧 **Organizer Contact:** [grace_ho@tmytek.com](mailto:grace_ho@tmytek.com)
 

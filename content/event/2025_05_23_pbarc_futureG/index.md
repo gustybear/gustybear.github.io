@@ -1,5 +1,5 @@
 ---
-title: "FutureG Wireless Communication with Reconfigurable Intelligent Surfaces and Integrated Sensing"
+title: "USDA-PABARC: FutureG Wireless Communication with Reconfigurable Intelligent Surfaces and Integrated Sensing"
 date: 2025-06-06
 venue: "USDA ARS Pacific Basin Agricultural Research Center (PBARC)"
 location: "64 Nowelo Street, Hilo, HI 96720"
