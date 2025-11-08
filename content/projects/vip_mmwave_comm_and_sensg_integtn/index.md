@@ -1,9 +1,8 @@
 ---
 draft: false
-title: "MONET: Millimeter-wave Communication and Sensing Integration"
-type: projects
-project_type: VIP
-subtext: "Fall 2025 - present"
+title: "Monet: Millimeter-wave Communication and Sensing Integration"
+
+subtitle: "Vertically Integrated Project (VIP), Spring 2022 - present"
 
 summary: "This VIP project aims to develop mmWave communication systems with integrated radar sensing functionality in cellular networks and Wi-Fi networks for drone detection, physiological sensing, smart RAN, etc."
 
@@ -15,19 +14,15 @@ tags:
 - active project
 - active vip project
 
-date: 2025-09-01T00:00:00-10:00
+date: 2024-12-09T00:00:00-10:00
 
 authors:
 - Yao Zheng
-- Hanqing Guo
-- Liuwan Zhu
-- Haofan Cai
-- Xiaochan Xue
 - Aaron Ohta
 - Wayne A. Shiroma
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://www2.hawaii.edu/~vipmonet"
+external_link: ""
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
@@ -35,10 +30,9 @@ external_link: "https://www2.hawaii.edu/~vipmonet"
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 # Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  filename: projects/monet/monet-featured.png
-  filename_top: projects/monet/monet-featured-top.png
-  filename_bottom: projects/monet/monet-featured-bottom.png
-  focal_point: Smart
+  caption: ""
+  focal_point: ""
+  preview_only: true
 
 links:
 #- icon: twitter
@@ -46,7 +40,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 - name: CRN
-  url: '#logistics'
+  url: ./project/research/vip_mmwave_comm_and_sensg_integtn/#logistics
 #- name: PUB
 #  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 #- name: Slides
@@ -78,7 +72,6 @@ Imagine a future where our wireless devices do more than just talk to each other
 | Spring 2022 | 90034   | 90035   | 90036   | 85708 |
 | Fall   2022 | 80343   | 80344   | 80345   | 75344 |
 | Spring 2025 | 89726   | 86653   | 86654   | 88158 |
-| Fall   2025 | 79483   | 76390   | 76469   | 77488 |
 
 - **Personnel**
 | Advisor                                                                                                                          | Office Hours                |
@@ -128,7 +121,6 @@ Imagine a future where our wireless devices do more than just talk to each other
 | SEMESTER     | TOPICS                                       | DOCUMENTS                    |
 | ---          | ---                                          | ---                          |
 | Spring, 2025 | Setup an O-RAN based ISAC System at FR2 band | [doc sp2025][doc sp2025 url] |
-| Fall, 2025   | Setup an O-RAN based ISAC System at FR2 band | [doc fa2025][doc fa2025 url] |
 
  ***
 
@@ -138,4 +130,5 @@ Imagine a future where our wireless devices do more than just talk to each other
 
 [doc urls]: # (doc urls)
 [doc sp2025 url]: https://drive.google.com/drive/folders/1Ux0zfHDvQM3pQBudNF2OqI25NsptN4W7?usp=share_link
-[doc fa2025 url]: https://drive.google.com/drive/folders/17DP23g4ebklurbNWsmJpjMxZMJsr7ndR?usp=share_link
+
+

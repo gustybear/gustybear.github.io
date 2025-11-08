@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Zheng Yao
+title: Yao Zheng
 
 # Name pronunciation (optional)
-name_pronunciation: 郑 尧
+name_pronunciation: 尧 郑
 
 # Full name (for SEO)
 first_name: Yao

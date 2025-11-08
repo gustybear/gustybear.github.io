@@ -1,9 +1,8 @@
 ---
 draft: false
 title: "RASRE: Reflectarray and Applications in Smart Radio Environment"
-type: projects
-project_type: VIP
-subtext: "Fall 2025 - present"
+
+subtitle: "Vertically Integrated Project (VIP), Spring 2025 - present"
 
 summary: "This VIP project aims to investigate the fundamental principles of reflectarray operation, develop novel reflectarray architectures and control algorithms, and explore their application in a wide range of wireless communication, sensing, energy transfer, and security scenarios."
 
@@ -17,17 +16,16 @@ tags:
 - active project
 - active vip project
 
-date: 2025-09-01T00:00:00-10:00
+date: 2024-12-10T00:00:00-10:00
 
 authors:
 - Yao Zheng
 - Hanqing Guo
 - Liuwan Zhu
 - Haofan Cai
-- Xiaochan Xue
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://www2.hawaii.edu/~viprasre"
+# external_link: "http://www2.hawaii.edu/~viprasre/"
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
@@ -35,10 +33,9 @@ external_link: "https://www2.hawaii.edu/~viprasre"
 # Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
 # Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  filename: projects/rasre/rasre-featured.png
-  filename_top: projects/rasre/rasre-featured-top.png
-  filename_bottom: projects/rasre/rasre-featured-bottom.png
-  focal_point: Smart
+  caption: ""
+  focal_point: ""
+  preview_only: true
 
 links:
 #- icon: twitter
@@ -46,7 +43,7 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
 - name: CRN
-  url: '#logistics'
+  url: ./project/research/vip_reflectarray_and_applications/#logistics
 #- name: PUB
 #  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
 #- name: Slides
@@ -76,7 +73,6 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 | Semester    | ENGR196 | ENGR296 | ENGR396 | ECE496 |
 | ---         | ---     | ---     | ---     | ---    |
 | Spring 2025 | TBD     | TBD     | TBD     | TBD    |
-| Fall   2025 | 79483   | 76390   | 76469   | 77488  |
 
 - **Personnel**
 | Advisor                                                                                                                          | Office Hours                |
@@ -126,7 +122,6 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 | SEMESTER     | TOPICS                                                 | DOCUMENTS                    |
 | ---          | ---                                                    | ---                          |
 | Spring, 2025 | Designing 3.5GHz reflectarray with transistors         | [doc sp2025][doc sp2025 url] |
-| Fall, 2025   | Designing 3.5GHz reflectarray with transistors         | [doc fa2025][doc fa2025 url] |
 
  ***
 
@@ -136,4 +131,5 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 
 [doc urls]: # (doc urls)
 [doc sp2025 url]: https://drive.google.com/drive/folders/1tHfBRH6r_y3a_MFIbG5wmJlmmtjjZKw-?usp=share_link
-[doc fa2025 url]: https://drive.google.com/drive/folders/1yWxJkORRLIZ9vvQscuiULGIWMOdnfKWE?usp=share_link
+
+

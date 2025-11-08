@@ -1,6 +1,23 @@
 ---
 title: Projects
-type: projects
----
+summary: My projects
+type: landing
 
-A list of available projects offered by Professor Zheng
+cascade:
+  - _target:
+      kind: page
+    params:
+      show_breadcrumb: true
+
+sections:
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      columns: 2
+---

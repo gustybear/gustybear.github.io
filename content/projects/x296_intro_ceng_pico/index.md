@@ -1,5 +1,5 @@
 ---
-title: ECE 296 Sophomore Project - R-Pi Pico W  
+title: Introduction to Computer Engineering with R-Pi Pico W  
 type: projects
 project_type: x96
 subtext: Spring 2026
@@ -10,8 +10,8 @@ image:
   focal_point: Smart
 date: 2025-10-29T04:14:54-08:00
 authors:
-  - galen-sasaki
-  - yao-zheng
+  - Galen Sasaki
+  - Yao Zheng
 tags:
 - x296 project
 - active project
