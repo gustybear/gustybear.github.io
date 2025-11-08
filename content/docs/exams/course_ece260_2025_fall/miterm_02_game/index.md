@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Take-Home Midterm Exam: Sequential Circuits and Verilog"
 date: 2025-10-28
 type: book
@@ -21,6 +21,7 @@ weight: 3
 - Provide **commented, synthesizable Verilog** and a **self‑checking testbench** where requested.
 - Include brief timing/area reasoning (big‑O style or gate/count estimates).
 - No collaboration. Cite any external references you consulted.
+- Tutorial of Online tools for Verilog simulation can be found [here](../../../tutorials/verilog_sim_online/).
 
 ---
 ## Part A — Multiple Choice (10 × 3 pts = 30 pts)
@@ -90,7 +91,7 @@ Select the **best** answer.
 
 ## Part B — Design & Analysis (10 × 7 = 70 pts)
 
-For each problem, complete the Verilog template in the zip and verify using the provided self‑checking testbench.
+For each problem, complete the Verilog template in the [zip](https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ece260_2025_fall/midterm+2/ece260_exam_questions_verilog.zip) and verify using the provided self‑checking testbench.
 Name your top‑level modules exactly as specified.
 
 **Files provided (in the questions zip):**

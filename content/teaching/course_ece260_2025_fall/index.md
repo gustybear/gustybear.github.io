@@ -122,7 +122,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 9 (10/20, 10/22, 10/24) | Sequential Logic: Registers                                            | [Read/HW 09][read 09 url]    | 10/26, 11:59PM|
 | Week 10 (10/27)              | Sequential Logic: Counters, Shifters                                   | --                           | --            |
 | Week 10 (10/29)              | Sequential Logic: Sequential Processor                                 | --                           | --            |
-| Week 6 (10/31)               | Midterm II: Take Home                                                  | Submission link              | 11/02, 11:59PM|
+| Week 6 (10/31)               | [Midterm II: Take Home][midterm 02 url]                                | [Submission link][midt 02 dp]              | 11/02, 11:59PM|
 | Week 11 (11/3, 11/5, 11/7)   | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 11/9, 11:59PM |
 | Week 12 (11/10, 11/12, 11/14)| Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 11/16, 11:59PM|
 | Week 13 (11/17, 11/19, 11/21)| Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]    | 11/23, 11:59PM|
@@ -249,3 +249,5 @@ This course explores the foundation of digital circuit design, starting from Boo
 [midterm 01 url]: ../../docs/exams/course_ece260_2025_fall/miterm_01_game/
 [midt 01 dp]: https://www.dropbox.com/request/PTjkJb7T3UnYWkwVlziF
 [midt 01 sol url]: ../../docs/exams/course_ece260_2025_fall/miterm_01_solutions/
+[midt 02 dp]: https://www.dropbox.com/request/S1jjsIPxBvWE0ZPqPfUk
+[midterm 02 url]: ../../docs/exams/course_ece260_2025_fall/miterm_02_game/
