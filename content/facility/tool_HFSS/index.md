@@ -3,16 +3,15 @@ title: ANSYS - HFSS
 type: facility
 subtype: tool
 image:
-  filename: facility/ansys/ansys-featured-top.png
-  filename_top: facility/ansys/ansys-featured-top.png
-  filename_bottom: facility/ansys/ansys-featured-bottom.png
+  filename: ansys-featured-top.png
+  filename_top: ansys-featured-top.png
+  filename_bottom: ansys-featured-bottom.png
   caption: Simulation of a circuit
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
 authors:  
   - yao-zheng
 ---
-![](facility/ansys/ansys-featured-top.png)
 ANSYS - HFSS is utilized in this laboratory to design antennas for a range of frequencies, notably C-band. 
 
 ## Online Resources for ANSYS Electronics Design Suite and HFSS

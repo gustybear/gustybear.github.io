@@ -1,18 +1,18 @@
 ---
 draft: false
-title: "Monet: Millimeter-wave Communication and Sensing Integration"
+title: "MONET: Millimeter-wave Communication and Sensing Integration"
 
 subtitle: "Vertically Integrated Project (VIP), Spring 2022 - present"
 
 summary: "This VIP project aims to develop mmWave communication systems with integrated radar sensing functionality in cellular networks and Wi-Fi networks for drone detection, physiological sensing, smart RAN, etc."
 
 tags:
+- active vip project
 - integrated sensing and communication
 - drone detection
 - physiological sensing
 - recent project
 - active project
-- active vip project
 
 date: 2024-12-09T00:00:00-10:00
 

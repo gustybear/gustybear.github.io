@@ -3,16 +3,15 @@ title: Cadence - Virtuoso
 type: facility
 subtype: tool
 image:
-  filename: facility/cadence/cadence-featured-top.png
-  filename_top: facility/cadence/cadence-featured-top.png
-  filename_bottom: facility/cadence/cadence-featured-bottom.png
+  filename: cadence-featured-top.png
+  filename_top: cadence-featured-top.png
+  filename_bottom: cadence-featured-bottom.png
   caption: A mockup of a series of resistors
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
 authors:  
   - yao-zheng
 ---
-![](facility/cadence/cadence-featured-top.png)
 Cadence Virtuoso is a suite of Electronic Design Automation (EDA) tools used for designing custom integrated circuits (ICs), including analog, mixed-signal, and radio-frequency (RF) circuits.
 
 ## Online Resources for Cadence Virtuoso

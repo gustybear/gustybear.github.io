@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}" {{ if in site.Language.Lang "ar" }}dir="rtl"{{ end }}>
+<head>
+  {{ partial "site_head" . }}
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  {{ partial "components/headers/navbar" . }}
+  
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  {{ partial "site_footer" . }}
+</body>
+</html>

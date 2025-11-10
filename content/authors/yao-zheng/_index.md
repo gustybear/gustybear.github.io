@@ -13,6 +13,11 @@ last_name: Zheng
 status:
   icon: 🖖
 
+avatar: "media/authors/yao-zheng.png"
+social:
+  email: "yao.zheng@hawaii.edu"
+  github: "https://github.com/gustybear-research"
+
 # Is this the primary user of the site?
 superuser: false
 

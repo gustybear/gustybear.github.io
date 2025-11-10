@@ -5,7 +5,7 @@ conference: "IEEE MTT-S International Microwave Symposium (IMS 2025)"
 session: "Workshop on FR2 OAI, ORAN, and Dynamic RIS Integration"
 location: "Room 206, Washington, D.C."
 time: "8:00 AM – 11:50 AM (Local) / 11:00 AM – 2:50 PM EDT"
-type: "Invited Workshop Talk"
+event_type: "Invited Workshop Talk"
 organizers:
   - Grace Ho (TMYTEK)
   - Ariel Chiang (TMYTEK)
@@ -44,13 +44,16 @@ By combining sensing and communication functions within the same mmWave infrastr
 
 ---
 
+
 📅 **Date:** Sunday, June 15 2025  
 🕗 **Time:** 8:00 AM – 11:50 AM (Local) / 11:00 AM – 2:50 PM EDT  
 🏛️ **Venue:** Room 206, Moscone Center, San Francisco, CA.  
 🔗 **Workshop Page:** [IMS 2025 Workshops](https://ims-ieee.org/technical-program/workshops?date=2025-06-15)
 📧 **Organizer Contact:** [grace_ho@tmytek.com](mailto:grace_ho@tmytek.com)
 
+
 ---
+
 
 **Dr. Yao Zheng**  
 Department of Electrical and Computer Engineering  

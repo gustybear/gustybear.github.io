@@ -3,9 +3,9 @@ title: O-RAN w/ POWDER
 type: facility
 subtype: testbed
 image:
-  filename: facility/O-RAN/x410.png
-  filename_top: facility/O-RAN/x410.png
-  filename_bottom: facility/O-RAN/x310.png
+  filename: x410.png
+  filename_top: x410.png
+  filename_bottom: x310.png
   caption: Ettus USRP X410
   focal_point: Smart
 date: 2025-09-01T04:14:54-08:00
@@ -13,7 +13,6 @@ authors:
   - yao-zheng
   - thomas-yang
 ---
-![](facility/O-RAN/x410.png)
 
 ## Equipment
 - 1 Ettus USRP X410, 1 MHz - 7.2 GHz, 400 MHz Bandwidth, 4 TX / 4 RX
@@ -41,11 +40,11 @@ From [POWDER's website](https://powderwireless.net/use),
 >   - RF monitoring using GNU Radio
 >   - Designation as an FCC Innovation Zone.
 
-### Credits
-#### Authors
+## Credits
+### Authors
 Joe Breen and Andrew Buffmire and Jonathon Duerig and Kevin Dutt and Eric Eide and Mike Hibler and David Johnson and Sneha Kumar Kasera and Earl Lewis and Dustin Maas and Alex Orange and Neal Patwari and Daniel Reading and Robert Ricci and David Schurig and Leigh B. Stoller and Van der Merwe, Jacobus and Kirk Webb and Gary Wong.
 
-#### Title
+### Title
  POWDER : Platform for Open Wireless Data-driven Experimental
                   Research",
 "Proceedings of the 14th International Workshop on Wireless

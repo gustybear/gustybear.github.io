@@ -5,7 +5,6 @@ title: "Zachary Dela Cruz"
 role: "M.S."
 organization: "University of Hawai'i at Mānoa"
 department: "Department of Electrical Engineering"
-avatar: "media/team/zachary-dela-cruz_profile.jpg"
 status: "alumni"
 
 social:

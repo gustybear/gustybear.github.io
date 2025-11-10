@@ -5,7 +5,6 @@ title: "Marionne Millan"
 role: "M.S., joined Raytheon Technologies"
 organization: "University of Hawai'i at Mānoa"
 department: "Department of Electrical Engineering"
-avatar: "media/team/marionne-millan_profile.jpg"
 status: "alumni"
 
 social:

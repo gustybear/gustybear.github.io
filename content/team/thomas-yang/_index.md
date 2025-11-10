@@ -5,7 +5,6 @@ title: "Thomas Yang"
 role: "RF Software Test Engineer"
 organization: "University of Hawai'i at Mānoa"
 department: "Department of Electrical and Computer Engineering"
-avatar: "media/team/tyang_profile.jpg"
 status: "student"
 
 social:

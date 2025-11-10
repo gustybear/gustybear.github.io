@@ -28,17 +28,24 @@
             {{ if eq .Params.subtype "testbed" }}
               {{ $imageUrlTop := "" }}
               {{ $imageUrlBottom := "" }}
+              {{ $page := . }}
               {{ with .Params.image }}
                 {{ $topFilename := .filename_top | default .filename }}
                 {{ $bottomFilename := .filename_bottom | default .filename }}
                 {{ with $topFilename }}
-                  {{ $topResource := resources.Get (printf "media/%s" .) }}
+                  {{ $topResource := $page.Resources.GetMatch . }}
+                  {{ if not $topResource }}
+                    {{ $topResource = resources.Get (printf "media/%s" .) }}
+                  {{ end }}
                   {{ if $topResource }}
                     {{ $imageUrlTop = $topResource.RelPermalink }}
                   {{ end }}
                 {{ end }}
                 {{ with $bottomFilename }}
-                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
+                  {{ $bottomResource := $page.Resources.GetMatch . }}
+                  {{ if not $bottomResource }}
+                    {{ $bottomResource = resources.Get (printf "media/%s" .) }}
+                  {{ end }}
                   {{ if $bottomResource }}
                     {{ $imageUrlBottom = $bottomResource.RelPermalink }}
                   {{ end }}
@@ -78,17 +85,24 @@
             {{ if eq .Params.subtype "tool" }}
               {{ $imageUrlTop := "" }}
               {{ $imageUrlBottom := "" }}
+              {{ $page := . }}
               {{ with .Params.image }}
                 {{ $topFilename := .filename_top | default .filename }}
                 {{ $bottomFilename := .filename_bottom | default .filename }}
                 {{ with $topFilename }}
-                  {{ $topResource := resources.Get (printf "media/%s" .) }}
+                  {{ $topResource := $page.Resources.GetMatch . }}
+                  {{ if not $topResource }}
+                    {{ $topResource = resources.Get (printf "media/%s" .) }}
+                  {{ end }}
                   {{ if $topResource }}
                     {{ $imageUrlTop = $topResource.RelPermalink }}
                   {{ end }}
                 {{ end }}
                 {{ with $bottomFilename }}
-                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
+                  {{ $bottomResource := $page.Resources.GetMatch . }}
+                  {{ if not $bottomResource }}
+                    {{ $bottomResource = resources.Get (printf "media/%s" .) }}
+                  {{ end }}
                   {{ if $bottomResource }}
                     {{ $imageUrlBottom = $bottomResource.RelPermalink }}
                   {{ end }}

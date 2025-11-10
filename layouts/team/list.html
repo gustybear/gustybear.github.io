@@ -9,7 +9,7 @@
     <!-- Header Section -->
     <div class="team-header">
       <h1 class="team-main-title">Team</h1>
-      <p class="team-subtitle">A diverse group of individuals bringing together a breadth of skills and experience</p>
+      <p class="team-subtitle">We boldly go where no waveform has gone before — turning coffee into coherent beams, debugging at warp speed, and occasionally achieving “beamforming perfection” right before the deadline.</p>
     </div>
 
     <!-- Current Students Section -->
@@ -22,19 +22,11 @@
             <a href="{{ .RelPermalink }}" class="member-link">
               <div class="member-image-container">
                 <div class="image-frame">
-                  {{ with .Params.avatar }}
-                    {{ $image := resources.GetMatch . }}
-                    {{ if not $image }}
-                      {{ $image = resources.Get . }}
-                    {{ end }}
-                    {{ if $image }}
-                      {{ $processed := $image.Fill "300x300 Center" }}
-                      <img src="{{ $processed.RelPermalink }}" alt="{{ $.Title }}" class="member-image">
-                    {{ else }}
-                      <div class="member-image-placeholder">
-                        <i class="fas fa-user fa-3x" style="color: #ccc;"></i>
-                      </div>
-                    {{ end }}
+                  {{ $page := . }}
+                  {{ $image := $page.Resources.GetMatch "avatar.*" }}
+                  {{ if $image }}
+                    {{ $processed := $image.Fill "300x300 Center" }}
+                    <img src="{{ $processed.RelPermalink }}" alt="{{ $page.Title }}" class="member-image">
                   {{ else }}
                     <div class="member-image-placeholder">
                       <i class="fas fa-user fa-3x" style="color: #ccc;"></i>
@@ -84,19 +76,11 @@
             <a href="{{ .RelPermalink }}" class="member-link">
               <div class="member-image-container">
                 <div class="image-frame">
-                  {{ with .Params.avatar }}
-                    {{ $image := resources.GetMatch . }}
-                    {{ if not $image }}
-                      {{ $image = resources.Get . }}
-                    {{ end }}
-                    {{ if $image }}
-                      {{ $processed := $image.Fill "300x300 Center" }}
-                      <img src="{{ $processed.RelPermalink }}" alt="{{ $.Title }}" class="member-image">
-                    {{ else }}
-                      <div class="member-image-placeholder">
-                        <i class="fas fa-user fa-3x" style="color: #ccc;"></i>
-                      </div>
-                    {{ end }}
+                  {{ $page := . }}
+                  {{ $image := $page.Resources.GetMatch "avatar.*" }}
+                  {{ if $image }}
+                    {{ $processed := $image.Fill "300x300 Center" }}
+                    <img src="{{ $processed.RelPermalink }}" alt="{{ $page.Title }}" class="member-image">
                   {{ else }}
                     <div class="member-image-placeholder">
                       <i class="fas fa-user fa-3x" style="color: #ccc;"></i>

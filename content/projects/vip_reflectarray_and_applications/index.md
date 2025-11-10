@@ -7,6 +7,7 @@ subtitle: "Vertically Integrated Project (VIP), Spring 2025 - present"
 summary: "This VIP project aims to investigate the fundamental principles of reflectarray operation, develop novel reflectarray architectures and control algorithms, and explore their application in a wide range of wireless communication, sensing, energy transfer, and security scenarios."
 
 tags:
+- active vip project
 - reflectarray
 - communication
 - sensing
@@ -14,7 +15,6 @@ tags:
 - wireless charging
 - recent project
 - active project
-- active vip project
 
 date: 2024-12-10T00:00:00-10:00
 

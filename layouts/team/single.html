@@ -28,19 +28,10 @@
       <div class="profile-card text-center">
         <!-- Avatar -->
         <div class="avatar-container mb-4">
-          {{ with .Params.avatar }}
-            {{ $image := resources.GetMatch . }}
-            {{ if not $image }}
-              {{ $image = resources.Get . }}
-            {{ end }}
-            {{ with $image }}
-              {{ $processed := .Fill "300x300 Center" }}
-              <img src="{{ $processed.RelPermalink }}" class="profile-avatar" alt="{{ $.Title }}">
-            {{ else }}
-              <div class="avatar-placeholder">
-                <i class="fas fa-user fa-5x"></i>
-              </div>
-            {{ end }}
+          {{ $image := $.Resources.GetMatch "avatar.*" }}
+          {{ if $image }}
+            {{ $processed := $image.Fill "300x300 Center" }}
+            <img src="{{ $processed.RelPermalink }}" class="profile-avatar" alt="{{ $.Title }}">
           {{ else }}
             <div class="avatar-placeholder">
               <i class="fas fa-user fa-5x"></i>

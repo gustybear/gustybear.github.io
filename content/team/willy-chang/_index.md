@@ -5,7 +5,6 @@ title: "Willy Chang"
 role: "B.S. OGS, M.S., join Microsoft Corporation"
 organization: "University of Hawai'i at Mānoa"
 department: "Department of Electrical Engineering"
-avatar: "media/team/willy-chang_profile.png"
 status: "alumni"
 
 social:

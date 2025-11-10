@@ -3,7 +3,7 @@ title: "DoD-NSF: RIS-Assisted Integrated Sensing and Communication (ISAC) for Dr
 date: 2025-04-10
 conference: "NSF–DoD Workshop on Integrated Sensing and Communication (ISAC)"
 location: "George Mason University, Fairfax, VA"
-type: "Invited Workshop Presentation"
+event_type: "Invited Workshop Presentation"
 session: "Applied ISAC: Dual-Use Scenarios in Defense and Health"
 speaker: "Dr. Yao Zheng, University of Hawai‘i at Mānoa"
 coauthor: "Prof. Victor Lubecke, University of Hawai‘i at Mānoa"

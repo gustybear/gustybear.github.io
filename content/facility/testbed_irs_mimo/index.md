@@ -3,9 +3,9 @@ title: IRS 2x2 MIMO @ 28 GHz
 type: facility
 subtype: testbed
 image:
-  filename: facility/IRS-MIMO-28GHz/MIMO_Setup_Wide.png
-  filename_top: facility/IRS-MIMO-28GHz/MIMO_Setup_Wide.png
-  filename_bottom: facility/IRS-MIMO-28GHz/MIMO_experiment.png
+  filename: MIMO_Setup_Wide.png
+  filename_top: MIMO_Setup_Wide.png
+  filename_bottom: MIMO_experiment.png
   caption: Experimental Setup to create multipaths for diverse communication
   focal_point: Smart
 date: 2025-05-19T04:14:54-08:00
@@ -14,7 +14,6 @@ authors:
   - alvin-yang
   - yao-zheng
 ---
-![](facility/IRS-MIMO-28GHz/MIMO_Setup_Wide.png)
 ## Equipment
 - 2 Mi-Wave Omni-Directional Antennas, 26.4GHz – 40GHz Operating Frequency, Model# 267A-599
 - 1 TMYTEK Horn Antenna, Dual-Polarization, 15-19 dBi Gain, 25-31 GHz Operating Frequency

@@ -4,8 +4,8 @@ date: 2025-06-06
 venue: "USDA ARS Pacific Basin Agricultural Research Center (PBARC)"
 location: "64 Nowelo Street, Hilo, HI 96720"
 host: "Dr. Matthew Siderhurst, USDA ARS PBARC"
-speaker: "Dr. Yao Zheng, University of Hawai‘i at Mānoa"
-type: "Invited Seminar"
+speaker: "Dr. Yao Zheng, University of Hawai'i at Mānoa"
+event_type: "Invited Seminar"
 ---
 
 ## Abstract
