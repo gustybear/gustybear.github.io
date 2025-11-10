@@ -15,16 +15,21 @@ speaker: "Dr. Yao Zheng, University of Hawai‘i at Mānoa"
 link: "https://ims-ieee.org/technical-program/workshops?date=2025-06-15"
 ---
 
-## Abstract
+# Executive Summary
+
 This talk is part of the IMS 2025 Workshop exploring the **integration of FR1/mmWave (FR2) OpenAirInterface (OAI)** with advanced technologies such as **O-RAN, MIMO, and Reconfigurable Intelligent Surfaces (RIS)**.  
 Dr. Zheng’s presentation focuses on the **Integration of Sensing and Communication (ISAC)** for **physiological motion monitoring** using FR2 systems.
 
 The session will introduce the use of **TMYTEK frequency converters and beamformers** with **FR2 OAIBOX** to demonstrate **vital-sign detection** and **non-contact sensing** applications in healthcare, smart building monitoring, and energy efficiency.  
 By combining sensing and communication functions within the same mmWave infrastructure, this work illustrates a pathway toward **multi-purpose, intelligent 6G systems**.
 
----
+📅 **Date:** Sunday, June 15 2025  
+🕗 **Time:** 8:00 AM – 11:50 AM (Local) / 11:00 AM – 2:50 PM EDT  
+🏛️ **Venue:** Room 206, Moscone Center, San Francisco, CA.  
+🔗 **Workshop Page:** [IMS 2025 Workshops](https://ims-ieee.org/technical-program/workshops?date=2025-06-15)
+📧 **Organizer Contact:** [grace_ho@tmytek.com](mailto:grace_ho@tmytek.com)
 
-## Workshop Overview
+# Workshop Overview
 **Title:** *FR2 OAI, ORAN, and Dynamic RIS for High-Frequency Networks*  
 **Key Themes:**
 - FR2 OAI with RIS for network enhancement  
@@ -32,9 +37,8 @@ By combining sensing and communication functions within the same mmWave infrastr
 - Beam management & resource allocation  
 - Global and inclusive research perspectives (academia, industry, government)
 
----
 
-## Agenda Highlights
+# Agenda Highlights
 | **Speaker** | **Topic** | **Duration** |
 |--------------|------------|---------------|
 | Ethan Lin (TMYTEK) | *Integrating FR2 OAI & Dynamic RIS for Network Optimization* | 40 min |
