@@ -5,9 +5,15 @@
   <!-- Font Awesome for social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <style>
-    /* Force light mode background by default */
+    /* Force light mode background and text colors by default */
     body {
       background-color: #ffffff !important;
+      color: #333 !important;
+    }
+    
+    body h1, body h2, body h3, body h4, body h5, body h6,
+    body p, body span, body div, body li, body a {
+      color: #333 !important;
     }
     
     /* Light mode navbar text color */
@@ -27,6 +33,12 @@
     /* Dark mode override */
     html.dark body {
       background-color: #0a0a0a !important;
+      color: #e0e0e0 !important;
+    }
+    
+    html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
+    html.dark p, html.dark span, html.dark div, html.dark li, html.dark a {
+      color: #e0e0e0 !important;
     }
     
     html.dark header,
