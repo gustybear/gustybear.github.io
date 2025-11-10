@@ -5,9 +5,9 @@ subtitle: "x96 Project, Spring 2026 - present"
 summary: "Hands-on introduction to embedded and wireless systems using the Pico platform. Students design small prototypes integrating sensors, hardware, and software, building skills for advanced VIP and capstone projects in automation and intelligent sensing."
 
 image:
-  filename: projects/pico/pico-featured.png
-  filename_top: projects/pico/pico-featured-top.png
-  filename_bottom: projects/pico/pico-featured-bottom.png
+  filename: pico-featured.png
+  filename_top: pico-featured-top.png
+  filename_bottom: pico-featured-bottom.png
   focal_point: Smart
 
 date: 2025-10-29T04:14:54-08:00
@@ -48,7 +48,7 @@ links:
     url: ./projects/x296_intro_ceng_pico/#logistics
 ---
 
-![](projects/pico/raspi-pico.png)
+![](raspi-pico.png)
 
 
 ## Executive Summary
@@ -116,4 +116,4 @@ Components will be  provided.
 
 Time Commitment: Average of 5-6 hours per week.
 
-![](projects/pico/oled-pika-cat.png)
+![Picture of two OLED screens, one of a surprised pikachu, another of a cat.](oled-pika-cat.png)

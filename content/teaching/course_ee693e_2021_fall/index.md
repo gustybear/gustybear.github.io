@@ -51,12 +51,12 @@ links:
 - name: Sample Report
   url: ./docs/reports/course_ee693e_2021_fall/week_06/01_yue/
 ---
-***
-# Executive Summary
+
+## Executive Summary
 This course focuses on selected research topics in wireless communication and sensing and is intended for undergraduate, master, and doctoral students who are interested in this field of study. At the end of this course, students will have a in-depth knowledge of the state-of-the-art and open problems, thus enhancing their potential to do research or pursue a career in this rapidly developing area. this course is structured as a research seminar and laboratory where research papers from leading conferences & journals will be presented by the instructor and students. Main topics of this iteration include the study the connections between telemedicine and IoT, mobile sensing, augmented reality, 5G, edge computing, cloud computing, and 3D-printing.
 
-***
-# Logistics {#logistics}
+
+## Logistics {#logistics}
 - **CRN**
 | EE693e |
 | ---    |
@@ -75,7 +75,7 @@ This course focuses on selected research topics in wireless communication and se
 | MW 9:00am-10:15am         | [Zoom](https://hawaii.zoom.us/j/5764842348) | See [Schedule](./project/teaching/course_ee693e_2021_fall/#schedule) | Group        | Group  |
 
 
-## Grading Policy
+### Grading Policy
 | Presentations | Reports | Discussion   |
 | ----------    | ------  | ------------ |
 | 40%           | 40%     | 20%          |
@@ -87,9 +87,8 @@ This course focuses on selected research topics in wireless communication and se
 
 - **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
 
-***
 
-# Schedule {#Schedule}
+## Schedule {#Schedule}
 
 | TIME                                                                    | TOPIC                                                  | PAPER/NOTES                                    | REPORT               | DUE              |
 | ---------                                                               | ------------------------------------------------------ | -----                                          | ---                  | ---              |
@@ -112,8 +111,9 @@ This course focuses on selected research topics in wireless communication and se
 | Week 17                                                                 | Conclusion                                             | --                                             | NA                   | NA               |
 
 
-[footnote]: # ()
 
+[footnote]: # ()
+## Footnotes
 [^1]: Students may work in teams of two or three. each team will be assigned with one paper every other week. each team needs to complete two tasks on each paper: (1) give a in-depth presentation (60 min) and answer all the questions during the q&a (15 min); (2) write a one-page (excluding citations) summary of the paper (in ieee conference format).
 
 [^2]: Students must work alone and complete the following tasks for each presentation: (1) prepare at least one relevent question for the presenter; (3) grade the presenter's presentation and report. 

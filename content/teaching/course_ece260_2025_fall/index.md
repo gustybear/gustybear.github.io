@@ -54,11 +54,11 @@ links:
   url: https://learn.zybooks.com/zybook/HAWAIIECE260ZhengFall2025
 ---
 ***
-# Executive Summary
+## Executive Summary
 This course explores the foundation of digital circuit design, starting from Boolean algebra, through combinational and sequential logic, to finite state machines and basic central processing units (CPUs) under von Neumann architecture. The associated laboratory segment introduces modern digital design techniques, e.g., Verilog hardware description language (HDL) and field-programmable gate array (FPGA), to model, implement, and test the aforementioned digital circuits. Pre: 160 or 110 or ICS 111 or consent.
 ***
 
-# Logistics {#logistics}
+## Logistics {#logistics}
 - **CRN**
 | ECE260 001 | ECE260 002 | EE260 003 |
 | ---        | ---        | ---       |
@@ -85,7 +85,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | 02      | R 16:30pm - 19:15pm | Holmes Hall 451  |  Group        |
 
 ***
-# Grading
+## Grading
 
 - **Breakdown**
 | Participation | Challenge | Labs           | Midterms (2) | Final |
@@ -105,8 +105,8 @@ This course explores the foundation of digital circuit design, starting from Boo
 - **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
 
 ***
-# Schedule
-## Lecture
+## Schedule
+### Lecture
 | TIME                         | TOPICS                                                                 | READING/HW/EXAM              | DEADLINE      |
 | ---                          | ---                                                                    | ---                          | ---           |
 | Week 1 (8/25, 8/27, 8/29)    | Course Logistic and Introduction                                       | [Read/HW 01][read 01 url]    | 8/31, 11:59PM |
@@ -131,7 +131,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 16 (12/8, 12/10)        | Review, Practice Final                                                 | --                           | --            |
 | Week 17 (12/19)              | Final: 9:45AM - 11:45AM                                                | --                           | 12/19, 11:45AM|
 
-## Laboratory
+### Laboratory
 | TIME                                 | Materials                                                      | Virtual               | DEADLINE                      |
 | ---                                  | ---                                                            | ---                   | ---                           |
 | Week 1 (8/26)                        | --                                                             | ---                   | ---                           |

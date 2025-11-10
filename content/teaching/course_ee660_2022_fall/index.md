@@ -48,11 +48,11 @@ links:
 ---
 
 ***
-# Executive Summary
+## Executive Summary
 Fundamental understanding of computer architecture is key to hardware and processor design, compilers, operating systems, and high performance programming. This course explores computer architectures and design techniques of modern microprocessors at various scales. The focus will be given to architectures that can exploit different forms of parallelism, whether they be implicit or explicit, to improve performance. A selection of topics covered by the course include multi-issue superscalar processors, out-of-order processors, Very Long Instruction Word (VLIW) processors, advanced caching, multiprocessor systems, and parallel programming.
 ***
 
-# Logistics {#logistics}
+## Logistics {#logistics}
 - **CRN**
 | EE660 001 |
 | ---   |
@@ -70,7 +70,7 @@ Fundamental understanding of computer architecture is key to hardware and proces
 |                    |                  | *Optional*: Modern Processor Design: Fundamentals of Supperscalar Processors (SL13) |            |            |
 
 ***
-## Grading Policy
+### Grading Policy
 -- **Breakdown**
 | Quiz & Assignment | Discussion & Participation |
 | ----------------  | -----------------------    |

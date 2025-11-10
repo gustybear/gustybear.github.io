@@ -46,11 +46,11 @@ links:
 ---
 
 ***
-# Executive Summary
+## Executive Summary
 Design and evaluation of machine representations, techniques and algorithms for sorting, pattern processing, computational geometry, mathematical computations, and engineering applications. Introduction to computational issues of time, space, communication, and program correctness. Pre: 367 or consent.
 ***
 
-# Logistics {#logistics}
+## Logistics {#logistics}
 - **CRN**
 | ECE602 001 |
 | ---   |
@@ -68,7 +68,7 @@ Design and evaluation of machine representations, techniques and algorithms for 
 |                    |                  | *Required*: Analytic Combinatorics |            |            |
 
 ***
-## Grading Policy
+### Grading Policy
 -- **Breakdown**
 | Quiz & Assignment | Discussion & Participation |
 | ----------------  | -----------------------    |
