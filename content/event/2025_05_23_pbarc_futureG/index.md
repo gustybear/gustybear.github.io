@@ -8,7 +8,7 @@ speaker: "Dr. Yao Zheng, University of Hawai'i at Mānoa"
 event_type: "Invited Seminar"
 ---
 
-## Executive Summary
+## 📋 Executive Summary
 This seminar will explore the realm of **future generation (FutureG) wireless communication systems**, with a specific emphasis on the revolutionary capabilities of **Reconfigurable Intelligent Surfaces (RIS)** and **Integrated Sensing and Communication (ISAC)**.  
 To illustrate the practical applications of these research areas, two significant projects from Yao’s laboratory will be highlighted:
 

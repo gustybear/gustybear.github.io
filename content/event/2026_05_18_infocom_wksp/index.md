@@ -7,7 +7,7 @@ featured: true
 link: https://infocom2026.ieee-infocom.org/workshop-integrated-sensing-and-communication-futureg-wireless-technologies-isac-futureg-call
 ---
 
-## Executive Summary
+## 📋 Executive Summary
 
 The **Workshop on Integrated Sensing and Communication (ISAC)** at **IEEE INFOCOM 2026** will serve as a premier forum to explore emerging research frontiers at the intersection of wireless communication, radar sensing, and networked intelligence.  
 This workshop aims to bring together leading researchers from academia, industry, and government to discuss **joint waveform design**, **AI-driven sensing**, **monostatic and multistatic radar systems**, **beamforming**, and **hardware-software co-design** for integrated wireless systems.

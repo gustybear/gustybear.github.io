@@ -4,6 +4,54 @@
   {{ partial "site_head" . }}
   <!-- Font Awesome for social icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    /* Ensure navbar stays above decorative bars */
+    header,
+    header nav,
+    .navbar,
+    [role="navigation"],
+    body > header {
+      position: relative;
+      z-index: 1000 !important;
+    }
+    
+    /* Force light mode background by default */
+    body {
+      background-color: #ffffff !important;
+    }
+    
+    /* Light mode navbar text color */
+    body header,
+    body nav,
+    body .navbar,
+    body [role="navigation"] {
+      color: #333 !important;
+    }
+    
+    body header a,
+    body nav a,
+    body .navbar a {
+      color: #333 !important;
+    }
+    
+    /* Dark mode override */
+    html.dark body {
+      background-color: #0a0a0a !important;
+    }
+    
+    html.dark header,
+    html.dark nav,
+    html.dark .navbar,
+    html.dark [role="navigation"] {
+      color: #e0e0e0 !important;
+    }
+    
+    html.dark header a,
+    html.dark nav a,
+    html.dark .navbar a {
+      color: #e0e0e0 !important;
+    }
+  </style>
 </head>
 <body>
   {{ partial "components/headers/navbar" . }}

@@ -92,6 +92,17 @@ sections:
       fill_image: false
       columns: 2
 
+  - block: collection
+    id: facility
+    content:
+      title: Facilities
+      filters:
+        folders: [facility]
+        # featured_only: false
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 2
 #  - block: collection
 #    id: news
 #    content:
