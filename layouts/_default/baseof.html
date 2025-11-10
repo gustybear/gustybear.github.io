@@ -30,6 +30,28 @@
       color: #333 !important;
     }
     
+    /* EXCEPTION: Hero section always has white text on green background */
+    body [class*="blox-resume-biography"] h1,
+    body [class*="blox-resume-biography"] h2,
+    body [class*="blox-resume-biography"] h3,
+    body [class*="blox-resume-biography"] h4,
+    body [class*="blox-resume-biography"] h5,
+    body [class*="blox-resume-biography"] h6,
+    body [class*="blox-resume-biography"] p,
+    body [class*="blox-resume-biography"] span,
+    body [class*="blox-resume-biography"] div,
+    body [class*="blox-resume-biography"] li {
+      color: white !important;
+    }
+    
+    body [class*="blox-resume-biography"] a {
+      color: #6ee7b7 !important;
+    }
+    
+    body [class*="blox-resume-biography"] a:hover {
+      color: #86efac !important;
+    }
+    
     /* Dark mode override */
     html.dark body {
       background-color: #0a0a0a !important;
@@ -52,6 +74,28 @@
     html.dark nav a,
     html.dark .navbar a {
       color: #e0e0e0 !important;
+    }
+    
+    /* EXCEPTION: Hero section in dark mode also has white text */
+    html.dark [class*="blox-resume-biography"] h1,
+    html.dark [class*="blox-resume-biography"] h2,
+    html.dark [class*="blox-resume-biography"] h3,
+    html.dark [class*="blox-resume-biography"] h4,
+    html.dark [class*="blox-resume-biography"] h5,
+    html.dark [class*="blox-resume-biography"] h6,
+    html.dark [class*="blox-resume-biography"] p,
+    html.dark [class*="blox-resume-biography"] span,
+    html.dark [class*="blox-resume-biography"] div,
+    html.dark [class*="blox-resume-biography"] li {
+      color: white !important;
+    }
+    
+    html.dark [class*="blox-resume-biography"] a {
+      color: #6ee7b7 !important;
+    }
+    
+    html.dark [class*="blox-resume-biography"] a:hover {
+      color: #86efac !important;
     }
   </style>
 </head>
