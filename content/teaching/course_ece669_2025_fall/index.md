@@ -119,7 +119,3 @@ By the end of the course, students will:
 - **Hardware:** USRP SDRs, TMYTEK BBox beamformers, Liquid-Metal RIS testbed  
 - **Readings:** O-RAN Alliance Tech Reports, IEEE JSAC/TWC/MTT, 6G whitepapers on ISAC & RIS  
 
-
----
-
-*University of Hawai‘i at Mānoa – Department of Electrical and Computer Engineering*

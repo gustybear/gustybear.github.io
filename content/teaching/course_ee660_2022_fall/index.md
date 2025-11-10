@@ -47,10 +47,8 @@ links:
 # url: ./docs/assignments/course_ee660_2021_fall/week_13/assignment/
 ---
 
-***
 ## Executive Summary
 Fundamental understanding of computer architecture is key to hardware and processor design, compilers, operating systems, and high performance programming. This course explores computer architectures and design techniques of modern microprocessors at various scales. The focus will be given to architectures that can exploit different forms of parallelism, whether they be implicit or explicit, to improve performance. A selection of topics covered by the course include multi-issue superscalar processors, out-of-order processors, Very Long Instruction Word (VLIW) processors, advanced caching, multiprocessor systems, and parallel programming.
-***
 
 ## Logistics {#logistics}
 - **CRN**
@@ -69,7 +67,6 @@ Fundamental understanding of computer architecture is key to hardware and proces
 | MW 13:30pm-14:45pm | Holmes Hall 389  | *Required*: Computer Architecture: A Quantitative Approach (5th Edition) (PH11)     | Individual | Team       |
 |                    |                  | *Optional*: Modern Processor Design: Fundamentals of Supperscalar Processors (SL13) |            |            |
 
-***
 ### Grading Policy
 -- **Breakdown**
 | Quiz & Assignment | Discussion & Participation |
@@ -83,7 +80,6 @@ Fundamental understanding of computer architecture is key to hardware and proces
 
 - **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
 
-***
 ## Schedule
 
 | TIME                     | TOPIC                                                  | LECTURE                                         | READING                                | Quiz                   | ASSG  | DUE  |

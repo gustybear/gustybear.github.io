@@ -53,10 +53,9 @@ links:
 - name: Textbook
   url: https://learn.zybooks.com/zybook/HAWAIIECE260ZhengFall2025
 ---
-***
+
 ## Executive Summary
 This course explores the foundation of digital circuit design, starting from Boolean algebra, through combinational and sequential logic, to finite state machines and basic central processing units (CPUs) under von Neumann architecture. The associated laboratory segment introduces modern digital design techniques, e.g., Verilog hardware description language (HDL) and field-programmable gate array (FPGA), to model, implement, and test the aforementioned digital circuits. Pre: 160 or 110 or ICS 111 or consent.
-***
 
 ## Logistics {#logistics}
 - **CRN**
@@ -84,7 +83,6 @@ This course explores the foundation of digital circuit design, starting from Boo
 | 02      | R 13:30pm - 16:15pm | Holmes Hall 451  |  Group        |
 | 02      | R 16:30pm - 19:15pm | Holmes Hall 451  |  Group        |
 
-***
 ## Grading
 
 - **Breakdown**
@@ -104,7 +102,6 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 - **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
 
-***
 ## Schedule
 ### Lecture
 | TIME                         | TOPICS                                                                 | READING/HW/EXAM              | DEADLINE      |
@@ -152,7 +149,6 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 16 (12/9)                       | --                                                             |  --                   | --                            |
 | Week 17 (12/16)                       | --                                                            |  --                   | --                            |
 
-***
 
 [recording urls]: # (recording urls)
 [recording 0113 url]: https://youtu.be/RtppPuw2Thw
