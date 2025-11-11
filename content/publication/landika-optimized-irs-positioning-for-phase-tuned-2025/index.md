@@ -5,7 +5,7 @@ title: 'Optimized IRS Positioning for Phase-Tuned Wireless Physiological Motion 
 subtitle: ''
 summary: ''
 authors:
-- Denny Vishnu Puri Landika
+- Denny Landika
 - Mohammad Shadman Ishrak
 - Haofan Cai
 - Alvin Yang
