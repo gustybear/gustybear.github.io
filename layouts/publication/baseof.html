@@ -16,6 +16,20 @@
       color: #333 !important;
     }
     
+    /* Exception: Article content and TOC headings should be green */
+    .article-content h1,
+    .article-content h2,
+    .article-content h3,
+    .article-content h4,
+    .article-content h5,
+    .article-content h6 {
+      color: #1a5f4f !important;
+    }
+    
+    .article-toc h4 {
+      color: #1a5f4f !important;
+    }
+    
     /* Regular links dark in light mode, but with exceptions */
     body a {
       color: #333 !important;
@@ -63,6 +77,20 @@
     html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6,
     html.dark p, html.dark span, html.dark div, html.dark li {
       color: #e0e0e0 !important;
+    }
+    
+    /* Exception: Article content and TOC headings should be green in dark mode */
+    html.dark .article-content h1,
+    html.dark .article-content h2,
+    html.dark .article-content h3,
+    html.dark .article-content h4,
+    html.dark .article-content h5,
+    html.dark .article-content h6 {
+      color: #6ee7b7 !important;
+    }
+    
+    html.dark .article-toc h4 {
+      color: #6ee7b7 !important;
     }
     
     /* Regular links light in dark mode, but with exceptions */
