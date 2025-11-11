@@ -15,7 +15,7 @@ tags:
 - journal
 categories: []
 date: '2025-11-10'
-lastmod: 2025-11-10T17:38:00-00:00
+publishDate: '2025-11-10T03:30:00.000000Z'
 featured: false
 draft: false
 
