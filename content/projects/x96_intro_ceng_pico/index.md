@@ -45,25 +45,25 @@ links:
 #  name: Follow
 #  url: https://twitter.com/georgecushen
   - name: CRN
-    url: ./projects/x296_intro_ceng_pico/#logistics
+    url: ./projects/x96_intro_ceng_pico/#logistics
 ---
 
 ![](raspi-pico.png)
 
 
 ## Executive Summary
-ECE 296 introduces students to hands-on Computer Engineering (CENG) projects through the Pico platform. Students learn fundamentals of embedded systems, sensors, and wireless communication while designing small-scale prototypes that integrate hardware and software. The course emphasizes practical experimentation, teamwork, and iterative design—preparing students for advanced VIP and capstone projects in automation, robotics, and intelligent sensing systems.
+This project course introduces students to hands-on Computer Engineering (CENG) projects through the Pico platform. Students learn fundamentals of embedded systems, sensors, and wireless communication while designing small-scale prototypes that integrate hardware and software. The course emphasizes practical experimentation, teamwork, and iterative design—preparing students for advanced VIP and capstone projects in automation, robotics, and intelligent sensing systems.
 
 ## Logistics {#logistics}
 - **CRN**
-| Semester    | ECE 296   | 
-| ---         | ---       | 
-| Spring 2025 | 86945     | 
+| Semester    | ECE 196   |  ECE 296 |
+| ---         | ---       |  ---     |
+| Spring 2026 | 86916     |  86945   |
 
 - **Personnel**
 | Advisor                                                                                                                          | Office Hours                |
 | ----                                                                                                                             | ---                         |
-| {{< spoiler text="Yao Zheng">}} Email yao.zheng@hawaii.edu with ''[x296 R-Pi Pico W]'' in the subject line.{{< /spoiler >}}  | [See here](https://calendly.com/yaozheng-hawaii/30min) |
+| {{< spoiler text="Yao Zheng">}} Email yao.zheng@hawaii.edu with ''[x96 R-Pi Pico W]'' in the subject line.{{< /spoiler >}}  | [See here](https://calendly.com/yaozheng-hawaii/30min) |
 | Galen Sasaki                        | N/A |
 
 - **Meeting**:
