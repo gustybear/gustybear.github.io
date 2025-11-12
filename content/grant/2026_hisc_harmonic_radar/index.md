@@ -25,6 +25,7 @@ tags:
 authors:
 - Yao Zheng
 - Haofan Cai
+- Daniel M. Jenkins
 
 summary: "＄60,000, PI"
 
