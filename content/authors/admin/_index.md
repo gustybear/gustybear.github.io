@@ -40,6 +40,8 @@ profiles:
     link: https://scholar.google.com/citations?user=0nk3blkAAAAJ&hl=en
   - icon: brands/github
     link: https://github.com/gustybear-research
+  - icon: custom/bitcoin
+    link: bitcoin:YOUR_BITCOIN_ADDRESS_HERE
   - icon: at-symbol
     link: mailto:yao.zheng@hawaii.edu
 

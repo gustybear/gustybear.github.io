@@ -34,6 +34,28 @@
       color: #333 !important;
     }
     
+    /* Theme toggle button - light mode */
+    button[aria-label*="theme" i],
+    button[aria-label*="dark" i],
+    button[aria-label*="light" i],
+    .theme-toggle,
+    [data-toggle="theme"] {
+      background-color: transparent !important;
+      color: black !important;
+      border: none !important;
+    }
+    
+    button[aria-label*="theme" i] svg,
+    button[aria-label*="dark" i] svg,
+    button[aria-label*="light" i] svg,
+    .theme-toggle svg,
+    [data-toggle="theme"] svg {
+      fill: none !important;
+      color: black !important;
+      stroke: black !important;
+      stroke-width: 2px !important;
+    }
+    
     /* Dark mode override */
     html.dark body {
       background-color: #0a0a0a !important;
@@ -50,6 +72,28 @@
     html.dark nav a,
     html.dark .navbar a {
       color: #e0e0e0 !important;
+    }
+    
+    /* Theme toggle button - dark mode */
+    html.dark button[aria-label*="theme" i],
+    html.dark button[aria-label*="dark" i],
+    html.dark button[aria-label*="light" i],
+    html.dark .theme-toggle,
+    html.dark [data-toggle="theme"] {
+      background-color: transparent !important;
+      color: white !important;
+      border: none !important;
+    }
+    
+    html.dark button[aria-label*="theme" i] svg,
+    html.dark button[aria-label*="dark" i] svg,
+    html.dark button[aria-label*="light" i] svg,
+    html.dark .theme-toggle svg,
+    html.dark [data-toggle="theme"] svg {
+      fill: none !important;
+      color: white !important;
+      stroke: white !important;
+      stroke-width: 2px !important;
     }
   </style>
 </head>
