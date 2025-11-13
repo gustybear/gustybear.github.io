@@ -2,7 +2,7 @@
 type: "team"
 layout: "single"
 title: "Jannatun Noor Sameera"
-role: "Ph.D. Candidate"
+role: "Ph.D., TA of EE260"
 organization: "University of Hawai'i at Mānoa"
 department: "Department of Electrical Engineering"
 status: "student"
