@@ -16,7 +16,7 @@ authors:
 - Yao Zheng
 
 tags:
-- futureg
+- futureG
 - 6g
 - o-ran
 - open ran

@@ -7,7 +7,7 @@ subtitle: "Vertically Integrated Project (VIP), Spring 2022 - present"
 summary: "This VIP project aims to develop mmWave communication systems with integrated radar sensing functionality in cellular networks and Wi-Fi networks for drone detection, physiological sensing, smart RAN, etc."
 
 tags:
-- active vip project
+- vip project
 - integrated sensing and communication
 - drone detection
 - physiological sensing
