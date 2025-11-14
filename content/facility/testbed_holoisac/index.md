@@ -1,5 +1,5 @@
 ---
-title: IRS 2x2 MIMO @ 28 GHz
+title: Holographic Beamforming Integrated Sensing and Communication Testbed (HoloBeam-ISAC)
 type: facility
 subtype: testbed
 image:

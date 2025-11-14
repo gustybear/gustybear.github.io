@@ -1,5 +1,5 @@
 ---
-title: O-RAN w/ POWDER 
+title: Artificial Intelligence Radio Access Network (AI-RAN) 
 type: facility
 subtype: testbed
 image:
