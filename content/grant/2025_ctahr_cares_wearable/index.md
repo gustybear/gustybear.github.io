@@ -5,14 +5,14 @@ date: 2025-11-07T00:00:00-10:00
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
 tags:
-- cta hr
-- cattle
 - wearable sensors
+- cattle
 - sweat sensing
 - heat stress
 - metabolomics
 - climate resilience
 - precision livestock
+- ctahr
 - active grant
 - copi-role
 
