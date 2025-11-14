@@ -95,6 +95,54 @@
       stroke: white !important;
       stroke-width: 2px !important;
     }
+    
+    /* Fix card size when only 1 item in grid - for HugoBlox collection blocks */
+    section[class*="collection"] .row,
+    section[class*="collection"] .grid,
+    section[class*="collection"] > div > div,
+    .article-grid .grid,
+    .article-grid > div,
+    [class*="col-"].row,
+    .container .row {
+      display: grid !important;
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 1.5rem !important;
+      width: 100% !important;
+      margin: 0 !important;
+    }
+    
+    section[class*="collection"] .row > *,
+    section[class*="collection"] .grid > *,
+    section[class*="collection"] > div > div > *,
+    .article-grid .grid > *,
+    .article-grid > div > *,
+    .container .row > * {
+      min-width: 0 !important;
+      max-width: 100% !important;
+      width: 100% !important;
+      flex: none !important;
+    }
+    
+    /* Force card width for single items */
+    section[class*="collection"] article,
+    section[class*="collection"] .card,
+    [class*="col-12"] {
+      width: 100% !important;
+      max-width: 100% !important;
+      flex-basis: 100% !important;
+    }
+    
+    @media (max-width: 768px) {
+      section[class*="collection"] .row,
+      section[class*="collection"] .grid,
+      section[class*="collection"] > div > div,
+      .article-grid .grid,
+      .article-grid > div,
+      [class*="col-"].row,
+      .container .row {
+        grid-template-columns: 1fr !important;
+      }
+    }
   </style>
 </head>
 <body>

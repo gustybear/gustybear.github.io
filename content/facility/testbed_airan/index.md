@@ -12,14 +12,16 @@ date: 2025-09-01T04:14:54-08:00
 authors:  
   - yao-zheng
   - thomas-yang
+tags:
+  - testbed
 ---
 
-## Equipment
+# Equipment
 - 1 Ettus USRP X410, 1 MHz - 7.2 GHz, 400 MHz Bandwidth, 4 TX / 4 RX
 - 1 Ettus USRP X310, 10 MHz - 6 GHz, 160 MHz Bandwidth, 2 TX / 2 RX
 - 2 High Performance Ubuntu Servers w/ iPass+ zHD PCIe interface
 
-## POWDER
+# POWDER
 From [POWDER's website](https://powderwireless.net/use),
 >Powder is a highly flexible, remotely accessible, end-to-end software defined platform supporting a broad range of wireless and mobile related research. (Paper providing an overview of the Powder platform.)
 >
@@ -41,10 +43,10 @@ From [POWDER's website](https://powderwireless.net/use),
 >   - Designation as an FCC Innovation Zone.
 
 ## Credits
-### Authors
+## Authors
 Joe Breen and Andrew Buffmire and Jonathon Duerig and Kevin Dutt and Eric Eide and Mike Hibler and David Johnson and Sneha Kumar Kasera and Earl Lewis and Dustin Maas and Alex Orange and Neal Patwari and Daniel Reading and Robert Ricci and David Schurig and Leigh B. Stoller and Van der Merwe, Jacobus and Kirk Webb and Gary Wong.
 
-### Title
+## Title
  POWDER : Platform for Open Wireless Data-driven Experimental
                   Research",
 "Proceedings of the 14th International Workshop on Wireless

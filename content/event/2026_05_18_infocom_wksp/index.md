@@ -7,7 +7,7 @@ featured: true
 link: https://infocom2026.ieee-infocom.org/workshop-integrated-sensing-and-communication-futureg-wireless-technologies-isac-futureg-call
 ---
 
-## Executive Summary
+# Executive Summary
 
 The **Workshop on Integrated Sensing and Communication (ISAC)** at **IEEE INFOCOM 2026** will serve as a premier forum to explore emerging research frontiers at the intersection of wireless communication, radar sensing, and networked intelligence.  
 This workshop aims to bring together leading researchers from academia, industry, and government to discuss **joint waveform design**, **AI-driven sensing**, **monostatic and multistatic radar systems**, **beamforming**, and **hardware-software co-design** for integrated wireless systems.
@@ -16,7 +16,7 @@ This workshop aims to bring together leading researchers from academia, industry
 📍 **Location:** Tokyo, Japan (In-Person)  
 🌐 **Workshop Website:** [Workshop on Integrated Sensing and Communication in FutureG Wireless Technologies](https://infocom2026.ieee-infocom.org/workshop-integrated-sensing-and-communication-futureg-wireless-technologies-isac-futureg-call)
 
-## Topics of Interest
+# Topics of Interest
 
 - Joint communication and sensing waveform design  
 - Beamforming and MIMO signal processing for ISAC  
@@ -28,7 +28,7 @@ This workshop aims to bring together leading researchers from academia, industry
 - Hardware design and testbed experimentation  
 - ISAC standardization and practical implementations  
 
-## Organizing Committee
+# Organizing Committee
 
 **General Co-Chairs**  
 - Yao Zheng, University of Hawaiʻi at Mānoa, USA  
@@ -45,7 +45,7 @@ This workshop aims to bring together leading researchers from academia, industry
 
 ---
 
-## Important Dates
+# Important Dates
 
 | Event | Date |
 |:--|:--|
@@ -56,7 +56,7 @@ This workshop aims to bring together leading researchers from academia, industry
 
 All accepted papers will be **included in IEEE Xplore** and indexed in major databases.
 
-## Contact
+# Contact
 
 For questions, please contact the organizers at:  
 📧 [infocom2026isac@gmail.com](mailto:infocom2026isac@gmail.com)

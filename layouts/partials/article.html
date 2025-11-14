@@ -178,6 +178,53 @@
   line-height: 1.4;
 }
 
+/* H1 items (top level) - bold, no marker */
+.article-toc nav > ul > li > a {
+  font-weight: 700;
+}
+
+/* H2 items - bullet point • */
+.article-toc nav > ul > li > ul > li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* H3 items - dash - */
+.article-toc nav > ul > li > ul > li > ul > li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.article-toc nav > ul > li > ul > li > ul > li:before {
+  content: "– ";
+  margin-left: -15px;
+  padding-right: 5px;
+}
+
+/* H4 items - bullet point • */
+.article-toc nav > ul > li > ul > li > ul > li > ul > li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* H5 items - dash - */
+.article-toc nav > ul > li > ul > li > ul > li > ul > li > ul > li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.article-toc nav > ul > li > ul > li > ul > li > ul > li > ul > li:before {
+  content: "– ";
+  margin-left: -15px;
+  padding-right: 5px;
+}
+
+/* H6 items - bullet point • */
+.article-toc nav > ul > li > ul > li > ul > li > ul > li > ul > li > ul > li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
 .article-toc nav ul ul {
   margin-left: 15px;
   margin-top: 5px;
@@ -253,7 +300,8 @@
 }
 
 .article-content h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  font-weight: bold;
   color: #1a5f4f;
   margin-top: 2rem;
   margin-bottom: 1rem;

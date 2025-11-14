@@ -100,14 +100,14 @@ animals that remain resilient under extreme conditions.
 temperature sensing** with **metabolomics** and **microbiome** data to quantify
 heat stress and heat resistance in cattle.
 
-## Objective 1 – Characterize Heat Stress Physiology
+# Objective 1 – Characterize Heat Stress Physiology
 
 - Relate **sweating rate**, internal body temperature, and movement patterns to
   **environmental conditions** (THI, day/night cycles, seasonal variation)  
 - Capture how **apocrine sweat glands** in cattle respond under different levels
   of heat load  
 
-## Objective 2 – Identify Molecular Biomarkers
+# Objective 2 – Identify Molecular Biomarkers
 
 - Perform **sweat metabolomics** to identify compounds associated with heat
   stress vs. heat resistance  
@@ -116,7 +116,7 @@ heat stress and heat resistance in cattle.
   **mitochondrial ATP-related gene expression** as potential indicators of
   chronic heat load  
 
-## Objective 3 – Enable Climate-Resilient Cattle Selection
+# Objective 3 – Enable Climate-Resilient Cattle Selection
 
 - Integrate physiological and molecular data to identify **candidate biomarkers
   and genetic markers** of heat stress and heat resistance  

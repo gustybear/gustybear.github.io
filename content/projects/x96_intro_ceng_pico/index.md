@@ -51,10 +51,10 @@ links:
 ![](./images/raspi-pico.png)
 
 
-## Executive Summary
+# Executive Summary
 This project course introduces students to hands-on Computer Engineering (CENG) projects through the Pico platform. Students learn fundamentals of embedded systems, sensors, and wireless communication while designing small-scale prototypes that integrate hardware and software. The course emphasizes practical experimentation, teamwork, and iterative design—preparing students for advanced VIP and capstone projects in automation, robotics, and intelligent sensing systems.
 
-## Logistics {#logistics}
+# Logistics {#logistics}
 - **CRN**
 | Semester    | ECE 196   |  ECE 296 |
 | ---         | ---       |  ---     |
@@ -72,7 +72,7 @@ This project course introduces students to hands-on Computer Engineering (CENG) 
 | T 11:00am - 12:00am  | HH488       |
 
 
-## Learning Objectives
+# Learning Objectives
 * Enhance their Python programming skills through practical applications.
 * Explore computer hardware concepts, including microcontrollers, with a focus on the Raspberry
 Pi Pico (RP2040).
@@ -86,14 +86,14 @@ Pi Pico (RP2040).
 * Cultivate creativity and innovation in engineering design.
 
 
-## Course Structure
+# Course Structure
 * Labs: Nine hands-on laboratories.
 * Homework: Assignments for the labs.
 * Final Project: Students will design, develop, and demonstrate a personal project applying the
 concepts learned throughout the course.
 
 
-## Lab Schedule
+# Lab Schedule
 
 | **Lab Name** | **Time Range** | **Tasks** |
 |---------------|----------------|------------|
@@ -108,7 +108,7 @@ concepts learned throughout the course.
 | **Lab 9: AI as a Development Tool** | Week 14+ | • Utilize AI to streamline code development<br>• Learn how to best use AI via prompting |
 
 
-## Required Lab Components
+# Required Lab Components
 Components will be  provided.
 * [SunFounder Raspberry Pi Pico W kit](https://www.amazon.com/SunFounder-Raspberry-Kit-MicroPython-Compatible/dp/B0BDFVL6FX)
 * [OLED display](https://www.amazon.com/gp/product/B072Q2X2LL)

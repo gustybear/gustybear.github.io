@@ -51,6 +51,10 @@ markup:
   _merge: deep
   highlight:
     lineNos: false
+  tableOfContents:
+    startLevel: 1
+    endLevel: 6
+    ordered: false
 security:
   _merge: deep
 sitemap:

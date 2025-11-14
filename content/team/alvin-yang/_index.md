@@ -2,7 +2,7 @@
 type: "team"
 layout: "single"
 title: "Alvin Yang"
-role: "B.S., OGS, M.S., GRA"
+role: "B.S., OGS, M.S., GRA, joined Nalu Scientific"
 organization: "University of Hawai'i at Mānoa"
 department: "Department of Electrical Engineering"
 status: "alumni"

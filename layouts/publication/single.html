@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ $modifiedContent := .Content }}
   {{ if .Params.abstract }}
-    {{ $abstract := printf "<h2 id=\"abstract\">Abstract</h2>\n%s\n\n" (.Params.abstract | markdownify) }}
+    {{ $abstract := printf "<h1 id=\"abstract\">Abstract</h1>\n%s\n\n" (.Params.abstract | markdownify) }}
     {{ $modifiedContent = printf "%s%s" $abstract .Content }}
   {{ end }}
   
