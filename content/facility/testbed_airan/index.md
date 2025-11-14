@@ -1,5 +1,5 @@
 ---
-title: Artificial Intelligence Radio Access Network (AI-RAN) 
+title: Artificial Intelligence Radio Access Network (AI-RAN) with Digital Twin
 type: facility
 subtype: testbed
 image:
