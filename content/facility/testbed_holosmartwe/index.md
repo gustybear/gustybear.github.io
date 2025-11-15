@@ -1,5 +1,5 @@
 ---
-title: Holographic Beamforming Integrated Sensing and Communication Testbed (HoloBeam-ISAC)
+title: Holographic Reconfigurable AI-Native Wireless Environment
 type: facility
 subtype: testbed
 image:
