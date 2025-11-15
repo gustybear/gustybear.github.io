@@ -10,46 +10,110 @@ image:
   focal_point: Smart
 date: 2025-09-01T04:14:54-08:00
 authors:  
-  - yao-zheng
-  - thomas-yang
+  - Yao Zheng
+  - Xiaochan Xue
+  - Thomas Yang
 tags:
   - testbed
 ---
 
-# Equipment
-- 1 Ettus USRP X410, 1 MHz - 7.2 GHz, 400 MHz Bandwidth, 4 TX / 4 RX
-- 1 Ettus USRP X310, 10 MHz - 6 GHz, 160 MHz Bandwidth, 2 TX / 2 RX
-- 2 High Performance Ubuntu Servers w/ iPass+ zHD PCIe interface
+# Executive Summary
+This lab-scale mmWave AI-Based RAN testbed integrates **OAIBox**, **NVIDIA Aerial RAN**, **NI USRP X410**, and **TMYTEK mmWave beamformers** to create a flexible, programmable, and AI-native 5G/6G research environment. It enables real-time prototyping of mmWave physical layers, AI-driven beam management, hybrid beamforming, AI-enhanced MAC scheduling, and joint communication–sensing (ISAC) experiments. The platform supports end-to-end 5G NR PHY/MAC stacks, GPU-accelerated baseband processing, and mmWave RF front-ends for high-bandwidth OTA testing.
 
-# POWDER
-From [POWDER's website](https://powderwireless.net/use),
->Powder is a highly flexible, remotely accessible, end-to-end software defined platform supporting a broad range of wireless and mobile related research. (Paper providing an overview of the Powder platform.)
->
->Powder is still being deployed, but the following capabilities are already available for use:
->
->- Massive MIMO basestation with 64 radios and a growing complement of open source software.
->- Eight rooftop basestations each with up to four general purpose SDRs connected to either a broadband or a banded antenna.
->- Seven fixed-endpoints at human height each with two general purpose SDRs connected to broadband antennas.
->- A controlled RF environment with multiple SDR and OTS devices interconnected via a programmable attenuator.
->- A control framework enabling remote access and sophisticated experimental workflow mechanisms and tools.
->- A profile mechanism enabling the specification of hardware and software to be used in user experiments.
->- Platform provided profiles (requires login) for:
->   - Basic mMIMO operation.
->   - Realizing an Open Network Automation Platform (ONAP) instance.
->   - Realizing an open/programmable RAN (O-RAN) instance.
->   - Over-the-air operation using srsLTE 4G/5G stack.
->   - OpenAirInterface 4G/5G operation in controlled RF environment
->   - RF monitoring using GNU Radio
->   - Designation as an FCC Innovation Zone.
+# Core Components
 
-## Credits
-## Authors
-Joe Breen and Andrew Buffmire and Jonathon Duerig and Kevin Dutt and Eric Eide and Mike Hibler and David Johnson and Sneha Kumar Kasera and Earl Lewis and Dustin Maas and Alex Orange and Neal Patwari and Daniel Reading and Robert Ricci and David Schurig and Leigh B. Stoller and Van der Merwe, Jacobus and Kirk Webb and Gary Wong.
+## OAIBox – OpenAirInterface RAN Framework
+The testbed uses **OAIBox** as a compact and modular implementation of the full OAI RAN stack. It provides:
+- Support for 5G SA/NSA gNB and UE
+- Flexible PHY–MAC integration
+- Customizable scheduling, HARQ, and protocol features
+- Real-time experimentation with RAN procedures and RRC signaling
 
-## Title
- POWDER : Platform for Open Wireless Data-driven Experimental
-                  Research",
-"Proceedings of the 14th International Workshop on Wireless
-                  Network Testbeds, Experimental Evaluation and
-                  Characterization (WiNTECH)",
-Sep 2020, doi: "10.1145/3411276.3412204".
+OAIBox acts as the protocol and control anchor of the testbed.
+
+
+## NVIDIA Aerial RAN (cuPHY + cuMAC)
+The **NVIDIA Aerial** platform provides GPU-accelerated baseband processing and AI-native PHY/MAC capabilities:
+- **cuPHY** for NR physical-layer DSP on GPUs  
+- **cuMAC** for dynamic MAC scheduling on GPU  
+- TensorRT for real-time neural inference  
+- Support for multi-cell, multi-user, and high-throughput pipelines  
+
+Aerial enables experiments in:
+- AI-driven beam selection and prediction  
+- Neural channel estimation  
+- Predictive link adaptation and blockage detection  
+
+## NI USRP X410 – Wideband Software-Defined Radio
+The **USRP X410** serves as the flexible transceiver frontend with:
+- Up to 400 MHz instantaneous bandwidth  
+- Four synchronized TX/RX channels  
+- 10/1588 PTP synchronization  
+- Digital IF for integration with NVIDIA Aerial  
+
+It supports:
+- mmWave IF/baseband experimentation  
+- Real-time CSI acquisition  
+- Multi-subarray MIMO and wideband waveform prototyping  
+
+
+## TMYTEK mmWave Beamformers (BBox, UD-Box, Beamform Modules)
+TMYTEK hardware provides programmable mmWave RF front-ends:
+- **UD-Box** for 24–32 GHz up/down-conversion  
+- **BBox One / BBox Lite** beamforming arrays  
+- API-driven phase/gain control  
+- Rapid beam steering and codebook-based operation  
+
+These modules enable:
+- Hybrid or analog beamforming
+- Electronic steering up to ±60°
+- Multi-beam and multi-focus mmWave experimentation  
+
+## Digital Twin
+
+A full **Digital Twin framework** integrates high-fidelity electromagnetic simulation with the physical testbed. This enables reproducible channel modeling, data augmentation, and virtual-to-real RAN optimization.
+
+### Remcom Wireless InSite – Ray Tracing Propagation
+Wireless InSite provides a large-scale propagation environment supporting:
+- GPU-accelerated 3D ray tracing  
+- Detailed mmWave diffraction, reflection, and scattering  
+- Urban, indoor, and open-field scenario modeling  
+- Material-dependent loss and blockage effects  
+- Beam-level channel prediction  
+
+### ANSYS HFSS SBR+ – Full-Wave EM Modeling
+HFSS SBR+ enables full-wave modeling of:
+- **Antenna arrays**, including TMYTEK beamformers  
+- **Reflectarrays**, metasurfaces, and RIS  
+- **Realistic gain patterns** for hybrid beamforming  
+- Complex EM interactions under mmWave frequencies  
+
+# Capabilities
+
+##  AI-Enhanced RAN Intelligence
+- Neural beam prediction and tracking  
+- AI-based MAC scheduling  
+- CSI-driven link adaptation models  
+- Blockage prediction and proactive beam switching  
+
+## mmWave PHY/MAC Research
+- Hybrid and digital beamforming  
+- Channel sounding and dataset generation  
+- Evaluation of mobility, rotation, and blockage  
+- 5G NR waveform prototyping  
+
+## Flexible RAN Architecture
+- O-RAN 7.2 split between OAIBox and Aerial  
+- Multi-RU and multi-sector emulation  
+- Edge-cloud cooperative intelligence  
+
+## ISAC (Integrated Sensing and Communication) Extensions
+- Joint radar–communication waveform experiments  
+- 2D/3D angle estimation  
+- Passive sensing with GPU-accelerated FFT pipelines
+
+## Digital Twin–Driven Insights
+- Predictive channel statistics and blockage maps  
+- Virtual scenario pre-testing  
+- Dataset augmentation for AI training  
+- Virtual beam codebook optimization  

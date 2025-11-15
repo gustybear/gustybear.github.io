@@ -52,11 +52,11 @@ links:
   url: ./docs/reports/course_ee693e_2021_fall/week_06/01_yue/
 ---
 
-## Executive Summary
+# Executive Summary
 This course focuses on selected research topics in wireless communication and sensing and is intended for undergraduate, master, and doctoral students who are interested in this field of study. At the end of this course, students will have a in-depth knowledge of the state-of-the-art and open problems, thus enhancing their potential to do research or pursue a career in this rapidly developing area. this course is structured as a research seminar and laboratory where research papers from leading conferences & journals will be presented by the instructor and students. Main topics of this iteration include the study the connections between telemedicine and IoT, mobile sensing, augmented reality, 5G, edge computing, cloud computing, and 3D-printing.
 
 
-## Logistics {#logistics}
+# Logistics {#logistics}
 - **CRN**
 | EE693e |
 | ---    |
@@ -75,7 +75,7 @@ This course focuses on selected research topics in wireless communication and se
 | MW 9:00am-10:15am         | [Zoom](https://hawaii.zoom.us/j/5764842348) | See [Schedule](./project/teaching/course_ee693e_2021_fall/#schedule) | Group        | Group  |
 
 
-### Grading Policy
+# Grading Policy
 | Presentations | Reports | Discussion   |
 | ----------    | ------  | ------------ |
 | 40%           | 40%     | 20%          |
@@ -88,7 +88,7 @@ This course focuses on selected research topics in wireless communication and se
 - **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
 
 
-## Schedule {#Schedule}
+# Schedule {#Schedule}
 
 | TIME                                                                    | TOPIC                                                  | PAPER/NOTES                                    | REPORT               | DUE              |
 | ---------                                                               | ------------------------------------------------------ | -----                                          | ---                  | ---              |

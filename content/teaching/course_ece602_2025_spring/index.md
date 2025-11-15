@@ -45,10 +45,10 @@ links:
 # url: ./docs/assignments/course_ee660_2021_fall/week_13/assignment/
 ---
 
-## Executive Summary
+# Executive Summary
 Design and evaluation of machine representations, techniques and algorithms for sorting, pattern processing, computational geometry, mathematical computations, and engineering applications. Introduction to computational issues of time, space, communication, and program correctness. Pre: 367 or consent.
 
-## Logistics {#logistics}
+# Logistics {#logistics}
 - **CRN**
 | ECE602 001 |
 | ---   |
@@ -65,7 +65,7 @@ Design and evaluation of machine representations, techniques and algorithms for 
 | MW 12:00pm-13:15pm | Keller Hall 314/Zoom/Ad hoc  | *Required*: An Introduction to the Analysis of Algorithms     | Individual | Individual       |
 |                    |                  | *Required*: Analytic Combinatorics |            |            |
 
-### Grading Policy
+# Grading Policy
 -- **Breakdown**
 | Quiz & Assignment | Discussion & Participation |
 | ----------------  | -----------------------    |
@@ -78,7 +78,7 @@ Design and evaluation of machine representations, techniques and algorithms for 
 
 - **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
 
-## Schedule
+# Schedule
 
 | TIME                         | TOPICS                                                                 | READING/HW/EXAM              | DEADLINE      |
 | ---                          | ---                                                                    | ---                          | ---           |

@@ -59,11 +59,11 @@ links:
   url: ./project/teaching/course_ece669_2025_fall/#logistics
 ---
 
-## Executive Summary
+# Executive Summary
 **ECE 669 – Wireless and Mobile Security** explores emerging **FutureG (6G)** wireless systems that integrate communication, sensing, and security through **Open RAN (O-RAN)**, **Integrated Sensing and Communication (ISAC)**, and **Reconfigurable Intelligent Surfaces (RIS)**.  
 Students will investigate the vulnerabilities and protection strategies at physical, link, and system layers, emphasizing experimental understanding through open-source O-RAN and mmWave SDR platforms.
 
-## Logistics {#logistics}
+# Logistics {#logistics}
 - **CRN**
 | ECE669 001 | 
 | ---        | 
@@ -73,7 +73,7 @@ Students will investigate the vulnerabilities and protection strategies at physi
 🏛️ **Location:** Holmes Hall 488  
 👨‍🏫 **Instructor:** Dr. Yao Zheng ([yaozheng@hawaii.edu](mailto:yaozheng@hawaii.edu))  
 
-## Learning Objectives
+# Learning Objectives
 By the end of the course, students will:
 - Understand FutureG architecture and O-RAN security challenges.  
 - Analyze physical-layer security and randomization mechanisms.  
@@ -82,7 +82,7 @@ By the end of the course, students will:
 - Develop and present a prototype or simulation on wireless security in FutureG networks.
 
 
-## Weekly Schedule (Subject to Adjustment)
+# Weekly Schedule (Subject to Adjustment)
 
 | **Week** | **Dates** | **Topics & Focus** | **Activities / Deliverables** |
 |:--:|:--|:--|:--|
@@ -104,7 +104,7 @@ By the end of the course, students will:
 | **15** | Dec 9 – 13 | Project presentations II and wrap-up | Final reports due; FutureG security discussion |
 
 
-## Assessment
+#  Assessment
 | Component | Weight |
 |:--|:--|
 | Homework & Labs | 25% |
@@ -114,7 +114,7 @@ By the end of the course, students will:
 | Participation | 15% |
 
 
-## Software & Hardware
+# Software & Hardware
 - **Software:** OpenAirInterface (OAI), srsRAN, MATLAB, Python, Wireshark  
 - **Hardware:** USRP SDRs, TMYTEK BBox beamformers, Liquid-Metal RIS testbed  
 - **Readings:** O-RAN Alliance Tech Reports, IEEE JSAC/TWC/MTT, 6G whitepapers on ISAC & RIS  
