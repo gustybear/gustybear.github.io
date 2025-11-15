@@ -18,7 +18,7 @@ tags:
 ---
 
 # Executive Summary
-This lab-scale mmWave AI-Based RAN testbed integrates **OAIBox**, **NVIDIA Aerial RAN**, **NI USRP X410**, and **TMYTEK mmWave beamformers** to create a flexible, programmable, and AI-native 5G/6G research environment. It enables real-time prototyping of mmWave physical layers, AI-driven beam management, hybrid beamforming, AI-enhanced MAC scheduling, and joint communication–sensing (ISAC) experiments. The platform supports end-to-end 5G NR PHY/MAC stacks, GPU-accelerated baseband processing, and mmWave RF front-ends for high-bandwidth OTA testing.
+This lab-scale mmWave AI-Based RAN testbed integrates **OAIBox**, **NVIDIA Aerial RAN**, **NI USRP X410**, **TMYTEK mmWave beamformers**, and a high-fidelity **Digital Twin pipeline** using **Remcom Wireless InSite** and **ANSYS HFSS SBR+** to create a flexible, programmable, and AI-native 5G/6G research environment. It enables real-time prototyping of mmWave physical layers, AI-driven beam management, hybrid beamforming, AI-enhanced MAC scheduling, and joint communication–sensing (ISAC) experiments. The platform supports end-to-end 5G NR PHY/MAC stacks, GPU-accelerated baseband processing, and mmWave RF front-ends for high-bandwidth OTA testing, while the Digital Twin provides physics-accurate ray-tracing, EM-based antenna modeling, and virtual–to–real co-simulation for channel prediction, beam optimization, and AI dataset generation.
 
 # Core Components
 
