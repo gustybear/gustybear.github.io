@@ -56,6 +56,23 @@
       stroke-width: 2px !important;
     }
     
+    /* Theme toggle hover - change icon color, not background */
+    button[aria-label*="theme" i]:hover,
+    button[aria-label*="dark" i]:hover,
+    button[aria-label*="light" i]:hover,
+    .theme-toggle:hover,
+    [data-toggle="theme"]:hover {
+      background-color: transparent !important;
+    }
+    
+    button[aria-label*="theme" i]:hover svg,
+    button[aria-label*="dark" i]:hover svg,
+    button[aria-label*="light" i]:hover svg,
+    .theme-toggle:hover svg,
+    [data-toggle="theme"]:hover svg {
+      stroke: #1a5f4f !important;
+    }
+    
     /* Dark mode override */
     html.dark body {
       background-color: #0a0a0a !important;
@@ -95,6 +112,23 @@
       stroke: white !important;
       stroke-width: 2px !important;
     }
+    
+    /* Theme toggle hover - dark mode - change icon color, not background */
+    html.dark button[aria-label*="theme" i]:hover,
+    html.dark button[aria-label*="dark" i]:hover,
+    html.dark button[aria-label*="light" i]:hover,
+    html.dark .theme-toggle:hover,
+    html.dark [data-toggle="theme"]:hover {
+      background-color: transparent !important;
+    }
+    
+    html.dark button[aria-label*="theme" i]:hover svg,
+    html.dark button[aria-label*="dark" i]:hover svg,
+    html.dark button[aria-label*="light" i]:hover svg,
+    html.dark .theme-toggle:hover svg,
+    html.dark [data-toggle="theme"]:hover svg {
+      stroke: #6ee7b7 !important;
+    }
   </style>
 </head>
 <body>
@@ -109,5 +143,23 @@
   </main>
   
   {{ partial "site_footer" . }}
+  
+  <script>
+    // Change theme toggle button hover text
+    document.addEventListener('DOMContentLoaded', function() {
+      function updateThemeToggleText() {
+        const themeButtons = document.querySelectorAll('button[aria-label*="theme" i], button[aria-label*="appearance" i], button[aria-label*="dark" i], button[aria-label*="light" i], .theme-toggle, [data-toggle="theme"]');
+        themeButtons.forEach(function(button) {
+          button.setAttribute('aria-label', 'Toggle Light/Dark Mode');
+          button.setAttribute('title', 'Toggle Light/Dark Mode');
+        });
+      }
+      
+      updateThemeToggleText();
+      
+      // Re-run after a short delay in case buttons are dynamically created
+      setTimeout(updateThemeToggleText, 500);
+    });
+  </script>
 </body>
 </html>

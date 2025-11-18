@@ -43,6 +43,23 @@
       stroke-width: 2px !important;
     }
     
+    /* Theme toggle hover - change icon color, not background */
+    button[aria-label*="theme" i]:hover,
+    button[aria-label*="dark" i]:hover,
+    button[aria-label*="light" i]:hover,
+    .theme-toggle:hover,
+    [data-toggle="theme"]:hover {
+      background-color: transparent !important;
+    }
+    
+    button[aria-label*="theme" i]:hover svg,
+    button[aria-label*="dark" i]:hover svg,
+    button[aria-label*="light" i]:hover svg,
+    .theme-toggle:hover svg,
+    [data-toggle="theme"]:hover svg {
+      stroke: #1a5f4f !important;
+    }
+    
     /* Exception: Author social icons should keep their own colors */
     .author-social a {
       background: #1a5f4f !important;
@@ -162,6 +179,23 @@
       stroke-width: 2px !important;
     }
     
+    /* Theme toggle hover - dark mode - change icon color, not background */
+    html.dark button[aria-label*="theme" i]:hover,
+    html.dark button[aria-label*="dark" i]:hover,
+    html.dark button[aria-label*="light" i]:hover,
+    html.dark .theme-toggle:hover,
+    html.dark [data-toggle="theme"]:hover {
+      background-color: transparent !important;
+    }
+    
+    html.dark button[aria-label*="theme" i]:hover svg,
+    html.dark button[aria-label*="dark" i]:hover svg,
+    html.dark button[aria-label*="light" i]:hover svg,
+    html.dark .theme-toggle:hover svg,
+    html.dark [data-toggle="theme"]:hover svg {
+      stroke: #6ee7b7 !important;
+    }
+    
     /* Exception: Author social icons in dark mode */
     html.dark .author-social a {
       background: #6ee7b7 !important;
@@ -240,6 +274,104 @@
     
     html.dark [class*="blox-resume-biography"] a:hover {
       color: #86efac !important;
+    }
+    
+    /* Fix avatar size on tablet screens */
+    @media (max-width: 1024px) and (min-width: 768px) {
+      .avatar {
+        width: 240px !important;
+        height: 240px !important;
+      }
+      .avatar-wrapper {
+        width: 240px !important;
+        height: 240px !important;
+      }
+    }
+    
+    /* Fix hero biography on mobile - prevent overflow */
+    @media (max-width: 768px) {
+      [class*="blox-resume-biography"] {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+        overflow-x: hidden !important;
+      }
+      
+      /* Center the left column content on mobile */
+      [class*="blox-resume-biography"] > div {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        text-align: center !important;
+      }
+      
+      /* Center avatar and scale down on smaller screens */
+      [class*="blox-resume-biography"] .avatar {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 240px !important;
+        height: 240px !important;
+      }
+      [class*="blox-resume-biography"] .avatar-wrapper {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 240px !important;
+        height: 240px !important;
+      }
+      
+      /* Further scale down avatar on very small screens */
+      @media (max-width: 480px) {
+        [class*="blox-resume-biography"] .avatar {
+          width: 200px !important;
+          height: 200px !important;
+        }
+        [class*="blox-resume-biography"] .avatar-wrapper {
+          width: 200px !important;
+          height: 200px !important;
+        }
+      }
+      
+      @media (max-width: 360px) {
+        [class*="blox-resume-biography"] .avatar {
+          width: 160px !important;
+          height: 160px !important;
+        }
+        [class*="blox-resume-biography"] .avatar-wrapper {
+          width: 160px !important;
+          height: 160px !important;
+        }
+      }
+      
+      /* Center name and role */
+      [class*="blox-resume-biography"] h1,
+      [class*="blox-resume-biography"] h2,
+      [class*="blox-resume-biography"] h3 {
+        font-size: 1.5rem !important;
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        text-align: center !important;
+        width: 100% !important;
+      }
+      
+      [class*="blox-resume-biography"] p,
+      [class*="blox-resume-biography"] div {
+        overflow-wrap: break-word !important;
+        word-wrap: break-word !important;
+        text-align: center !important;
+      }
+      
+      /* Center social icons */
+      [class*="blox-resume-biography"] [class*="flex"] {
+        justify-content: center !important;
+      }
+      
+      /* Make education cards stack properly and center */
+      [class*="blox-resume-biography"] [class*="grid"],
+      [class*="blox-resume-biography"] [class*="row"] {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 1rem !important;
+        align-items: center !important;
+      }
     }
     
     /* Fix card size when only 1 item in grid - for HugoBlox collection blocks */
@@ -342,7 +474,47 @@
       flex-shrink: 0 !important;
     }
     
+    /* Tablet responsive: single column, wider grid */
+    @media (max-width: 1024px) and (min-width: 769px) {
+      section[class*="collection"] {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+      }
+      
+      section[class*="collection"] > div:first-child,
+      section[class*="collection"] header,
+      section[class*="collection"] .mb-6 {
+        width: 90% !important;
+        max-width: 90% !important;
+      }
+      
+      section[class*="collection"] .row,
+      section[class*="collection"] .grid,
+      section[class*="collection"] > div > div,
+      .article-grid .grid,
+      .article-grid > div,
+      [class*="col-"].row,
+      .container .row {
+        width: 90% !important;
+        max-width: 90% !important;
+        grid-template-columns: 1fr !important;
+      }
+    }
+    
+    /* Mobile responsive: single column, full width, fix overflow */
     @media (max-width: 768px) {
+      section[class*="collection"] {
+        padding-left: 1rem !important;
+        padding-right: 1rem !important;
+      }
+      
+      section[class*="collection"] > div:first-child,
+      section[class*="collection"] header,
+      section[class*="collection"] .mb-6 {
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      
       section[class*="collection"] .row,
       section[class*="collection"] .grid,
       section[class*="collection"] > div > div,
@@ -351,6 +523,29 @@
       [class*="col-"].row,
       .container .row {
         grid-template-columns: 1fr !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        gap: 1rem !important;
+      }
+      
+      /* Fix card text overflow on mobile */
+      section[class*="collection"] article,
+      section[class*="collection"] .card {
+        overflow: hidden !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
+      }
+      
+      section[class*="collection"] article h3,
+      section[class*="collection"] .card h3,
+      section[class*="collection"] article p,
+      section[class*="collection"] .card p,
+      section[class*="collection"] article div,
+      section[class*="collection"] .card div {
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        word-wrap: break-word !important;
+        overflow-wrap: break-word !important;
       }
     }
   </style>
@@ -363,5 +558,23 @@
   </main>
   
   {{ partial "site_footer" . }}
+  
+  <script>
+    // Change theme toggle button hover text
+    document.addEventListener('DOMContentLoaded', function() {
+      function updateThemeToggleText() {
+        const themeButtons = document.querySelectorAll('button[aria-label*="theme" i], button[aria-label*="appearance" i], button[aria-label*="dark" i], button[aria-label*="light" i], .theme-toggle, [data-toggle="theme"]');
+        themeButtons.forEach(function(button) {
+          button.setAttribute('aria-label', 'Toggle Light/Dark Mode');
+          button.setAttribute('title', 'Toggle Light/Dark Mode');
+        });
+      }
+      
+      updateThemeToggleText();
+      
+      // Re-run after a short delay in case buttons are dynamically created
+      setTimeout(updateThemeToggleText, 500);
+    });
+  </script>
 </body>
 </html>
