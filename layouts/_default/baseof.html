@@ -64,6 +64,15 @@
     .author-social a {
       background: #1a5f4f !important;
       color: white !important;
+      position: relative !important;
+      z-index: 1 !important;
+    }
+    
+    /* Ensure social icons container doesn't limit z-index */
+    [class*="blox-resume-biography"] [class*="flex"],
+    .author-social {
+      position: relative !important;
+      z-index: 999999 !important;
     }
     
     .author-social a i,
@@ -78,6 +87,7 @@
       display: inline-block !important;
       visibility: visible !important;
     }
+
     
     /* Light mode navbar text color */
     body header,
@@ -574,6 +584,31 @@
       
       // Re-run after a short delay in case buttons are dynamically created
       setTimeout(updateThemeToggleText, 500);
+      
+      // Bitcoin QR code hover effect
+      const bitcoinLinks = document.querySelectorAll('a[href*="bitcoin"], a[href^="bitcoin:"]');
+      const qrPopup = document.createElement('div');
+      qrPopup.id = 'bitcoin-qr-popup';
+      qrPopup.style.cssText = 'position: absolute; width: 200px; height: 200px; background-image: url(\'/~yaozheng/media/bitcoin_qr.png\'); background-size: contain; background-repeat: no-repeat; background-position: center; border: 3px solid #1a5f4f; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.3s ease, visibility 0.3s ease; z-index: 2147483647; background-color: white; padding: 5px;';
+      document.body.appendChild(qrPopup);
+      
+      bitcoinLinks.forEach(function(link) {
+        link.addEventListener('mouseenter', function(e) {
+          const rect = link.getBoundingClientRect();
+          const isDark = document.documentElement.classList.contains('dark');
+          qrPopup.style.borderColor = isDark ? '#6ee7b7' : '#1a5f4f';
+          qrPopup.style.boxShadow = isDark ? '0 4px 12px rgba(255, 255, 255, 0.2)' : '0 4px 12px rgba(0, 0, 0, 0.3)';
+          qrPopup.style.left = (rect.left + rect.width / 2 - 100) + 'px';
+          qrPopup.style.top = (rect.top - 210 + window.scrollY) + 'px';
+          qrPopup.style.opacity = '1';
+          qrPopup.style.visibility = 'visible';
+        });
+        
+        link.addEventListener('mouseleave', function() {
+          qrPopup.style.opacity = '0';
+          qrPopup.style.visibility = 'hidden';
+        });
+      });
     });
   </script>
 </body>
