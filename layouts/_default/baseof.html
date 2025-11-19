@@ -596,10 +596,26 @@
         link.addEventListener('mouseenter', function(e) {
           const rect = link.getBoundingClientRect();
           const isDark = document.documentElement.classList.contains('dark');
+          const popupHeight = 210; // 200px height + 10px gap
+          const viewportHeight = window.innerHeight;
+          
+          // Update colors based on theme
           qrPopup.style.borderColor = isDark ? '#6ee7b7' : '#1a5f4f';
           qrPopup.style.boxShadow = isDark ? '0 4px 12px rgba(255, 255, 255, 0.2)' : '0 4px 12px rgba(0, 0, 0, 0.3)';
+          
+          // Center horizontally relative to the icon
           qrPopup.style.left = (rect.left + rect.width / 2 - 100) + 'px';
-          qrPopup.style.top = (rect.top - 210 + window.scrollY) + 'px';
+          
+          // Try to position below first
+          let topPosition = rect.bottom + 10 + window.scrollY;
+          
+          // Check if popup would be cut off at the bottom
+          if (rect.bottom + popupHeight > viewportHeight) {
+            // Not enough space below, position above instead
+            topPosition = rect.top - popupHeight + window.scrollY;
+          }
+          
+          qrPopup.style.top = topPosition + 'px';
           qrPopup.style.opacity = '1';
           qrPopup.style.visibility = 'visible';
         });
