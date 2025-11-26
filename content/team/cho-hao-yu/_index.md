@@ -9,7 +9,7 @@ status: "student"
 
 social:
   linkedin: "https://linkedin.com/in/cho-hao-yu"
-  email: "joe.yu886@gmail.com"
+  email: "chyu@hawaii.edu"
 
 interests:
   - "Network security and cybersecurity"
