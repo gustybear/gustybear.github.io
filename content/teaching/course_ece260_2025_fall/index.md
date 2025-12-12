@@ -119,14 +119,14 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 9 (10/20, 10/22, 10/24) | Sequential Logic: Registers                                            | [Read/HW 09][read 09 url]    | 10/26, 11:59PM|
 | Week 10 (10/27)              | Sequential Logic: Counters, Shifters                                   | --                           | --            |
 | Week 10 (10/29)              | Sequential Logic: Sequential Processor                                 | --                           | --            |
-| Week 6 (10/31)               | [Midterm II: Take Home][midterm 02 url]                                | [Submission link][midt 02 dp]              | 11/02, 11:59PM|
+| Week 6 (10/31)               | [Midterm II: Take Home][midterm 02 url] <br> [Midterm II MP: Take Home][midterm 02 mp url]                               | [Submission link][midt 02 dp] <br>  [Submission link MP][midt 02 mp dp]             | 11/02, 11:59PM <br> 11/28 11:59PM|
 | Week 11 (11/3, 11/5, 11/7)   | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 11/9, 11:59PM |
 | Week 12 (11/10, 11/12, 11/14)| Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 11/16, 11:59PM|
 | Week 13 (11/17, 11/19, 11/21)| Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]    | 11/23, 11:59PM|
 | Week 14 (11/24, 11/26, 11/28)| Physical Implementation on ICs                                         | [Read/HW 14][read 14 url]    | 11/30, 11:59PM|
 | Week 15 (12/1, 12/3, 12/5)   | Programmable Processors                                                | [Read/HW 15][read 15 url]    | 12/7, 11:59PM |
-| Week 16 (12/8, 12/10)        | Review, Practice Final                                                 | --                           | --            |
-| Week 17 (12/19)              | Final: 9:45AM - 11:45AM                                                | --                           | 12/19, 11:45AM|
+| Week 16 (12/8, 12/10)        | Review, [Practice Final][final practice url]                           | --                           | --            |
+| Week 17 (12/19)              | Final: 12:00PM - 14:00PM                                                | --                           | 12/19, 14:00PM|
 
 ## Laboratory
 | TIME                                 | Materials                                                      | Virtual               | DEADLINE                      |
@@ -238,7 +238,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [lab video 07 url]: https://youtu.be/J_4rpI6FpI0
 [lab video 08 url]: https://youtu.be/frvdQcka0x0
 [lab video 09 url]: https://youtu.be/xhgT7T8U130
-[lab video 10 url]: https://youtu.be/zmqfPlbq4Ww
+[lab video 10 url]: https://youtu.be/4Fg3OoCjEho
 
 
 [exam urls]: # (exam urls)
@@ -247,3 +247,6 @@ This course explores the foundation of digital circuit design, starting from Boo
 [midt 01 sol url]: ../../docs/exams/course_ece260_2025_fall/miterm_01_solutions/
 [midt 02 dp]: https://www.dropbox.com/request/S1jjsIPxBvWE0ZPqPfUk
 [midterm 02 url]: ../../docs/exams/course_ece260_2025_fall/miterm_02_game/
+[midt 02 mp dp]: https://www.dropbox.com/request/uvQpzy8JD9z8ZmoaX78X
+[midterm 02 mp url]: ../../docs/exams/course_ece260_2025_fall/miterm_02_game_mp/
+[final practice url]: ../../docs/exams/course_ece260_2025_fall/final_practice/
