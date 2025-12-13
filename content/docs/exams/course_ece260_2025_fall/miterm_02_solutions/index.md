@@ -55,7 +55,7 @@ Select the **best** answer.
 
 ## Part B — Design & Analysis (10 × 7 = 70 pts)
 
-Download solutions= [here](https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ece260_2025_fall/midterm+2/ece260_exam_solutions_verilog.zip).
+Download solutions [here](https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ece260_2025_fall/midterm+2/ece260_exam_solutions_verilog.zip).
 
 **Files provided (in the questions zip):**
 - Templates: `*.v` (one per problem)
