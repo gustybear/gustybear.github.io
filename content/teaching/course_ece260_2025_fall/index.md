@@ -81,7 +81,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | ---     | ----                | ---              | ---           |
 | 01      | R 9:00am - 11:45am  | Holmes Hall 451  |  Group        |
 | 02      | R 13:30pm - 16:15pm | Holmes Hall 451  |  Group        |
-| 02      | R 16:30pm - 19:15pm | Holmes Hall 451  |  Group        |
+| 03      | R 16:30pm - 19:15pm | Holmes Hall 451  |  Group        |
 
 # Grading
 
@@ -119,7 +119,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 9 (10/20, 10/22, 10/24) | Sequential Logic: Registers                                            | [Read/HW 09][read 09 url]    | 10/26, 11:59PM|
 | Week 10 (10/27)              | Sequential Logic: Counters, Shifters                                   | --                           | --            |
 | Week 10 (10/29)              | Sequential Logic: Sequential Processor                                 | --                           | --            |
-| Week 6 (10/31)               | [Midterm II: Take Home][midterm 02 url] <br> [Midterm II MP: Take Home][midterm 02 mp url]                               | [Submission link][midt 02 dp] <br>  [Submission link MP][midt 02 mp dp]             | 11/02, 11:59PM <br> 11/28 11:59PM|
+| Week 6 (10/31)               | [Midterm II: Take Home][midterm 02 url] <br> [Midterm II MP: Take Home][midterm 02 mp url] <br> [Solution][midt 02 sol url]                               | [Submission link][midt 02 dp] <br>  [Submission link MP][midt 02 mp dp]             | 11/02, 11:59PM <br> 11/28 11:59PM|
 | Week 11 (11/3, 11/5, 11/7)   | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 11/9, 11:59PM |
 | Week 12 (11/10, 11/12, 11/14)| Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 11/16, 11:59PM|
 | Week 13 (11/17, 11/19, 11/21)| Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]    | 11/23, 11:59PM|
@@ -249,4 +249,5 @@ This course explores the foundation of digital circuit design, starting from Boo
 [midterm 02 url]: ../../docs/exams/course_ece260_2025_fall/miterm_02_game/
 [midt 02 mp dp]: https://www.dropbox.com/request/uvQpzy8JD9z8ZmoaX78X
 [midterm 02 mp url]: ../../docs/exams/course_ece260_2025_fall/miterm_02_game_mp/
+[midt 02 sol url]: ../../docs/exams/course_ece260_2025_fall/miterm_02_solutions/
 [final practice url]: ../../docs/exams/course_ece260_2025_fall/final_practice/

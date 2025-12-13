@@ -1,6 +1,6 @@
 ---
 title: "2025 IEEE Annual Congress on Artificial Intelligence of Things (IEEE AIoT)"
-date: 2025-11-09
+date: 2025-12-12
 location: Osaka, Japan
 category: conference
 featured: true
