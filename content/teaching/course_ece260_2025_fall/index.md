@@ -88,7 +88,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 - **Breakdown**
 | Participation | Challenge | Labs           | Midterms (2) | Final |
 | ----------    | ------    | -------------- | -------      | ---   |
-| 5%            | 20%       | 25%            | 30%          | 20%   |
+| 5%            | 20%       | 25%            | 20%          | 30%   |
 
 - **Curves**
 | Linear                         | Bell            |

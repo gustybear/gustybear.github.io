@@ -89,12 +89,21 @@ Provide full state diagram + output logic + register structure.
 Show read-MUX structure, write-decoder, and internal reg architecture.
 
 
-### **Problem 6** — 32-bit ALU Condition Flags
-Design hardware for Zero, Negative, Carry, Overflow flag generation.
+### **Problem 6** — FIFO State Tracking
+A FIFO (depth = 4) is initially empty. Given the operation sequence  
+**Enqueue A, Enqueue B, Enqueue C & Dequeue, Dequeue, Enqueue D, Dequeue**,  
+determine the data returned by each dequeue and the final FIFO contents.
 
 
 ### **Problem 7** — Pipeline Register with Stall and Flush
-Draw pipeline register showing enable logic, flush override to NOP, priority rules.
+Draw and explain a pipeline register between two stages that supports **stall** and **flush**.
+
+- The register stores a data bus (e.g., instruction or control signals).
+- **stall = 1**: the register holds its current value (no update).
+- **flush = 1**: the register is loaded with a **NOP** value.
+- If **stall and flush are both asserted**, **flush has priority**.
+
+Show the register, enable logic, flush (NOP) override, and clearly indicate the priority between stall and flush.
 
 
 ### **Problem 8** — Multi-Cycle Datapath Operation for an ADD Instruction (10 pts)
