@@ -3,7 +3,7 @@ title: Holographic Reconfigurable AI-Native Wireless Environment
 type: facility
 subtype: testbed
 image:
-  filename: MIMO_Setup_Wide.png
+  filename: holosmart_featured.png
   filename_top: MIMO_Setup_Wide.png
   filename_bottom: MIMO_experiment.png
   caption: Experimental Setup to create multipaths for diverse communication

@@ -1,10 +1,9 @@
 ---
 title: Microelectronic Design, Emulation, & Validation
 type: facility
+subtype: testbed
 image:
-  filename: ansys-featured-bottom.png
-  filename_top: ansys-featured-bottom.png
-  filename_bottom: cadence-featured-bottom.png
+  filename: a-software-featured.png
   caption: Simulation of a circuit
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
@@ -13,6 +12,7 @@ authors:
 tags:
   - software
 ---
+![](a-software-featured.png)
 
 ANSYS HFSS is used for electromagnetic simulation and validation of RF/microwave components, antennas, and high-frequency circuits through 3D finite element analysis. Cadence Virtuoso provides a comprehensive electronic design automation environment for designing and simulating custom analog, mixed-signal, and RF integrated circuits from schematic capture through physical layout. Remcom Wireless InSite specializes in RF propagation modeling using 3D ray-tracing to predict wireless signal coverage, channel characteristics, and system performance in realistic indoor and outdoor environments, enabling validation of communication system designs before physical deployment.
 

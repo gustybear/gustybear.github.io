@@ -3,7 +3,7 @@ title: Artificial Intelligence Radio Access Network (AI-RAN) with Digital Twin
 type: facility
 subtype: testbed
 image:
-  filename: x410.png
+  filename: AI-RAN_featured.png
   filename_top: x410.png
   filename_bottom: x310.png
   caption: Ettus USRP X410

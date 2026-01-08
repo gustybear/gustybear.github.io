@@ -81,28 +81,22 @@
       <div class="facility-section">
         <h2 class="section-title">Tools</h2>
         <div class="facilities-list">
+          {{ $firstProject := true }}
           {{ range .Pages.ByDate.Reverse }}
             {{ if eq .Params.subtype "tool" }}
               {{ $imageUrlTop := "" }}
               {{ $imageUrlBottom := "" }}
-              {{ $page := . }}
               {{ with .Params.image }}
                 {{ $topFilename := .filename_top | default .filename }}
                 {{ $bottomFilename := .filename_bottom | default .filename }}
                 {{ with $topFilename }}
-                  {{ $topResource := $page.Resources.GetMatch . }}
-                  {{ if not $topResource }}
-                    {{ $topResource = resources.Get (printf "media/%s" .) }}
-                  {{ end }}
+                  {{ $topResource := resources.Get (printf "media/%s" .) }}
                   {{ if $topResource }}
                     {{ $imageUrlTop = $topResource.RelPermalink }}
                   {{ end }}
                 {{ end }}
                 {{ with $bottomFilename }}
-                  {{ $bottomResource := $page.Resources.GetMatch . }}
-                  {{ if not $bottomResource }}
-                    {{ $bottomResource = resources.Get (printf "media/%s" .) }}
-                  {{ end }}
+                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
                   {{ if $bottomResource }}
                     {{ $imageUrlBottom = $bottomResource.RelPermalink }}
                   {{ end }}
@@ -113,8 +107,7 @@
                 <div class="facility-item" 
                      data-image-top="{{ $imageUrlTop }}"
                      data-image-bottom="{{ $imageUrlBottom }}"
-                     data-debug-top="{{ .Params.image.filename_top }}"
-                     data-debug-bottom="{{ .Params.image.filename_bottom }}">
+                     data-first="{{ $firstProject }}">
                   <div class="facility-item-header">
                     <h3 class="facility-item-title">{{ .Title }}</h3>
                     {{ with .Date }}
@@ -129,6 +122,7 @@
                   <span class="read-more-link">Read more →</span>
                 </div>
               </a>
+              {{ $firstProject = false }}
             {{ end }}
           {{ end }}
         </div>
