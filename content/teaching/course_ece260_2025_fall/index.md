@@ -85,7 +85,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 # Grading
 
-- **Breakdown**
+- **Breakdown**[^grading-note]
 | Participation | Challenge | Labs           | Midterms (2) | Final |
 | ----------    | ------    | -------------- | -------      | ---   |
 | 5%            | 20%       | 25%            | 20%          | 30%   |
@@ -149,6 +149,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 16 (12/9)                       | --                                                             |  --                   | --                            |
 | Week 17 (12/16)                       | --                                                            |  --                   | --                            |
 
+[^grading-note]: The grading breakdown is subject to change at the discretion of the instructor and in accordance with the University grading system and policies.
 
 [recording urls]: # (recording urls)
 [recording 0113 url]: https://youtu.be/RtppPuw2Thw

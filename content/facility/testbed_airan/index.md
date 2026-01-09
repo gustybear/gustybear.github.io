@@ -4,9 +4,9 @@ type: facility
 subtype: testbed
 image:
   filename: AI-RAN_featured.png
-  filename_top: x410.png
-  filename_bottom: x310.png
-  caption: Ettus USRP X410
+  filename_top: AI-RAN_featured.png
+#  filename_bottom: x310.png
+#  caption: Ettus USRP X410
   focal_point: Smart
 date: 2025-09-01T04:14:54-08:00
 authors:  
