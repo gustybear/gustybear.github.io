@@ -37,8 +37,6 @@ A **custom RF switch matrix** and **Keysight FieldFox microwave analyzer** suppo
 ## Spatial Probing
 Calibrated **monopole antennas** mounted on precision positioning stages enable spatial channel sampling and beam profiling.
 
----
-
 # Capabilities
 
 ## Holographic and RIS-Assisted Beamforming

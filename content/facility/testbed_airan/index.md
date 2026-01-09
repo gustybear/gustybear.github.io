@@ -31,7 +31,6 @@ The testbed uses **OAIBox** as a compact and modular implementation of the full 
 
 OAIBox acts as the protocol and control anchor of the testbed.
 
-
 ## NVIDIA Aerial RAN (cuPHY + cuMAC)
 The **NVIDIA Aerial** platform provides GPU-accelerated baseband processing and AI-native PHY/MAC capabilities:
 - **cuPHY** for NR physical-layer DSP on GPUs  
