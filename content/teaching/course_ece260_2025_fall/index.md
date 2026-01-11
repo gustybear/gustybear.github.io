@@ -10,7 +10,7 @@ summary: "ECE260 is the introductory course on digital circuit synthesis, focusi
 date: 2025-08-27T02:58:53+00:00
 lastmod: 2025-08-27T02:58:53+00:00
 featured: false
-draft: false
+draft: true
 
 authors:
 - Yao Zheng
