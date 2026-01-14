@@ -69,7 +69,7 @@ This project course introduces students to hands-on Computer Engineering (CENG) 
 - **Meeting**:
 | Time                 | Location    |
 | ----                 | ---         |
-| T 11:00am - 12:00pm  | HH488       |
+| R 12:00pm - 13:00pm  | HH389       |
 
 
 # Learning Objectives

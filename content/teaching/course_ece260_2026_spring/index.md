@@ -67,13 +67,13 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Role / Personnel                                                | Assigned Session                     | Office Hours / Notes                                                 |
 | ----                                                            | ---                                  | ---                                                                  |
 | Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)              | N/A                                  | see [here](https://calendly.com/yaozheng-hawaii/30min)               |
-| TA: [Ethan Ibanez](mailto: eibanez@hawaii.edu)                  | Session 1 (T  9:00am - 11:45am)      | TBD                                                                  |
-| TA: [Ethan Ibanez](mailto: eibanez@hawaii.edu)                  | Session 2 (T  13:30pm - 16:15pm)     | TBD                                                                  |
+| TA: [Ethan Ibanez](mailto:eibanez@hawaii.edu)                   | Session 1 (T  9:00am - 11:45am)      | TBD                                                                  |
+| TA: [Ethan Ibanez](mailto:eibanez@hawaii.edu)                   | Session 2 (T  13:30pm - 16:15pm)     | TBD                                                                  |
 
 - **Classroom**
 | Time                 | Location            | Textbook/HW                                                                                            | HW/Exam Effort |
 | ----                 | ---                 | ---                                                                                                    | ---            |
-| MWF 11:30 am-12:20pm | Bilger Hall 335     | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIECE260ZhengSpring2026)  | Individual     |
+| MWF 9:30 am-10:20pm  | Bilger Hall 335     | [EE260: Introduction to Digital Design](https://learn.zybooks.com/zybook/HAWAIIECE260ZhengSpring2026)  | Individual     |
 
 - **Laboratory**
 | Session | Time                | Location         | Report Effort |
@@ -127,23 +127,23 @@ This course explores the foundation of digital circuit design, starting from Boo
 ## Laboratory
 | TIME                                 | Materials                                                      | Virtual               | DEADLINE                      |
 | ---                                  | ---                                                            | ---                   | ---                           |
-| Week 1 (1/15)                        | --                                                             | ---                   | ---                           |
-| Week 2 (1/22)                        | [Vivado Tutorial][lab video 00 url]                            | [Vlab 00][vlab00 url] | 1/25, 11:59PM                 |
-| Week 3 (1/29)                        | [Modeling Concepts][lab video 01 url]                          | [Vlab 01][vlab01 url] | 2/1, 11:59PM                  |
-| Week 4 (2/5)                         | [Numbering Systems][lab video 02 url]                          | [Vlab 02][vlab02 url] | 2/8, 11:59PM                  |
-| Week 5 (2/12)                        | [Multi-Output Circuits][lab video 03 url]                      | [Vlab 03][vlab03 url] | 2/15, 11:59PM                 |
-| Week 6 (2/19)                        | [Tasks Functions, and Testbench][lab video 04 url]             | [Vlab 04][vlab04 url] | 2/22, 11:59PM                 |
-| Week 7 (2/26)                        | --                                                             |  --                   |  --                           |
-| Week 8 (3/5)                         | [Modeling Latches and Flip-Flops][lab video 05 url]            | [Vlab 05][vlab05 url] | 3/8, 11:59PM                  |
-| Week 9 (3/12)                        | [Finite State Machines][lab video 06 url]                      | [Vlab 06][vlab06 url] | 3/15, 11:59PM                 |
-| Week 10 (3/19)                       | SPRING RECESS                                                  |  --                   |  --                           |
-| Week 11 (3/26)                       | --                                                             |  --                   |  --                           |
-| Week 12 (4/2)                        | [Modeling Registers and Counters][lab video 07 url]            | [Vlab 07][vlab07 url] | 4/5, 11:59PM                  |
-| Week 13 (4/9)                        | [Architectural Wizard and IP Catalog][lab video 08 url]        | [Vlab 08][vlab08 url] | 4/12, 11:59PM                 |
-| Week 14 (4/16)                       | [Behavioral Modeling and Timing Constraints][lab video 09 url] | [Vlab 09][vlab09 url] | 4/19, 11:59PM                 |
-| Week 15 (4/23)                       | [Sequential System Design using ASM Charts][lab video 10 url]  | [Vlab 10][vlab10 url] | 5/3, 11:59PM                  |
-| Week 16 (4/30)                       | --                                                             |  --                   |  --                           |
-| Week 17 (5/7)                        | --                                                             |  --                   | --                            |
+| Week 1 (1/13)                        | --                                                             | ---                   | ---                           |
+| Week 2 (1/20)                        | [Vivado Tutorial][lab video 00 url]                            | [Vlab 00][vlab00 url] | 1/25, 11:59PM                 |
+| Week 3 (1/27)                        | [Modeling Concepts][lab video 01 url]                          | [Vlab 01][vlab01 url] | 2/1, 11:59PM                  |
+| Week 4 (2/3)                         | [Numbering Systems][lab video 02 url]                          | [Vlab 02][vlab02 url] | 2/8, 11:59PM                  |
+| Week 5 (2/10)                        | [Multi-Output Circuits][lab video 03 url]                      | [Vlab 03][vlab03 url] | 2/15, 11:59PM                 |
+| Week 6 (2/17)                        | [Tasks Functions, and Testbench][lab video 04 url]             | [Vlab 04][vlab04 url] | 2/22, 11:59PM                 |
+| Week 7 (2/24)                        | --                                                             |  --                   |  --                           |
+| Week 8 (3/3)                         | [Modeling Latches and Flip-Flops][lab video 05 url]            | [Vlab 05][vlab05 url] | 3/8, 11:59PM                  |
+| Week 9 (3/10)                        | [Finite State Machines][lab video 06 url]                      | [Vlab 06][vlab06 url] | 3/15, 11:59PM                 |
+| Week 10 (3/17)                       | SPRING RECESS                                                  |  --                   |  --                           |
+| Week 11 (3/24)                       | --                                                             |  --                   |  --                           |
+| Week 12 (3/31)                       | [Modeling Registers and Counters][lab video 07 url]            | [Vlab 07][vlab07 url] | 4/5, 11:59PM                  |
+| Week 13 (4/7)                        | [Architectural Wizard and IP Catalog][lab video 08 url]        | [Vlab 08][vlab08 url] | 4/12, 11:59PM                 |
+| Week 14 (4/14)                       | [Behavioral Modeling and Timing Constraints][lab video 09 url] | [Vlab 09][vlab09 url] | 4/19, 11:59PM                 |
+| Week 15 (4/21)                       | [Sequential System Design using ASM Charts][lab video 10 url]  | [Vlab 10][vlab10 url] | 5/3, 11:59PM                  |
+| Week 16 (4/28)                       | --                                                             |  --                   |  --                           |
+| Week 17 (5/5)                        | --                                                             |  --                   | --                            |
 
 [^grading-note]: The grading breakdown is subject to change at the discretion of the instructor and in accordance with the University grading system and policies.
 
