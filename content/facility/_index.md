@@ -25,12 +25,12 @@ sections:
   - block: collection
     id: events
     content:
-      title: Software
+      title: Design
       filters:
         folders:
           - facility
         tags:
-          - software
+          - design
     design:
       view: article-grid
       columns: 2

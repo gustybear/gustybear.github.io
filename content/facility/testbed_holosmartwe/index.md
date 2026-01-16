@@ -5,11 +5,10 @@ subtype: testbed
 image:
   filename: holosmart_featured.png
   filename_top: holosmart_featured.png
-  filename_bottom: MIMO_experiment.png
-  caption: Experimental Setup to create multipaths for diverse communication
+  # filename_bottom: MIMO_experiment.png
+  # caption: Experimental Setup to create multipaths for diverse communication
   focal_point: Smart
 date: 2025-05-19T04:14:54-08:00
-tags: MIMO
 authors:  
   - alvin-yang
   - yao-zheng
