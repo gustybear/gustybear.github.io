@@ -3,8 +3,8 @@ title: Holographic Intelligent Surface (HIS)–Enabled Smart Wireless Environmen
 type: facility
 subtype: testbed
 image:
-  filename: holosmart_featured.png
-  filename_top: holosmart_featured.png
+  filename: _holosmart_featured.png
+  filename_top: _holosmart_featured.png
   # filename_bottom: MIMO_experiment.png
   # caption: Experimental Setup to create multipaths for diverse communication
   focal_point: Smart

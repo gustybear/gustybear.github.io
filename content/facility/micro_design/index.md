@@ -3,8 +3,8 @@ title: Microelectronic Design, Emulation, Fabrication & Validation
 type: facility
 subtype: design
 image:
-  filename: microsystem_featured.png
-  filename_top: microsystem_featured.png
+  filename: _microsystem_featured.png
+  filename_top: _microsystem_featured.png
 #   caption: Probing Chips
   focal_point: Smart
 date: 2025-10-28T04:14:54-08:00
