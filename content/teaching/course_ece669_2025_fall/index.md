@@ -10,7 +10,7 @@ summary: "Secure the Future of Wireless: Explore how FutureG, O-RAN, ISAC, and R
 date: 2025-08-27T02:58:53+00:00
 lastmod: 2025-08-27T02:58:53+00:00
 featured: false
-draft: false
+draft: true
 
 authors:
 - Yao Zheng

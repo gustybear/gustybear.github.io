@@ -10,7 +10,7 @@ summary: "ECE260 is the introductory course on digital circuit synthesis, focusi
 date: 2025-08-27T02:58:53+00:00
 lastmod: 2025-08-27T02:58:53+00:00
 featured: false
-draft: false
+draft: true
 
 authors:
 - Yao Zheng
@@ -85,7 +85,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 # Grading
 
-- **Breakdown**
+- **Breakdown**[^grading-note]
 | Participation | Challenge | Labs           | Midterms (2) | Final |
 | ----------    | ------    | -------------- | -------      | ---   |
 | 5%            | 20%       | 25%            | 20%          | 30%   |
@@ -104,29 +104,28 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 # Schedule
 ## Lecture
-| TIME                         | TOPICS                                                                 | READING/HW/EXAM              | DEADLINE      |
-| ---                          | ---                                                                    | ---                          | ---           |
-| Week 1 (8/25, 8/27, 8/29)    | Course Logistic and Introduction                                       | [Read/HW 01][read 01 url]    | 8/31, 11:59PM |
-| Week 2 (9/3, 9/5)            | Number Systems                                                         | [Read/HW 02][read 02 url]    | 9/7,  11:59PM |
-| Week 3 (9/8, 9/10, 9/12)     | Combinational Logic: Switches, Transistors, Logic Gates                | [Read/HW 03][read 03 url]    | 9/14, 11:59PM |
-| Week 4 (9/15, 9/17, 9/19)    | Combinational Logic: Boolean Algebra                                   | [Read/HW 04][read 04 url]    | 9/21, 11:59PM |
-| Week 5 (9/22, 9/24, 9/26)    | Combinational Logic: Design Process, More Gates                        | [Read/HW 05][read 05 url]    | 9/28, 11:59PM |
-| Week 6 (9/29)                | Encoder, Priority Encoder, Decoder                                     | --                           | --            |
-| Week 6 (10/1)                | Arithmetic Logic Unit                                                  | --                           | --            |
-| Week 6 (10/3)                | [Midterm I: Take Home][midterm 01 url]                                 | [Submission link][midt 01 dp], [Solution][midt 01 sol url] | 10/05, 11:59PM|
-| Week 7 (10/6, 10/8, 10/10)   | Sequential Logic: Clock, Latches, and Flip-Flops                       | [Read/HW 07][read 07 url]    | 10/12, 11:59PM|
-| Week 8 (10/15, 10/17)        | Sequential Logic: Finite State Machines                                | [Read/HW 08][read 08 url]    | 10/19, 11:59PM|
-| Week 9 (10/20, 10/22, 10/24) | Sequential Logic: Registers                                            | [Read/HW 09][read 09 url]    | 10/26, 11:59PM|
-| Week 10 (10/27)              | Sequential Logic: Counters, Shifters                                   | --                           | --            |
-| Week 10 (10/29)              | Sequential Logic: Sequential Processor                                 | --                           | --            |
-| Week 6 (10/31)               | [Midterm II: Take Home][midterm 02 url] <br> [Midterm II MP: Take Home][midterm 02 mp url] <br> [Solution][midt 02 sol url]                               | [Submission link][midt 02 dp] <br>  [Submission link MP][midt 02 mp dp]             | 11/02, 11:59PM <br> 11/28 11:59PM|
-| Week 11 (11/3, 11/5, 11/7)   | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 11/9, 11:59PM |
-| Week 12 (11/10, 11/12, 11/14)| Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 11/16, 11:59PM|
-| Week 13 (11/17, 11/19, 11/21)| Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]    | 11/23, 11:59PM|
-| Week 14 (11/24, 11/26, 11/28)| Physical Implementation on ICs                                         | [Read/HW 14][read 14 url]    | 11/30, 11:59PM|
-| Week 15 (12/1, 12/3, 12/5)   | Programmable Processors                                                | [Read/HW 15][read 15 url]    | 12/7, 11:59PM |
-| Week 16 (12/8, 12/10)        | Review, [Practice Final][final practice url]                           | --                           | --            |
-| Week 17 (12/19)              | Final: 12:00PM - 14:00PM                                                | --                           | 12/19, 14:00PM|
+| TIME                          | TOPICS                                                                 | READING / HW / EXAM           | DEADLINE                         |
+|-------------------------------|------------------------------------------------------------------------|--------------------------------|----------------------------------|
+| **Week 1 (1/12, 1/14, 1/16)** | Course Logistic and Introduction                                       | [Read/HW 01][read 01 url]     | 1/18, 11:59 PM                   |
+| **Week 2 (1/21, 1/23)**       | Number Systems                                                         | [Read/HW 02][read 02 url]     | 1/25, 11:59 PM                   |
+| **Week 3 (1/26, 1/28, 1/30)** | Combinational Logic: Switches, Transistors, Logic Gates                | [Read/HW 03][read 03 url]     | 2/1, 11:59 PM                    |
+| **Week 4 (2/2, 2/4, 2/6)**    | Combinational Logic: Boolean Algebra                                   | [Read/HW 04][read 04 url]     | 2/8, 11:59 PM                    |
+| **Week 5 (2/9, 2/11, 2/13)**  | Combinational Logic: Design Process, More Gates                        | [Read/HW 05][read 05 url]     | 2/15, 11:59 PM                   |
+| **Week 6 (2/16, 2/18, 2/20)** | Combinational Building Blocks and Arithmetic Circuits                  | —                              | —                                |
+| **Week 6 (Fri 2/20, 6:00 PM)**| Midterm I: Take Home                                                   | Submission link, Solution      | Sun 2/22, 11:59 PM               |
+| **Week 7 (2/23, 2/25, 2/27)** | Sequential Logic: Clock, Latches, and Flip-Flops                       | [Read/HW 07][read 07 url]     | 3/1, 11:59 PM                    |
+| **Week 8 (3/2, 3/4, 3/6)**    | Sequential Logic: Finite State Machines                                | [Read/HW 08][read 08 url]     | 3/8, 11:59 PM                    |
+| **Week 9 (3/9, 3/11, 3/13)**  | Sequential Logic: Registers Counters, Shifters, Arithmetic             | [Read/HW 09][read 09 url]     | 3/15, 11:59 PM                   |
+| **Week 10 (3/16, 3/18, 3/20)**| Sequential Datapath and Simple Processor Architecture                  | —                              | —                                |
+| **Week 10 (Fri 3/20, 6:00 PM)**| Midterm II: Take Home                                                 | Submission link                | Sun 3/22, 11:59 PM               |
+| **Week 11 (3/23, 3/25, 3/27)**| Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]     | 3/29, 11:59 PM                   |
+| **Week 12 (3/30, 4/1, 4/3)**  | Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]     | 4/5, 11:59 PM                    |
+| **Week 13 (4/6, 4/8, 4/10)**  | Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]     | 4/12, 11:59 PM                   |
+| **Week 14 (4/13, 4/15, 4/17)**| Physical Implementation on ICs                                         | [Read/HW 14][read 14 url]     | 4/19, 11:59 PM                   |
+| **Week 15 (4/20, 4/22, 4/24)**| Programmable Processors                                                | [Read/HW 15][read 15 url]     | 4/26, 11:59 PM                   |
+| **Week 16 (4/27, 4/29, 5/1)** | Pipelined Processor Design and Hazards                                 | —                              | —                                |
+| **Week 17 (5/4, 5/6)**        | Review                                                                 | —                              | —                                |
+| **Finals Week (per UHM)**     | Final Exam                                                             | —                              | Per university schedule          |
 
 ## Laboratory
 | TIME                                 | Materials                                                      | Virtual               | DEADLINE                      |
@@ -149,6 +148,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 16 (12/9)                       | --                                                             |  --                   | --                            |
 | Week 17 (12/16)                       | --                                                            |  --                   | --                            |
 
+[^grading-note]: The grading breakdown is subject to change at the discretion of the instructor and in accordance with the University grading system and policies.
 
 [recording urls]: # (recording urls)
 [recording 0113 url]: https://youtu.be/RtppPuw2Thw

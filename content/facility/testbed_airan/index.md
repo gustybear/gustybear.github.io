@@ -3,10 +3,10 @@ title: Artificial Intelligence Radio Access Network (AI-RAN) with Digital Twin
 type: facility
 subtype: testbed
 image:
-  filename: AI-RAN_featured.png
-  filename_top: x410.png
-  filename_bottom: x310.png
-  caption: Ettus USRP X410
+  filename: _ai_ran_featured.png
+  filename_top: _ai_ran_featured.png
+#  filename_bottom: x310.png
+#  caption: Ettus USRP X410
   focal_point: Smart
 date: 2025-09-01T04:14:54-08:00
 authors:  
@@ -30,7 +30,6 @@ The testbed uses **OAIBox** as a compact and modular implementation of the full 
 - Real-time experimentation with RAN procedures and RRC signaling
 
 OAIBox acts as the protocol and control anchor of the testbed.
-
 
 ## NVIDIA Aerial RAN (cuPHY + cuMAC)
 The **NVIDIA Aerial** platform provides GPU-accelerated baseband processing and AI-native PHY/MAC capabilities:
