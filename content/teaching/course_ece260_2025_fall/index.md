@@ -115,7 +115,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | **Week 6 (Fri 2/20, 6:00 PM)**| Midterm I: Take Home                                                   | Submission link, Solution      | Sun 2/22, 11:59 PM               |
 | **Week 7 (2/23, 2/25, 2/27)** | Sequential Logic: Clock, Latches, and Flip-Flops                       | [Read/HW 07][read 07 url]     | 3/1, 11:59 PM                    |
 | **Week 8 (3/2, 3/4, 3/6)**    | Sequential Logic: Finite State Machines                                | [Read/HW 08][read 08 url]     | 3/8, 11:59 PM                    |
-| **Week 9 (3/9, 3/11, 3/13)**  | Sequential Logic: Registers Counters, Shifters, Arithmetic             | [Read/HW 09][read 09 url]     | 3/15, 11:59 PM                   |
+| **Week 9 (3/9, 3/11, 3/13)**  | Sequential Logic: Registers, Counters, Shifters, Arithmetic            | [Read/HW 09][read 09 url]     | 3/15, 11:59 PM                   |
 | **Week 10 (3/16, 3/18, 3/20)**| Sequential Datapath and Simple Processor Architecture                  | —                              | —                                |
 | **Week 10 (Fri 3/20, 6:00 PM)**| Midterm II: Take Home                                                 | Submission link                | Sun 3/22, 11:59 PM               |
 | **Week 11 (3/23, 3/25, 3/27)**| Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]     | 3/29, 11:59 PM                   |
