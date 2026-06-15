@@ -117,14 +117,14 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 10 (3/16-3/20)          | SPRING RECESS                                                          | --                           | --            |
 | Week 11 (3/23, 3/25, 3/27)   | Sequential Logic: Registers, Counters, Shifters, Arithmetic            | [Read/HW 09][read 09 url]    | 3/29, 11:59PM |
 | Week 12 (3/30, 4/1)          | Sequential Datapath and Simple Processor Architecture                  |                              | --            |
-| Weekend 12 (4/1, 4/2, 4/3)   | Midterm II: Take Home                                                  | Submission link, Solution    | 4/3, 06:00PM  |
+| Weekend 12 (4/3, 4/4, 4/5)   | [Midterm II: Take Home][midterm 02 url]                                | [Submission link][midt 02 dp], Solution    | 4/5, 06:00PM  |
 | Week 13 (4/6, 4/8, 4/10)     | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 4/12, 11:59PM |
 | Week 14 (4/13, 4/15, 4/17)   | Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 4/19, 11:59PM |
 | Week 15 (4/20, 4/22, 4/24)   | Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]    | 4/26, 11:59PM |
 | Week 16 (4/27, 4/29, 5/1)    | Physical Implementation on ICs                                         | [Read/HW 14][read 14 url]    | 5/3, 11:59PM  |
 | Week 17 (5/4, 5/6)           | Programmable Processors                                                | [Read/HW 15][read 15 url]    | 5/10, 11:59PM |
-| Study Period (5/7, 5/8)      | Review, Practice Final                                                 | --                           | --            |
-| Finals Week (5/11-5/15)      | Final Exam - TBD                                                       | --                           | TBD           |
+| Study Period (5/7, 5/8)      | Review, [Practice Final][final practice url]                           | --                           | --            |
+| Finals Week (5/11-5/15)      | Final Exam - May 11 M 9:45AM – 11:45AM                                 | --                           | 5/11，11:45AM |
 
 ## Laboratory
 | TIME                                 | Materials                                                      | Virtual               | DEADLINE                      |
@@ -201,7 +201,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 [midterm 01 url]: ../../docs/exams/course_ece260_2026_spring/miterm_01_game/
 [midt 01 dp]: https://www.dropbox.com/request/vVJ09fV9JWCF7TZDRA6I
 [midt 01 sol url]: ../../docs/exams/course_ece260_2026_spring/miterm_01_solutions/
-[midt 02 dp]: https://www.dropbox.com/request/TBD
+[midt 02 dp]: https://www.dropbox.com/request/UtzOFVcysu6Nkn2xADI0
 [midterm 02 url]: ../../docs/exams/course_ece260_2026_spring/miterm_02_game/
 [midt 02 mp dp]: https://www.dropbox.com/request/TBD
 [midterm 02 mp url]: ../../docs/exams/course_ece260_2026_spring/miterm_02_game_mp/
