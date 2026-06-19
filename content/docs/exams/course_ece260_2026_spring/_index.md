@@ -1,5 +1,5 @@
 ---
-title: EE260 (Fall, 2025)
+title: EE260 (Spring, 2026)
 summary: Exams for EE260 Introduction to Digital Design
 weight: 3
 sidebar:

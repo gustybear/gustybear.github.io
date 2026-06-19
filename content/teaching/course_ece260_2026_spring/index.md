@@ -104,25 +104,27 @@ This course explores the foundation of digital circuit design, starting from Boo
 ## Lecture
 | TIME                         | TOPICS                                                                 | READING/HW/EXAM              | DEADLINE      |
 | ---                          | ---                                                                    | ---                          | ---           |
-| Week 1 (1/13, 1/15)          | Course Logistic and Introduction (No class 1/19 - MLK Day)             | [Read/HW 01][read 01 url]    | 1/18, 11:59PM |
+| Week 1 (1/13, 1/15)          | Course Logistic and Introduction                                       | [Read/HW 01][read 01 url]    | 1/18, 11:59PM |
 | Week 2 (1/20, 1/22)          | Number Systems                                                         | [Read/HW 02][read 02 url]    | 1/25, 11:59PM |
 | Week 3 (1/26, 1/28, 1/30)    | Combinational Logic: Switches, Transistors, Logic Gates                | [Read/HW 03][read 03 url]    | 2/1, 11:59PM  |
 | Week 4 (2/2, 2/4, 2/6)       | Combinational Logic: Boolean Algebra                                   | [Read/HW 04][read 04 url]    | 2/8, 11:59PM  |
 | Week 5 (2/9, 2/11, 2/13)     | Combinational Logic: Design Process, More Gates                        | [Read/HW 05][read 05 url]    | 2/15, 11:59PM |
-| Week 6 (2/16, 2/18, 2/20)    | Encoder, Priority Encoder, Decoder (No class 2/16 - Presidents Day)    | [Read/HW 06][read 06 url]    | 2/22, 11:59PM |
+| Week 6 (2/16, 2/18, 2/20)    | Encoder, Priority Encoder, Decoder                                     | [Read/HW 06][read 06 url]    | 2/22, 11:59PM |
 | Week 7 (2/23, 2/25, 2/27)    | Arithmetic Logic Unit                                                  | --                           | --            |
-| Week 8 (3/2, 3/4, 3/6)       | Midterm I: Take Home                                                   | Submission link, Solution    | 3/8, 11:59PM  |
-| Week 9 (3/9, 3/11, 3/13)     | Sequential Logic: Clock, Latches, and Flip-Flops                       | [Read/HW 07][read 07 url]    | 3/15, 11:59PM |
+| Weekend 7 (2/27, 2/28, 2/29) | [Midterm I: Take Home][midterm 01 url]                                 | [Submission link][midt 01 dp], Solution    | 2/29, 06:00PM |
+| Week 8 (3/2, 3/4, 3/6)       | Sequential Logic: Clock, Latches, and Flip-Flops                       | [Read/HW 07][read 07 url]    | 3/8, 11:59PM  |
+| Week 9 (3/9, 3/11, 3/13)     | Sequential Logic: Finite State Machines                                | [Read/HW 08][read 08 url]    | 3/15, 11:59PM |
 | Week 10 (3/16-3/20)          | SPRING RECESS                                                          | --                           | --            |
-| Week 11 (3/23, 3/25, 3/27)   | Sequential Logic: Finite State Machines (No class 3/26 - Kuhio Day)    | [Read/HW 08][read 08 url]    | 3/29, 11:59PM |
-| Week 12 (3/30, 4/1)          | Sequential Logic: Registers (No class 4/3 - Good Friday)               | [Read/HW 09][read 09 url]    | 4/5, 11:59PM  |
-| Week 13 (4/6, 4/8, 4/10)     | Sequential Logic: Counters, Shifters                                   | --                           | --            |
-| Week 14 (4/13, 4/15, 4/17)   | Sequential Logic: Sequential Processor                                 | --                           | --            |
-| Week 15 (4/20, 4/22, 4/24)   | Midterm II: Take Homemidterm 02 url                                    | Submission link, Solution    | 4/26, 11:59PM |
-| Week 16 (4/27, 4/29, 5/1)    | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 5/3, 11:59PM  |
-| Week 17 (5/4, 5/6)           | Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 5/10, 11:59PM |
-| Study Period (5/7, 5/8)      | Review, Practice Final                                                 | --                           | --            |
-| Finals Week (5/11-5/15)      | Final Exam - TBD                                                       | --                           | TBD           |
+| Week 11 (3/23, 3/25, 3/27)   | Sequential Logic: Registers, Counters, Shifters, Arithmetic            | [Read/HW 09][read 09 url]    | 3/29, 11:59PM |
+| Week 12 (3/30, 4/1)          | Sequential Datapath and Simple Processor Architecture                  |                              | --            |
+| Weekend 12 (4/3, 4/4, 4/5)   | [Midterm II: Take Home][midterm 02 url]                                | [Submission link][midt 02 dp], Solution    | 4/5, 06:00PM  |
+| Week 13 (4/6, 4/8, 4/10)     | Register-Transfer Level Design                                         | [Read/HW 11][read 11 url]    | 4/12, 11:59PM |
+| Week 14 (4/13, 4/15, 4/17)   | Register Memory Components and FIFO                                    | [Read/HW 12][read 12 url]    | 4/19, 11:59PM |
+| Week 15 (4/20, 4/22, 4/24)   | Optimizations and Tradeoffs                                            | [Read/HW 13][read 13 url]    | 4/26, 11:59PM |
+| Week 16 (4/27, 4/29, 5/1)    | Physical Implementation on ICs                                         | [Read/HW 14][read 14 url]    | 5/3, 11:59PM  |
+| Week 17 (5/4, 5/6)           | Programmable Processors                                                | [Read/HW 15][read 15 url]    | 5/10, 11:59PM |
+| Study Period (5/7, 5/8)      | Review, [Practice Final][final practice url]                           | --                           | --            |
+| Finals Week (5/11-5/15)      | Final Exam - May 11 M 9:45AM – 11:45AM                                 | --                           | 5/11，11:45AM |
 
 ## Laboratory
 | TIME                                 | Materials                                                      | Virtual               | DEADLINE                      |
@@ -196,12 +198,12 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 
 [exam urls]: # (exam urls)
-[midterm 01 url]: ../../docs/exams/course_ece260_2026_spring/midterm_01_game/
-[midt 01 dp]: https://www.dropbox.com/request/TBD
-[midt 01 sol url]: ../../docs/exams/course_ece260_2026_spring/midterm_01_solutions/
-[midt 02 dp]: https://www.dropbox.com/request/TBD
-[midterm 02 url]: ../../docs/exams/course_ece260_2026_spring/midterm_02_game/
+[midterm 01 url]: ../../docs/exams/course_ece260_2026_spring/miterm_01_game/
+[midt 01 dp]: https://www.dropbox.com/request/vVJ09fV9JWCF7TZDRA6I
+[midt 01 sol url]: ../../docs/exams/course_ece260_2026_spring/miterm_01_solutions/
+[midt 02 dp]: https://www.dropbox.com/request/UtzOFVcysu6Nkn2xADI0
+[midterm 02 url]: ../../docs/exams/course_ece260_2026_spring/miterm_02_game/
 [midt 02 mp dp]: https://www.dropbox.com/request/TBD
-[midterm 02 mp url]: ../../docs/exams/course_ece260_2026_spring/midterm_02_game_mp/
-[midt 02 sol url]: ../../docs/exams/course_ece260_2026_spring/midterm_02_solutions/
+[midterm 02 mp url]: ../../docs/exams/course_ece260_2026_spring/miterm_02_game_mp/
+[midt 02 sol url]: ../../docs/exams/course_ece260_2026_spring/miterm_02_solutions/
 [final practice url]: ../../docs/exams/course_ece260_2026_spring/final_practice/

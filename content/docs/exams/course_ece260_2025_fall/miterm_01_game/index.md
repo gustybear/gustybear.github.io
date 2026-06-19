@@ -5,7 +5,7 @@ date: 2025-09-30
 type: book
 commentable: true
 
-summary: "The exam for midterm 01, EE260, fall, 2025."
+summary: "Midterm I, ECE260, Fall 2025 — In-depth combinational analysis and design."
 
 tags:
 - teaching
