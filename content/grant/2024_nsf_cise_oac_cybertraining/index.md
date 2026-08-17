@@ -12,7 +12,6 @@ tags:
 - reconfigurable intelligent surface
 - radar
 - grant
-- active grant
 - pi-role
 
 authors:

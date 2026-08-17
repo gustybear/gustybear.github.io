@@ -13,7 +13,6 @@ tags:
 - climate resilience
 - precision livestock
 - ctahr
-- active grant
 - copi-role
 
 authors:

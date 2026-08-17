@@ -11,7 +11,6 @@ tags:
 - n78 band
 - n260 band
 - grant
-- active grant
 - pi-role
 
 authors:

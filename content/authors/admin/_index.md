@@ -36,10 +36,8 @@ profiles:
     link: https://calendly.com/yaozheng-hawaii/30min
   - icon: academicons/orcid
     link: https://orcid.org/0000-0003-2820-1034
-  - icon: academicons/google-scholar
-    link: https://scholar.google.com/citations?user=0nk3blkAAAAJ&hl=en
-  - icon: brands/github
-    link: https://github.com/gustybear-research
+  # - icon: brands/github
+  #   link: https://github.com/gustybear-research
   - icon: custom/bitcoin
     link: bitcoin:bc1q2xk5a56tz7wzuxruwt0tmldsg7qtdu47z6fqlg
   - icon: at-symbol
@@ -165,4 +163,4 @@ awards:
 
 ## Curriculum Vitae
 
-I am an Associate Professor at Department of Electrical and Computer Engineering, University of Hawaiʻi at Mānoa, a senior member of IEEE, and a honorary graduate of Starfleet Academy.
+I am an Associate Professor of Electrical and Computer Engineering at the University of Hawaiʻi at Mānoa and an IEEE Senior Member. My general research field is intelligent wireless systems, at the intersection of wireless communications, RF sensing, and artificial intelligence. My research specialties include hardware–software–AI co-design, integrated sensing and communication (ISAC), programmable wireless environments, RF/mmWave sensing, software-defined radio systems, and digital twins. 
