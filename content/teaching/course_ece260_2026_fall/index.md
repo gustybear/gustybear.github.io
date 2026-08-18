@@ -7,8 +7,8 @@ subtitle: "Fall, 2026"
 
 summary: "ECE260 is the introductory course on digital circuit synthesis, focusing on the design and implementation of combinational logic, sequential logic, and basic central processor (van Neumann/Princeton architecture) through Verilog HDL and FPGA. Pre: 160 or 110 or ICS 111 or consent."
 
-date: 2026-01-10T02:58:53+00:00
-lastmod: 2026-01-12T02:58:53+00:00
+date: 2026-08-10T02:58:53+00:00
+lastmod: 2026-08-12T02:58:53+00:00
 featured: false
 draft: false
 
