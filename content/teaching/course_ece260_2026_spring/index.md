@@ -28,7 +28,6 @@ tags:
 - van neumann architecture
 - princeton architecture
 - offered course
-- current semester
 
 categories: []
 
