@@ -170,21 +170,21 @@ This course explores the foundation of digital circuit design, starting from Boo
 [read 15 url]: # (reading urls)
 
 [handout urls]: # (handout urls)
-[handout 01 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_01_slides.pdf
-[handout 02 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_02_slides.pdf
-[handout 03 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_03_slides.pdf
-[handout 04 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_04_slides.pdf
-[handout 05 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_05_slides.pdf
+[handout 01 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_01_slides.pdf
+[handout 02 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_02_slides.pdf
+[handout 03 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_03_slides.pdf
+[handout 04 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_04_slides.pdf
+[handout 05 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_05_slides.pdf
 [handout 06 url]: # (handout urls)
-[handout 07 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_07_slides.pdf
-[handout 08 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_08_slides.pdf
-[handout 09 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_09_slides.pdf
+[handout 07 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_07_slides.pdf
+[handout 08 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_08_slides.pdf
+[handout 09 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_09_slides.pdf
 [handout 10 url]: # (handout urls)
-[handout 11 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_11_slides.pdf
-[handout 12 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_12_slides.pdf
-[handout 13 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_13_slides.pdf
-[handout 14 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_14_slides.pdf
-[handout 15 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_15_slides.pdf
+[handout 11 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_11_slides.pdf
+[handout 12 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_12_slides.pdf
+[handout 13 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_13_slides.pdf
+[handout 14 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_14_slides.pdf
+[handout 15 url]: https://gustybear-websites.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_15_slides.pdf
 
 [vlabs urls]: # (vlabs urls)
 [vlab00 url]: https://learn.zybooks.com/zybook/HAWAIIECE260ZhengFall2026/chapter/14/section/1
@@ -201,17 +201,17 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 
 [lab video urls]: # (lab video urls)
-[lab video 00 url]: #
-[lab video 01 url]: #
-[lab video 02 url]: #
-[lab video 03 url]: #
-[lab video 04 url]: #
-[lab video 05 url]: #
-[lab video 06 url]: #
-[lab video 07 url]: #
-[lab video 08 url]: #
-[lab video 09 url]: #
-[lab video 10 url]: #
+[lab video 00 url]: https://youtu.be/zd7QDoAOB5M
+[lab video 01 url]: https://youtu.be/zd7QDoAOB5M
+[lab video 02 url]: https://youtu.be/aKAWfHtch7E
+[lab video 03 url]: https://youtu.be/j1XKgbZsiyQ
+[lab video 04 url]: https://youtu.be/Iy2d9AWodQk
+[lab video 05 url]: https://youtu.be/anNbjOznNO8
+[lab video 06 url]: https://youtu.be/9vp-RKdkr5I
+[lab video 07 url]: https://youtu.be/J_4rpI6FpI0
+[lab video 08 url]: https://youtu.be/frvdQcka0x0
+[lab video 09 url]: https://youtu.be/xhgT7T8U130
+[lab video 10 url]: https://youtu.be/4Fg3OoCjEho
 
 
 [exam urls]: # (exam urls)
