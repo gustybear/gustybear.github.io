@@ -183,17 +183,17 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 
 [lab video urls]: # (lab video urls)
-[lab video 00 url]: #
-[lab video 01 url]: #
-[lab video 02 url]: #
-[lab video 03 url]: #
-[lab video 04 url]: #
-[lab video 05 url]: #
-[lab video 06 url]: #
-[lab video 07 url]: #
-[lab video 08 url]: #
-[lab video 09 url]: #
-[lab video 10 url]: #
+[lab video 00 url]: https://youtu.be/zd7QDoAOB5M
+[lab video 01 url]: https://youtu.be/zd7QDoAOB5M
+[lab video 02 url]: https://youtu.be/aKAWfHtch7E
+[lab video 03 url]: https://youtu.be/j1XKgbZsiyQ
+[lab video 04 url]: https://youtu.be/Iy2d9AWodQk
+[lab video 05 url]: https://youtu.be/anNbjOznNO8
+[lab video 06 url]: https://youtu.be/9vp-RKdkr5I
+[lab video 07 url]: https://youtu.be/J_4rpI6FpI0
+[lab video 08 url]: https://youtu.be/frvdQcka0x0
+[lab video 09 url]: https://youtu.be/xhgT7T8U130
+[lab video 10 url]: https://youtu.be/4Fg3OoCjEho
 
 
 [exam urls]: # (exam urls)
