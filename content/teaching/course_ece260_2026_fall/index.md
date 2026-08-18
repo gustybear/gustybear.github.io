@@ -99,34 +99,34 @@ This course explores the foundation of digital circuit design, starting from Boo
 
 # Schedule
 ## Lecture
-| TIME                         | TOPICS                                                             | READING/HW/EXAM                    | DEADLINE        |
-| ---                          | ---                                                                | ---                                | ---             |
-| Week 1 (8/24, 8/26, 8/28)    | Course Logistics and Introduction                                  | [Read/HW 01][read 01 url]          | 8/30, 11:59PM   |
-| Week 2 (8/31, 9/2, 9/4)      | Combinational Logic: Number Systems                                | [Read/HW 02][read 02 url]          | 9/6, 11:59PM    |
-| Week 3 (9/7)                 | **NO INSTRUCTION — Labor Day**                                     | --                                 | --              |
-| Week 3 (9/9, 9/11)           | Combinational Logic: Switches, Transistors, Logic Gates            | [Read/HW 03][read 03 url]          | 9/13, 11:59PM   |
-| Week 4 (9/14, 9/16, 9/18)    | Combinational Logic: Boolean Algebra                               | [Read/HW 04][read 04 url]          | 9/20, 11:59PM   |
-| Week 5 (9/21, 9/23, 9/25)    | Combinational Logic: More Gates and Combinational Logic Devices    | [Read/HW 05][read 05 url]          | 9/27, 11:59PM   |
-| Week 6 (9/28)                | Combinational Logic: Design Process                                | --                                 | --              |
-| Week 6 (9/30)                | **Midterm I Review**                                               | --                                 | --              |
-| Week 6 (10/2)                | **Midterm I — In Person**                                          | --                                 | --              |
-| Week 7 (10/5, 10/7, 10/9)    | Sequential Logic: Clocks, Latches, and Flip-Flops                  | [Read/HW 07][read 07 url]          | 10/11, 11:59PM  |
-| Week 8 (10/12, 10/14, 10/16) | Sequential Logic: Finite State Machines                            | [Read/HW 08][read 08 url]          | 10/18, 11:59PM  |
-| Week 9 (10/19, 10/21, 10/23) | Sequential Logic: Registers, Counters, Shifters                    | [Read/HW 09][read 09 url]          | 10/25, 11:59PM  |
-| Week 10 (10/26)              | Sequential Logic: Arithmetic Logic Unit                            | --                                 | --              |
-| Week 10 (10/28)              | **Midterm II Review**                                              | --                                 | --              |
-| Week 10 (10/30)              | **Midterm II — In Person**                                         | --                                 | --              |
-| Week 11 (11/2, 11/4, 11/6)   | RTL: Register-Transfer Level Design                                | [Read/HW 11][read 11 url]          | 11/8, 11:59PM   |
-| Week 12 (11/9)               | RTL: Register Memory Components and FIFO                           | [Read/HW 12][read 12 url]          | 11/15, 11:59PM  |
-| Week 12 (11/11)              | **NO INSTRUCTION — Veterans Day**                                  | --                                 | --              |
-| Week 12 (11/13)              | RTL: Register Memory Components and FIFO                           | --                                 | --              |
-| Week 13 (11/16, 11/18, 11/20)| RTL: Optimizations and Tradeoffs                                   | [Read/HW 13][read 13 url]          | 11/22, 11:59PM  |
-| Week 14 (11/23, 11/25)       | RTL: Physical Implementation on ICs                                | [Read/HW 14][read 14 url]          | 11/29, 11:59PM  |
-| Week 14 (11/27)              | **NO INSTRUCTION — Thanksgiving Period**                           | --                                 | --              |
-| Week 15 (11/30, 12/2, 12/4)  | RTL: Programmable Processors                                       | [Read/HW 15][read 15 url]          | 12/6, 11:59PM   |
-| Week 16 (12/7, 12/9)         | Review, Practice Final                                             | Practice Final                     | --              |
-| Study Period (12/11–12/12)   | **Study Period**                                                   | --                                 | --              |
-| Finals (12/18)               | **Friday 12:00 – 2:00 pm**                                         | --                                 | 12/18, 2:00PM   |
+| TIME                           | TOPICS                                                                                           | READING/HW/EXAM                   | DEADLINE       |
+| ------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------- | -------------- |
+| Week 1 (8/24, 8/26, 8/28)      | [Course Logistics and Introduction][handout 01 url]                                              | [Read/HW 01][read 01 url]         | 8/30, 11:59PM  |
+| Week 2 (8/31, 9/2, 9/4)        | [Combinational Logic: Number Systems][handout 02 url]                                            | [Read/HW 02][read 02 url]         | 9/6, 11:59PM   |
+| Week 3 (9/7)                   | **NO INSTRUCTION — Labor Day**                                                                   | --                                | --             |
+| Week 3 (9/9, 9/11)             | [Combinational Logic: Switches, Transistors, Logic Gates][handout 03 url]                        | [Read/HW 03][read 03 url]         | 9/13, 11:59PM  |
+| Week 4 (9/14, 9/16, 9/18)      | [Combinational Logic: Boolean Algebra][handout 04 url]                                           | [Read/HW 04][read 04 url]         | 9/20, 11:59PM  |
+| Week 5 (9/21, 9/23, 9/25)      | [Combinational Logic: More Gates and Combinational Logic Devices][handout 05 url]                | [Read/HW 05][read 05 url]         | 9/27, 11:59PM  |
+| Week 6 (9/28)                  | Combinational Logic: Design Process                                                              | --                                | --             |
+| Week 6 (9/30)                  | **Midterm I Review**                                                                             | --                                | --             |
+| Week 6 (10/2)                  | **Midterm I — In Person**                                                                        | --                                | --             |
+| Week 7 (10/5, 10/7, 10/9)      | [Sequential Logic: Clocks, Latches, and Flip-Flops][handout 07 url]                              | [Read/HW 07][read 07 url]         | 10/11, 11:59PM |
+| Week 8 (10/12, 10/14, 10/16)   | [Sequential Logic: Finite State Machines][handout 08 url]                                        | [Read/HW 08][read 08 url]         | 10/18, 11:59PM |
+| Week 9 (10/19, 10/21, 10/23)   | [Sequential Logic: Registers, Counters, Shifters][handout 09 url]                                | [Read/HW 09][read 09 url]         | 10/25, 11:59PM |
+| Week 10 (10/26)                | Sequential Logic: Arithmetic Logic Unit                                                          | --                                | --             |
+| Week 10 (10/28)                | **Midterm II Review**                                                                            | --                                | --             |
+| Week 10 (10/30)                | **Midterm II — In Person**                                                                       | --                                | --             |
+| Week 11 (11/2, 11/4, 11/6)     | [RTL: Register-Transfer Level Design][handout 11 url]                                            | [Read/HW 11][read 11 url]         | 11/8, 11:59PM  |
+| Week 12 (11/9)                 | [RTL: Register Memory Components and FIFO][handout 12 url]                                       | [Read/HW 12][read 12 url]         | 11/15, 11:59PM |
+| Week 12 (11/11)                | **NO INSTRUCTION — Veterans Day**                                                                | --                                | --             |
+| Week 12 (11/13)                | [RTL: Register Memory Components and FIFO][handout 12 url]                                       | --                                | --             |
+| Week 13 (11/16, 11/18, 11/20)  | [RTL: Optimizations and Tradeoffs][handout 13 url]                                               | [Read/HW 13][read 13 url]         | 11/22, 11:59PM |
+| Week 14 (11/23, 11/25)         | [RTL: Physical Implementation on ICs][handout 14 url]                                            | [Read/HW 14][read 14 url]         | 11/29, 11:59PM |
+| Week 14 (11/27)                | **NO INSTRUCTION — Thanksgiving Period**                                                         | --                                | --             |
+| Week 15 (11/30, 12/2, 12/4)    | [RTL: Programmable Processors][handout 15 url]                                                   | [Read/HW 15][read 15 url]         | 12/6, 11:59PM  |
+| Week 16 (12/7, 12/9)           | Review, Practice Final                                                                           | Practice Final                    | --             |
+| Study Period (12/11–12/12)     | **Study Period**                                                                                 | --                                | --             |
+| Finals (12/18)                 | **Friday 12:00 – 2:00 pm**                                                                       | --                                | 12/18, 2:00PM  |
 
 ## Laboratory
 | TIME                         | Materials                                                      | Virtual               | DEADLINE        |
@@ -168,6 +168,23 @@ This course explores the foundation of digital circuit design, starting from Boo
 [read 13 url]: https://learn.zybooks.com/zybook/HAWAIIECE260ZhengFall2026/chapter/12/section/1
 [read 14 url]: https://learn.zybooks.com/zybook/HAWAIIECE260ZhengFall2026/chapter/13/section/1
 [read 15 url]: # (reading urls)
+
+[handout urls]: # (handout urls)
+[handout 01 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_01_slides.pdf
+[handout 02 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_02_slides.pdf
+[handout 03 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_03_slides.pdf
+[handout 04 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_04_slides.pdf
+[handout 05 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_05_slides.pdf
+[handout 06 url]: # (handout urls)
+[handout 07 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_07_slides.pdf
+[handout 08 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_08_slides.pdf
+[handout 09 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_09_slides.pdf
+[handout 10 url]: # (handout urls)
+[handout 11 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_11_slides.pdf
+[handout 12 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_12_slides.pdf
+[handout 13 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_13_slides.pdf
+[handout 14 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_14_slides.pdf
+[handout 15 url]: https://gustybear-teaching.s3.us-west-2.amazonaws.com/course_ee260_2026_fall/ee260_2026_fall_materials_week_15_slides.pdf
 
 [vlabs urls]: # (vlabs urls)
 [vlab00 url]: https://learn.zybooks.com/zybook/HAWAIIECE260ZhengFall2026/chapter/14/section/1
