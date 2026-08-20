@@ -167,9 +167,6 @@ ECE 361 is an undergraduate-level course on computer organization and processor 
 
 [^grading-note]: The grading breakdown is subject to change at the discretion of the instructor and in accordance with the University grading system and policies.
 
-# Handout URLs
-
-The URLs below are intentionally left as placeholders until the 2026 ECE361 PDFs are uploaded. The labels follow the schedule above so they can be replaced with the final S3 or website URLs.
 
 [handout 01 url]: #
 [handout 02 url]: #
