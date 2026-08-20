@@ -64,12 +64,12 @@ This course explores the foundation of digital circuit design, starting from Boo
 | 78638      | 78639      | 78640      | 
 
 - **Personnel**
-| Role / Personnel                                       | Assigned Session                  | Office Hours / Notes                                   |
-| ---                                                   | ---                                | ---                                                    |
-| Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)    | N/A                                | see [here](https://calendly.com/yaozheng-hawaii/30min) |
-| TA: [Anindya Bal](mailto:anindyab@hawaii.edu)         | Session 1 (Th 9:00am - 11:45am)    | TBD                                                    |
-| TA: [Anindya Bal](mailto:anindyab@hawaii.edu)         | Session 2 (Th 13:30pm - 16:15pm)   | TBD                                                    |
-| TA: [Ziyu Chen](mailto:ziyu89@hawaii.edu)             | Session 3 (Th 16:30pm - 19:15pm)   | TBD                                                    |
+| Role / Personnel                                       | Assigned Session                   | Office Hours / Notes                                   |
+| ---                                                    | ---                                | ---                                                    |
+| Lecturer: [Yao Zheng](mailto:yao.zheng@hawaii.edu)     | N/A                                | see [here](https://calendly.com/yaozheng-hawaii/30min) |
+| TA: [Anindya Bal](mailto:anindyab@hawaii.edu)          | Session 1 (R 09:00am - 11:45am)    | TBD                                                    |
+| TA: [Anindya Bal](mailto:anindyab@hawaii.edu)          | Session 2 (R 13:30pm - 16:15pm)    | TBD                                                    |
+| TA: [Ziyu Chen](mailto:ziyu89@hawaii.edu)              | Session 3 (R 16:30pm - 19:15pm)    | TBD                                                    |
 - **Classroom**
 | Time                 | Location            | Textbook/HW                                                                                            | HW/Exam Effort |
 | ----                 | ---                 | ---                                                                                                    | ---            |
@@ -78,9 +78,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 - **Laboratory**
 | Session | Time                 | Location         | Report Effort |
 | ---     | ----                 | ---              | ---           |
-| 01      | Th 09:00am - 11:45am | Holmes Hall 451  |  Group        |
-| 02      | Th 13:30pm - 16:15pm | Holmes Hall 451  |  Group        |
-| 03      | Th 16:30pm - 19:15pm | Holmes Hall 451  |  Group        |
+| 01      | R 09:00am - 11:45am  | Holmes Hall 451  |  Group        |
+| 02      | R 13:30pm - 16:15pm  | Holmes Hall 451  |  Group        |
+| 03      | R 16:30pm - 19:15pm  | Holmes Hall 451  |  Group        |
 
 # Grading
 

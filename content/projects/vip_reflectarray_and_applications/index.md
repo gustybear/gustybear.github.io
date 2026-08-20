@@ -26,7 +26,7 @@ authors:
 - Xiaochan Xue
 
 # Optional external URL for project (replaces project detail page).
-external_link: "http://www2.hawaii.edu/~viprasre/"
+external_link: "https://gustybear-research.github.io/rasre_reflectarrays_hugo/                                                                                 "
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
