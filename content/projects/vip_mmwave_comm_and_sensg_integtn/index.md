@@ -22,7 +22,7 @@ authors:
 - Wayne A. Shiroma
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://gustybear-research.github.io/monet_mmwave_sensing_hugo/"
+# external_link: "https://gustybear-research.github.io/monet_mmwave_sensing_hugo/"
 
 # Featured image
 # To use, place an image named `featured.jpg/png` in your page's folder.
