@@ -99,57 +99,60 @@ ECE 361 is an undergraduate-level course on computer organization and processor 
 
 ## Lecture
 
-| TIME                                  | TOPICS                                                                   | READING / HW / EXAM                                           | DEADLINE     |
-| ------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------- | ------------ |
-| Week 1 — Mon. 8/24/2026               | Introduction / Review Part 1: Data                                      | Data representation, conversions, signed integers, arithmetic | --           |
-| Week 1 — Wed. 8/26/2026               | Review Part 2: Logic Operations                                         | Logic operations and Boolean concepts                         | --           |
-| Week 1 — Fri. 8/28/2026               | Review Part 3: Combinational Circuits                                   | Combinational logic and circuit design                        | --           |
-| Week 2 — Mon. 8/31/2026               | Review Part 4: Sequential Circuits                                      | Sequential logic and state                                    | --           |
-| Week 2 — Wed. 9/2/2026                | SystemVerilog I: Combinational Circuits                                 | SystemVerilog modeling of combinational circuits              | --           |
-| Week 2 — Fri. 9/4/2026                | SystemVerilog I: Simulation                                             | Simulation and verification basics                            | --           |
-| Week 3 — Mon. 9/7/2026                | **NO INSTRUCTION — Labor Day**                                          | --                                                            | --           |
-| Week 3 — Wed. 9/9/2026                | SystemVerilog I: Sequential Circuits                                    | Sequential circuit modeling                                   | --           |
-| Week 3 — Fri. 9/11/2026               | SystemVerilog I: Additional Constructs                                  | Additional SystemVerilog concepts                             | --           |
-| Week 4 — Mon. 9/14/2026               | Computer Architecture Overview I: Introduction and Performance          | Patterson & Hennessy, Sec. 1.1–1.6                            | --           |
-| Week 4 — Wed. 9/16/2026               | Computer Architecture Overview II: Design                               | Patterson & Hennessy, Sec. 1.7–1.11                           | --           |
-| Week 4 — Fri. 9/18/2026               | ISA I: Barely C                                                         | Programming model and preparation for MIPS ISA                | --           |
-| Week 5 — Mon. 9/21/2026               | ISA II: CPU and Instruction Execution                                   | MIPS ISA                                                      | --           |
-| Week 5 — Wed. 9/23/2026               | ISA III                                                                 | MIPS instructions and data operations                         | --           |
-| Week 5 — Fri. 9/25/2026               | ISA IV: Instruction Formats                                             | MIPS instruction encoding and formats                         | --           |
-| Week 6 — Mon. 9/28/2026               | ISA V: Stack                                                            | Stack organization and usage                                  | --           |
-| Week 6 — Wed. 9/30/2026               | ISA Practice / Quiz / Problem Solving                                   | Review and practice                                           | --           |
-| Week 6 — Fri. 10/2/2026               | ISA VI: Subroutines                                                     | Procedure calls and subroutines                               | --           |
-| Week 7 — Mon. 10/5/2026               | ISA VII: System-Level Concepts                                          | System-level ISA concepts                                     | --           |
-| Week 7 — Wed. 10/7/2026               | **Midterm I — In Person**                                               | Coverage through ISA                                          | --           |
-| Week 7 — Fri. 10/9/2026               | Processor I: Single-Cycle Processor                                     | Single-cycle datapath and control                             | --           |
-| Week 8 — Mon. 10/12/2026              | Processor II: Pipeline                                                  | Pipelining fundamentals                                       | --           |
-| Week 8 — Wed. 10/14/2026              | Processor II: Pipeline, continued                                       | Pipeline stages and timing                                    | --           |
-| Week 8 — Fri. 10/16/2026              | Processor III: Pipeline Implementation                                  | Pipelined datapath implementation                             | --           |
-| Week 9 — Mon. 10/19/2026              | Processor IV: Hazards                                                   | Pipeline hazards                                              | --           |
-| Week 9 — Wed. 10/21/2026              | Processor V: Data Hazards                                               | Forwarding, stalls, and data dependencies                     | --           |
-| Week 9 — Fri. 10/23/2026              | Processor VI: Control Hazards                                           | Branches and control hazards                                  | --           |
-| Week 10 — Mon. 10/26/2026             | Processor VII: Dynamic Prediction                                       | Dynamic branch prediction                                     | --           |
-| Week 10 — Wed. 10/28/2026             | Memory I: Basics                                                        | Memory hierarchy fundamentals                                 | --           |
-| Week 10 — Fri. 10/30/2026             | Memory II: Blocks and Caches                                            | Cache blocks and mapping                                      | --           |
-| Week 11 — Mon. 11/2/2026              | Cache and Memory Review                                                 | Memory hierarchy review and practice                          | --           |
-| Week 11 — Wed. 11/4/2026              | Memory III: Technologies                                                | Memory technologies                                           | --           |
-| Week 11 — Fri. 11/6/2026              | ALU I: Integer Arithmetic                                               | Integer arithmetic                                            | --           |
-| Week 12 — Mon. 11/9/2026              | ALU II: Integer Multiplication                                          | Multiplication hardware and algorithms                        | --           |
-| Week 12 — Wed. 11/11/2026             | **NO INSTRUCTION — Veterans Day**                                       | --                                                            | --           |
-| Week 12 — Fri. 11/13/2026             | ALU III: Floating Point                                                 | Floating-point representation and arithmetic                  | --           |
-| Week 13 — Mon. 11/16/2026             | ALU Review                                                              | ALU review and practice                                       | --           |
-| Week 13 — Wed. 11/18/2026             | Processor Review                                                        | Processor, pipeline, memory, and ALU review                   | --           |
-| Week 13 — Fri. 11/20/2026             | **Midterm II — In Person**                                              | Processor, pipeline, memory, and ALU                          | --           |
-| Week 14 — Mon. 11/23/2026             | SystemVerilog II: Hardware Threads and Clock Domains                    | Hardware threads and clock-domain concepts                    | --           |
-| Week 14 — Wed. 11/25/2026             | SystemVerilog II: Hardware Thread Interaction and Interfaces            | Thread interaction and interfaces                             | --           |
-| Week 14 — Fri. 11/27/2026             | **NO INSTRUCTION — Thanksgiving Period**                                | --                                                            | --           |
-| Week 15 — Mon. 11/30/2026             | SystemVerilog III: Testbenches and Randomization                        | Verification testbenches and constrained randomization        | --           |
-| Week 15 — Wed. 12/2/2026              | SystemVerilog III: Assertions and Sequences                             | Assertions, properties, and sequences                         | --           |
-| Week 15 — Fri. 12/4/2026              | I/O: Introduction                                                       | I/O fundamentals and system integration                       | --           |
-| Week 16 — Mon. 12/7/2026              | I/O: Applications and Examples                                          | I/O applications and design examples                          | --           |
-| Week 16 — Wed. 12/9/2026              | Final Review                                                            | Comprehensive final review                                    | --           |
-| Study Period — 12/11/2026–12/12/2026  | **Study Period**                                                        | --                                                            | --           |
-| Finals — Mon. 12/14/2026              | **Final Exam — In Person**                                              | Final Exam                                                    | 9:45–11:45 AM|
+## Lecture
+
+| TIME                                  | TOPICS                                                        | READING / HW / EXAM                                           | DEADLINE      |
+| ------------------------------------- | ------------------------------------------------------------- | ------------------------------------------------------------- | ------------- |
+| Week 1 — Mon. 8/24/2026               | Introduction / Review Part 1: Data                           | Data representation, conversions, signed integers, arithmetic | --            |
+| Week 1 — Wed. 8/26/2026               | Review Part 2: Logic Operations                              | Logic operations and Boolean concepts                         | --            |
+| Week 1 — Fri. 8/28/2026               | Review Part 3: Combinational Circuits                        | Combinational logic and circuit design                        | --            |
+| Week 2 — Mon. 8/31/2026               | Review Part 4: Sequential Circuits                           | Sequential logic and state                                    | --            |
+| Week 2 — Wed. 9/2/2026                | SystemVerilog I: Combinational Circuits                      | SystemVerilog modeling of combinational circuits              | --            |
+| Week 2 — Fri. 9/4/2026                | SystemVerilog I: Simulation                                  | Simulation and verification basics                            | --            |
+| Week 3 — Mon. 9/7/2026                | **NO INSTRUCTION — Labor Day**                               | --                                                            | --            |
+| Week 3 — Wed. 9/9/2026                | SystemVerilog I: Sequential Circuits                         | Sequential circuit modeling                                   | --            |
+| Week 3 — Fri. 9/11/2026               | SystemVerilog I: Additional Constructs                       | Additional SystemVerilog concepts                             | --            |
+| Week 4 — Mon. 9/14/2026               | Computer Architecture Overview I: Introduction and Performance | Patterson & Hennessy, Sec. 1.1–1.6                          | --            |
+| Week 4 — Wed. 9/16/2026               | Computer Architecture Overview II: Design                    | Patterson & Hennessy, Sec. 1.7–1.11                           | --            |
+| Week 4 — Fri. 9/18/2026               | ISA I: Barely C                                              | Programming model and preparation for MIPS ISA                | --            |
+| Week 5 — Mon. 9/21/2026               | ISA II: CPU and Instruction Execution                        | MIPS ISA                                                      | --            |
+| Week 5 — Wed. 9/23/2026               | ISA III                                                      | MIPS instructions and data operations                         | --            |
+| Week 5 — Fri. 9/25/2026               | ISA IV: Instruction Formats                                  | MIPS instruction encoding and formats                         | --            |
+| Week 6 — Mon. 9/28/2026               | ISA V: Stack                                                 | Stack organization and usage                                  | --            |
+| Week 6 — Wed. 9/30/2026               | ISA Practice / Quiz / Problem Solving                        | Review and practice                                           | --            |
+| Week 6 — Fri. 10/2/2026               | ISA VI: Subroutines                                          | Procedure calls and subroutines                               | --            |
+| Week 7 — Mon. 10/5/2026               | ISA VII: System-Level Concepts                               | System-level ISA concepts                                     | --            |
+| Week 7 — Wed. 10/7/2026               | ISA Review / Problem Solving                                 | Review and practice                                           | --            |
+| Week 7 — Fri. 10/9/2026               | Processor I: Single-Cycle Processor                          | Single-cycle datapath and control                             | --            |
+| Week 8 — Mon. 10/12/2026              | Processor II: Pipeline                                       | Pipelining fundamentals                                       | --            |
+| Week 8 — Wed. 10/14/2026              | Processor II: Pipeline, continued                            | Pipeline stages and timing                                    | --            |
+| Week 8 — Fri. 10/16/2026              | Processor III: Pipeline Implementation                       | Pipelined datapath implementation                             | --            |
+| Week 9 — Mon. 10/19/2026              | Processor IV: Hazards                                        | Pipeline hazards                                              | --            |
+| Week 9 — Wed. 10/21/2026              | Processor V: Data Hazards                                    | **Midterm Exam 1 — Take Home opens**                          | 12:01 AM      |
+| Week 9 — Fri. 10/23/2026              | Processor VI: Control Hazards                                | Branches and control hazards                                  | --            |
+| Week 10 — Mon. 10/26/2026             | Processor VII: Dynamic Prediction                            | **Midterm Exam 1 — Take Home due**                            | 11:59 PM      |
+| Week 10 — Wed. 10/28/2026             | Memory I: Basics                                             | Memory hierarchy fundamentals                                 | --            |
+| Week 10 — Fri. 10/30/2026             | Memory II: Blocks and Caches                                 | Cache blocks and mapping                                      | --            |
+| Week 11 — Mon. 11/2/2026              | Cache and Memory Review                                      | Memory hierarchy review and practice                          | --            |
+| Week 11 — Wed. 11/4/2026              | Memory III: Technologies                                     | Memory technologies                                           | --            |
+| Week 11 — Fri. 11/6/2026              | ALU I: Integer Arithmetic                                    | Integer arithmetic                                            | --            |
+| Week 12 — Mon. 11/9/2026              | ALU II: Integer Multiplication                               | Multiplication hardware and algorithms                        | --            |
+| Week 12 — Wed. 11/11/2026             | **NO INSTRUCTION — Veterans Day**                            | --                                                            | --            |
+| Week 12 — Fri. 11/13/2026             | ALU III: Floating Point                                      | Floating-point representation and arithmetic                  | --            |
+| Week 13 — Mon. 11/16/2026             | ALU Review                                                   | ALU review and practice                                       | --            |
+| Week 13 — Wed. 11/18/2026             | Processor Review                                             | Processor, pipeline, memory, and ALU review                   | --            |
+| Week 13 — Fri. 11/20/2026             | Processor / Memory Review                                    | Review and problem solving                                    | --            |
+| Week 14 — Mon. 11/23/2026             | SystemVerilog II: Hardware Threads and Clock Domains         | **Midterm Exam 2 — Take Home opens**                          | 12:01 AM      |
+| Week 14 — Wed. 11/25/2026             | SystemVerilog II: Hardware Thread Interaction and Interfaces | Thread interaction and interfaces                             | --            |
+| Week 14 — Fri. 11/27/2026             | **NO INSTRUCTION — Thanksgiving Period**                     | --                                                            | --            |
+| Week 14 — Sun. 11/29/2026             | --                                                            | **Midterm Exam 2 — Take Home due**                            | 11:59 PM      |
+| Week 15 — Mon. 11/30/2026             | SystemVerilog III: Testbenches and Randomization             | Verification testbenches and constrained randomization        | --            |
+| Week 15 — Wed. 12/2/2026              | SystemVerilog III: Assertions and Sequences                  | Assertions, properties, and sequences                         | --            |
+| Week 15 — Fri. 12/4/2026              | I/O: Introduction                                            | I/O fundamentals and system integration                       | --            |
+| Week 16 — Mon. 12/7/2026              | I/O: Applications and Examples                               | I/O applications and design examples                          | --            |
+| Week 16 — Wed. 12/9/2026              | Final Review                                                 | Comprehensive final review                                    | --            |
+| Study Period — 12/11/2026–12/12/2026  | **Study Period**                                             | --                                                            | --            |
+| Finals — Mon. 12/14/2026              | **Final Exam — In Person**                                   | Comprehensive Final Exam                                      | 9:45–11:45 AM |
 
 > **Note:** Lecture topics are organized from the provided ECE361 slide set. Midterm placement follows the natural gaps and review material in that sequence; adjust the two midterm dates if the official Fall 2026 exam plan differs.
 
