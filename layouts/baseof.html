@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.Lang }}" dir="{{ if in site.Language.Lang "ar" }}rtl{{ else }}ltr{{ end }}" data-wc-theme-default="{{ site.Params.appearance.mode | default "system" }}">
+  {{ partial "site_head" . }}
+  <body class="page-wrapper" id="top">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <div id="page-bg"></div>
+    <div class="page-header {{ if site.Params.header.navbar.fixed_to_top }}sticky top-0 z-30{{ end }}">
+      {{ if site.Params.header.navbar.enable }}
+        {{ partial "components/headers/navbar" . }}
+      {{ end }}
+    </div>
+    <main class="page-body" id="main-content" tabindex="-1">
+      {{ if and (not .IsHome) (eq .Type "landing") }}
+        <header class="site-page-heading"><h1 class="site-page-title">{{ .Title }}</h1></header>
+      {{ end }}
+      {{ block "main" . }}{{ end }}
+    </main>
+    <div class="page-footer">{{ partial "site_footer" . }}</div>
+    {{ partial "notification-container" . }}
+    {{ partial "site-interactions.html" . }}
+    {{ partial "functions/get_hook" (dict "hook" "body-end" "context" .) }}
+  </body>
+</html>

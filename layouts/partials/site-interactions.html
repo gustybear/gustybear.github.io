@@ -1,0 +1,58 @@
+  <script>
+    // Change theme toggle button hover text
+    document.addEventListener('DOMContentLoaded', function() {
+      function updateThemeToggleText() {
+        const themeButtons = document.querySelectorAll('button[aria-label*="theme" i], button[aria-label*="appearance" i], button[aria-label*="dark" i], button[aria-label*="light" i], .theme-toggle, [data-toggle="theme"]');
+        themeButtons.forEach(function(button) {
+          button.setAttribute('aria-label', 'Toggle Light/Dark Mode');
+          button.setAttribute('title', 'Toggle Light/Dark Mode');
+        });
+      }
+      
+      updateThemeToggleText();
+      
+      // Re-run after a short delay in case buttons are dynamically created
+      setTimeout(updateThemeToggleText, 500);
+      
+      // Bitcoin QR code hover effect
+      const bitcoinLinks = document.querySelectorAll('a[href*="bitcoin"], a[href^="bitcoin:"]');
+      const qrPopup = document.createElement('div');
+      qrPopup.id = 'bitcoin-qr-popup';
+      qrPopup.style.cssText = 'position: absolute; width: 200px; height: 200px; background-image: url(\'{{ "media/bitcoin_qr.png" | relURL }}\'); background-size: contain; background-repeat: no-repeat; background-position: center; border: 3px solid #1a5f4f; border-radius: 8px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); opacity: 0; visibility: hidden; pointer-events: none; transition: opacity 0.3s ease, visibility 0.3s ease; z-index: 2147483647; background-color: white; padding: 5px;';
+      document.body.appendChild(qrPopup);
+      
+      bitcoinLinks.forEach(function(link) {
+        link.addEventListener('mouseenter', function(e) {
+          const rect = link.getBoundingClientRect();
+          const isDark = document.documentElement.classList.contains('dark');
+          const popupHeight = 210; // 200px height + 10px gap
+          const viewportHeight = window.innerHeight;
+          
+          // Update colors based on theme
+          qrPopup.style.borderColor = isDark ? '#6ee7b7' : '#1a5f4f';
+          qrPopup.style.boxShadow = isDark ? '0 4px 12px rgba(255, 255, 255, 0.2)' : '0 4px 12px rgba(0, 0, 0, 0.3)';
+          
+          // Center horizontally relative to the icon
+          qrPopup.style.left = (Math.max(8, Math.min(window.innerWidth - 218, rect.left + rect.width / 2 - 100)) + window.scrollX) + 'px';
+          
+          // Try to position below first
+          let topPosition = rect.bottom + 10 + window.scrollY;
+          
+          // Check if popup would be cut off at the bottom
+          if (rect.bottom + popupHeight > viewportHeight) {
+            // Not enough space below, position above instead
+            topPosition = rect.top - popupHeight + window.scrollY;
+          }
+          
+          qrPopup.style.top = topPosition + 'px';
+          qrPopup.style.opacity = '1';
+          qrPopup.style.visibility = 'visible';
+        });
+        
+        link.addEventListener('mouseleave', function() {
+          qrPopup.style.opacity = '0';
+          qrPopup.style.visibility = 'hidden';
+        });
+      });
+    });
+  </script>
