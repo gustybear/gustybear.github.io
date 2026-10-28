@@ -1,0 +1,274 @@
+/* Minimal Bootstrap Grid System */
+.team-profile.container-fluid { width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+.team-profile .row { display: flex; flex-wrap: wrap; margin-right: -15px; margin-left: -15px; }
+.team-profile .col-lg-4, .team-profile .col-lg-8, .team-profile .col-md-6 { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
+@media (min-width: 768px) {
+  .team-profile .col-md-6 { flex: 0 0 50%; max-width: 50%; }
+}
+@media (min-width: 992px) {
+  .team-profile .col-lg-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+  .team-profile .col-lg-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+}
+.team-profile .mb-4 { margin-bottom: 1.5rem; }
+.team-profile .mb-5 { margin-bottom: 3rem; }
+.team-profile .mt-4 { margin-top: 1.5rem; }
+.team-profile .me-2 { margin-right: 0.5rem; }
+.team-profile .text-center { text-align: center; }
+.team-profile .text-muted { color: var(--site-muted); }
+.team-profile .btn { display: inline-block; font-weight: 400; text-align: center; white-space: nowrap; vertical-align: middle; user-select: none; border: 1px solid transparent; padding: 0.375rem 0.75rem; font-size: 1rem; line-height: 1.5; border-radius: 0.25rem; transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out; text-decoration: none; }
+.team-profile .btn-dark { color: #fff; background-color: #343a40; border-color: #343a40; }
+.team-profile .btn-dark:hover { color: #fff; background-color: #23272b; border-color: #1d2124; }
+
+.team-profile .profile-sidebar {
+  background: linear-gradient(135deg, var(--site-accent) 0%, var(--site-accent-hover) 100%);
+  color: white;
+  min-height: 100vh;
+  padding: 60px 40px;
+}
+
+.team-profile .profile-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.team-profile .avatar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.team-profile .profile-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.team-profile .avatar-placeholder {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.team-profile .profile-name {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.team-profile .profile-role {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.team-profile .profile-org {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.team-profile .profile-dept {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.team-profile .social-links {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team-profile .social-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.team-profile .social-icon:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+  color: white;
+}
+
+.team-profile .content-area {
+  padding: 60px 80px;
+  background: var(--site-surface);
+}
+
+.team-profile .content-container {
+  max-width: 900px;
+}
+
+.team-profile .cv-download {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.team-profile .cv-download .btn {
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 8px;
+}
+
+.team-profile .section-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--site-accent);
+}
+
+.team-profile .main-content h2:first-child {
+  margin-top: 0;
+}
+
+.team-profile .content-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--site-text);
+}
+
+.team-profile .interests-list {
+  list-style: none;
+  padding: 0;
+}
+
+.team-profile .interests-list li {
+  padding: 10px 0;
+  font-size: 1.05rem;
+  color: var(--site-muted);
+  border-bottom: 1px solid var(--site-border);
+}
+
+.team-profile .interests-list li:last-child {
+  border-bottom: none;
+}
+
+.team-profile .education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.team-profile .education-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.team-profile .education-item i {
+  color: var(--site-accent);
+  font-size: 1.2rem;
+  margin-top: 3px;
+}
+
+.team-profile .education-content {
+  flex: 1;
+}
+
+.team-profile .education-content .degree {
+  font-weight: 600;
+  color: var(--site-text);
+  font-size: 1.05rem;
+}
+
+.team-profile .education-content .institution {
+  color: var(--site-muted);
+  font-size: 0.95rem;
+}
+
+.team-profile .education-content .year {
+  font-size: 0.9rem;
+}
+
+.team-profile .skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.team-profile .skill-tag {
+  padding: 8px 16px;
+  background: var(--site-accent);
+  color: white;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  display: inline-block;
+}
+
+.team-profile .experience-item {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  border-left: 4px solid var(--site-accent);
+}
+
+.team-profile .experience-item .position {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--site-accent);
+  margin-bottom: 0.5rem;
+}
+
+.team-profile .experience-item .company {
+  font-weight: 500;
+  color: var(--site-muted);
+  margin-bottom: 0.25rem;
+}
+
+.team-profile .experience-item .duration {
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.team-profile .experience-item .description {
+  color: var(--site-muted);
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .team-profile .profile-sidebar {
+    min-height: auto;
+    padding: 40px 20px;
+  }
+  
+  .team-profile .content-area {
+    padding: 40px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-profile .content-area {
+    padding: 30px 20px;
+  }
+  
+  .team-profile .profile-name {
+    font-size: 1.75rem;
+  }
+  
+  .team-profile .section-title {
+    font-size: 1.5rem;
+  }
+}
+

@@ -1,0 +1,14 @@
+{{/* Load component CSS before the shared design tokens and layout rules. */}}
+{{ $styles := slice (resources.Get "css/article.css") }}
+{{ if and (eq .Section "team") .IsPage }}
+  {{ $styles = $styles | append (resources.Get "css/profile.css") }}
+{{ else if eq .Section "team" }}
+  {{ $styles = $styles | append (resources.Get "css/team.css") }}
+{{ else if and (in (slice "facility" "projects") .Section) (not .IsPage) }}
+  {{ $styles = $styles | append (resources.Get "css/directory.css") }}
+{{ end }}
+{{ $styles = $styles | append (resources.Get "css/site.css") }}
+{{ $css := $styles | resources.Concat (printf "css/site-%s-%s.css" (.Section | default "home") .Kind) | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
