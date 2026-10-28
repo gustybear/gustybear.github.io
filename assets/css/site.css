@@ -141,8 +141,18 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .team-profile .education-content .institution, .team-profile .experience-item .description { color: var(--site-muted); }
 /* Collection blocks keep their HugoBlox grid and citation views. */
 section.blox-collection { padding-inline: var(--site-gutter); }
+section.blox-collection > .flex { padding-inline: 0; }
+section.blox-collection .container { padding-inline: 0; width: 100%; max-width: var(--site-width); }
+section.blox-collection > .flex > .mb-6 {
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 750;
+  line-height: 1.25;
+  color: var(--site-accent);
+  letter-spacing: -.025em;
+}
 section.blox-collection :is(h2, h3) { overflow-wrap: anywhere; }
 section.blox-collection h2 { color: var(--site-accent); letter-spacing: -.025em; }
+section.blox-collection h3[id^="card-title-"] { color: var(--site-accent); }
 section.blox-collection article { min-width: 0; }
 @media (max-width: 1024px) {
   .facility-split-layout { grid-template-columns: minmax(0, 1fr); }
