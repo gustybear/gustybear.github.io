@@ -134,7 +134,7 @@
 
 .article-date {
   font-size: 0.95rem;
-  color: #888;
+  color: var(--site-muted);
   font-style: italic;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .article-content a:visited {
-  color: #165945;
+  color: var(--site-accent);
 }
 
 .article-content h1 {
@@ -286,7 +286,7 @@
 }
 
 .author-card:hover {
-  background: #e9ecef;
+  background: var(--site-border);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
@@ -316,7 +316,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #999;
+  color: var(--site-muted);
   font-size: 2rem;
   border: 3px solid var(--site-accent);
 }

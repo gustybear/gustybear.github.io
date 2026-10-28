@@ -144,7 +144,7 @@ section.blox-collection { padding-inline: var(--site-gutter); }
 section.blox-collection :is(h2, h3) { overflow-wrap: anywhere; }
 section.blox-collection h2 { color: var(--site-accent); letter-spacing: -.025em; }
 section.blox-collection article { min-width: 0; }
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
   .facility-split-layout { grid-template-columns: minmax(0, 1fr); }
   .facility-images-section { position: static; height: 280px; flex-direction: row; }
   .facility-content-section { order: -1; }
