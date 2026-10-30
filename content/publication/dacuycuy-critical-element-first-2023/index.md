@@ -55,8 +55,8 @@ abstract: This demonstration shows the beam steering capability of a new liquid 
   steer the reflection beam toward the desired angle before the entire IRS panel is
   fully configured. The merits of the design are evaluated under a 5.9GHz SISO C-V2X
   link implemented with a software-defined radio.
-publication: '*IEEE INFOCOM 2023 - IEEE Conference on Computer Communications Workshops
-  (INFOCOM WKSHPS)*'
+publication: "*2023 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)*"
+publication_short: "IEEE INFOCOM Workshops 2023"
 hugoblox:
   ids:
     doi: 10.1109/INFOCOMWKSHPS57453.2023.10225972

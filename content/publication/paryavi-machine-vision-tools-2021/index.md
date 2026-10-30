@@ -54,7 +54,8 @@ abstract: An incipient population of Coconut Rhinoceros Beetle (CRB; Oryctes rhi
   accuracy (80 to 90%) in the current prototypes. We plan to implement the latter
   approach on distributed wireless networks to automate CRB trap surveillance and
   analysis in remote areas.
-publication: "*2021 Hawai'i Conservation Conference*"
+publication: "*2021 Hawaiʻi Conservation Conference*"
+publication_short: "Hawaiʻi Conservation Conference 2021"
 
 links:
 - name: PDF

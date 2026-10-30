@@ -59,7 +59,8 @@ abstract: At-home screening systems for obstructive sleep apnea (OSA) can bring 
   in a noisy environment against an attacker with full knowledge of the authorized
   user's breathing biometrics.
 
-publication: '*IEEE Internet of Things Journal*'
+publication: "*IEEE Internet of Things Journal*"
+publication_short: "IEEE Internet of Things Journal"
 hugoblox:
   ids:
     doi: 10.1109/JIOT.2023.3275099

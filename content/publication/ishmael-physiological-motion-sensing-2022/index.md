@@ -56,7 +56,8 @@ abstract: Wireless communications systems provide channel state information (CSI
   10%, or 0.02 Hz, demonstrating the potential for incorporating physiological sensing
   in NextG millimeter-wave communications systems.
 
-publication: '*IEEE Journal of Microwaves*'
+publication: "*IEEE Journal of Microwaves*"
+publication_short: "IEEE Journal of Microwaves"
 hugoblox:
   ids:
     doi: 10.1109/JMW.2022.3224375

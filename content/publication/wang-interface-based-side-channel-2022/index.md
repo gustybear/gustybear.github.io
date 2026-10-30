@@ -16,7 +16,8 @@ publication_types:
 - '3'
 abstract: ''
 featured: false
-publication: ''
+publication: "Submitted to IEEE Transactions on Mobile Computing"
+publication_short: "IEEE Transactions on Mobile Computing"
 tags:
 - journal
 - submit

@@ -50,8 +50,8 @@ abstract: The online advertising ecosystem is built upon the massive data collec
   counteract the privacy leakage threats, we design and implement an adaptive location
   obfuscation mechanism, which can be used to obfuscate location data in real-time
   while minimizing the impact to mobile ad businesses.
-publication: '*IEEE INFOCOM 2018 - IEEE Conference on Computer Communications Workshops
-  (INFOCOM WKSHPS)*'
+publication: "*2018 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)*"
+publication_short: "IEEE INFOCOM Workshops 2018"
 hugoblox:
   ids:
     doi: 10.1109/INFCOMW.2018.8406986

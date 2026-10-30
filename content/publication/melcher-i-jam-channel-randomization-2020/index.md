@@ -72,8 +72,8 @@ abstract: Physical-layer key generation methods utilize the variations of the co
   does not affect the bit error rate (BER) of the intended receiver during key establishment
   but reduces the eavesdropper's BER to the level of random guessing, regardless of
   the number of antennas it equips.
-publication: '*Proceedings of the 13th ACM Conference on Security and Privacy in Wireless
-  and Mobile Networks,* (3rd place in best demo competition)' 
+publication: "*2020 ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)*"
+publication_short: "ACM WiSec 2020"
 hugoblox:
   ids:
     doi: 10.1145/3395351.3401705
@@ -90,4 +90,8 @@ links:
   url: https://github.com/gustybear-research/x96_physec_chan_ran
 - name: Video
   url: https://www.youtube.com/watch?v=lMRiCmiHmb0
+
+awards: "3rd place in best demo competition"
 ---
+
+**Award:** 3rd place in best demo competition.

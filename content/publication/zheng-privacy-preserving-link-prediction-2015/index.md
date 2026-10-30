@@ -43,7 +43,8 @@ abstract: We consider the privacy-preserving link prediction problem in decentra
   that our method enjoys various advantages including high prediction accuracy, balanced
   workload, and limited communication overhead. Additionally, we demonstrate that
   our method copes well with link reconstruction attack.
-publication: '*ESORICS 2015: 20th European Symposium on Research in Computer Security*'
+publication: "*2015 European Symposium on Research in Computer Security (ESORICS)*"
+publication_short: "ESORICS 2015"
 hugoblox:
   ids:
     doi: 10.1007/978-3-319-24177-7_4

@@ -54,7 +54,8 @@ publishDate: '2025-11-10T03:30:00.000000Z'
 publication_types:
 - '1'
 abstract: Unobtrusive physiological sensing is a promising tool for example for sleep monitoring, elderly care, and automotive in-cabin monitoring. Doppler radar physiological sensing can provide respiratory and cardiovascular parameters without physical contact, both with dedicated hardware and by using channel measurement that provides channel state information (CSI) in communication systems. To the best of the author’s knowledge, this paper presents the first heart rate variability (HRV) measurement using a millimeter-wave OFDM communication system. Template matching and wavelet transform techniques that were previously developed for obtaining HRV parameters with a stand-alone Doppler radar system were applied to CSI amplitude and phase. HRV parameters were obtained with accuracy within 10ms compared to PPG reference for three human subjects. In addition, the benefits of using different communication channels to take advantage of frequency diversity were illustrated for both CSI amplitude and phase data.
-publication: '*2025 IEEE MTT-S Latin America Microwave Conference (LAMC)*'
+publication: "*2025 IEEE MTT-S Latin America Microwave Conference (LAMC)*"
+publication_short: "IEEE LAMC 2025"
 hugoblox:
   ids:
     doi: 10.1109/LAMC63321.2025.10880533

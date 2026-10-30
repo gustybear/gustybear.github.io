@@ -61,7 +61,8 @@ abstract: The rapid proliferation of personal wearable as well as embedded devic
   techniques as a basis for making security decisions, and the revocation problem
   in the context of cognitive security. We conclude by offering some insight into
   solution approaches to these challenges.
-publication: '*IEEE Network*'
+publication: "*IEEE Network*"
+publication_short: "IEEE Network"
 hugoblox:
   ids:
     doi: 10.1109/MNET.2016.7513866

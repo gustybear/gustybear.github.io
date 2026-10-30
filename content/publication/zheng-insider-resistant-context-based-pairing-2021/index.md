@@ -56,7 +56,8 @@ abstract: The increasingly sophisticated at-home screening systems for obstructi
   from acquiring the pairing key. Our analysis and test results show that SIENNA can
   achieve reliable ($>$ 90% success rate) device pairing under a noisy environment
   and is robust against the attacker with full knowledge of the context information.
-publication: '*2021 IEEE Global Communications Conference: Communication & Information Systems Security*'
+publication: "*2021 IEEE Global Communications Conference (GLOBECOM)*"
+publication_short: "IEEE GLOBECOM 2021"
 hugoblox:
   ids:
     doi: 10.1109/GLOBECOM46510.2021.9685852.
@@ -68,4 +69,8 @@ links:
   url: https://arxiv.org/abs/2105.00314
 - name: Dataset
   url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
+
+symposium: "Communication and Information Systems Security"
 ---
+
+**Symposium:** Communication and Information Systems Security.

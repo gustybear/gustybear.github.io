@@ -55,7 +55,8 @@ abstract: Cloud computing has become the real trend of enterprise IT service mod
   and a flexible control structure to allow fast and specific attack reaction. The
   simulation results show that our architecture can effectively and efficiently address
   the security challenges brought by the new network paradigm.
-publication: '*2014 IEEE 22nd International Conference on Network Protocols*'
+publication: "*2014 IEEE International Conference on Network Protocols (ICNP)*"
+publication_short: "IEEE ICNP 2014"
 hugoblox:
   ids:
     doi: 10.1109/ICNP.2014.99

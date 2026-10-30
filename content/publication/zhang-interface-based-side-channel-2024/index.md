@@ -57,7 +57,8 @@ abstract: With the accelerating adaption of Cloud and Edge computing, cloud-base
   them during compilation using techniques including branch obfuscation, loop obfuscation,
   and constant size wrapper.
 
-publication: '*IEEE/ACM Transactions on Networking*'
+publication: "*IEEE/ACM Transactions on Networking*"
+publication_short: "IEEE/ACM Transactions on Networking"
 hugoblox:
   ids:
     doi: 10.1109/TNET.2023.3294019
