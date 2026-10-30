@@ -57,8 +57,8 @@ abstract: Physical layer security for wireless communication is broadly consider
   the low entropy fields in wireless packets. By means of simulation, we are able
   to reduce the symbol error rate at an eavesdropper below 1% using only the eavesdropper's
   receiving data and a general knowledge about the format of the wireless packets.
-publication: "*WiSec '16: Proceedings of the 9th ACM Conference on Security & Privacy\
-  \ in Wireless and Mobile Networks*"
+publication: "*2016 ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec)*"
+publication_short: "ACM WiSec 2016"
 hugoblox:
   ids:
     doi: 10.1145/2939918.2939933

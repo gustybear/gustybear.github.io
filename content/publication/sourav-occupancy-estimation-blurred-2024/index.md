@@ -70,7 +70,8 @@ abstract: 'Building occupancy information is significant for a variety of reason
   research is needed to fully address this complex issue, our work provides insights
   and a step towards a more privacy-aware occupancy estimation system.'
 
-publication: '*MDPI Sensors*'
+publication: "*Sensors*"
+publication_short: "Sensors"
 hugoblox:
   ids:
     doi: 10.3390/s24123739

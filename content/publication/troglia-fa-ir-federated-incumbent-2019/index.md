@@ -63,8 +63,8 @@ abstract: "The next-generation spectrum access system (SAS) for the Citizens Bro
   \ model with a variety of spectrum waveforms at varying SNRs. Our experiments showed\
   \ that FaIR improves the average detection accuracy compared to the single-node\
   \ method, using a fraction of the bandwidth compared to the naive multi-node method."
-publication: '*2019 IEEE International Symposium on Dynamic Spectrum Access Networks
-  (DySPAN) - Workshop on Data-Driven Dynamic Spectrum Sharing*'
+publication: "*2019 IEEE International Symposium on Dynamic Spectrum Access Networks (DySPAN)*"
+publication_short: "IEEE DySPAN 2019"
 hugoblox:
   ids:
     doi: 10.1109/DySPAN.2019.8935736
@@ -77,4 +77,8 @@ hugoblox:
 links:
 - name: PDF
   url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-troglia-fa-ir-federated-incumbent-2019/Troglia+et+al.+-+2019+-+FaIR+Federated+Incumbent+Detection+in+CBRS+Band.pdf
+
+workshop: "Workshop on Data-Driven Dynamic Spectrum Sharing"
 ---
+
+**Workshop:** Workshop on Data-Driven Dynamic Spectrum Sharing.

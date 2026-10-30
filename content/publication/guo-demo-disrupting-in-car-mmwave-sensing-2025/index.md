@@ -43,11 +43,16 @@ publishDate: '2025-11-11T04:09:00.000000Z'
 publication_types:
 - '1'
 abstract: Intelligent Reflecting Surfaces (IRS) have emerged as a key enabler for enhancing in-car sensing, enabling high-resolution, non-intrusive monitoring of passenger vital signs through mmWave technology. By intelligently steering wireless signals, IRS significantly improves nonline-of-sight (NLoS) detection, overcoming occlusion challenges in vehicle interiors. However, despite these advantages, IRS-based sensing introduces new security vulnerabilities that have been largely over-looked. In this study, we demonstrate that an adversary can manipulate the IRS to mislead in-car sensing results, posing a significant threat to passenger safety and system reliability. By simply modifying the IRS's movement, an attacker can cause incorrect vital sign measurements, and potential failures in safety-critical applications such as child presence detection and driver monitoring systems. To validate this threat, we design and implement four different attack scenarios, simulating various adversarial control strategies on IRS reflection parameters. Our experimental results reveal that, under optimal conditions, an attacker can achieve up to a 90% attack success rate, effectively disrupting the integrity of IRS-assisted in-car sensing systems. Our study provides the first exploration of IRS-based attacks on in-car sensing, shedding light on a novel security vulnerability in next-generation automotive technology. The demo video can be found in https:youtu.be/1VL5LiFgqTg.
-publication: '*2025 IEEE Security and Privacy Workshops (SPW)*'
+publication: "*2025 IEEE Security and Privacy Workshops (SPW)*"
+publication_short: "IEEE SPW 2025"
 hugoblox:
   ids:
     doi: 10.1109/SPW67851.2025.00031
 links:
 - name: PDF
   url: https://gustybear-websites.s3.us-west-2.amazonaws.com/publication-guo-demo-disrupting-in-car-mmwave-sensing-2025/Guo+%E2%80%93+2025+%E2%80%93+Demo+Disrupting+In-Car+mmWave+Sensing+Through+IRS+Manipulation.pdf
+
+workshop: "Workshop on Securing Next-Generation Intelligent Transportation Systems (SecureTrans 2025)"
 ---
+
+**Workshop:** Workshop on Securing Next-Generation Intelligent Transportation Systems (SecureTrans 2025).

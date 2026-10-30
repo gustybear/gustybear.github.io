@@ -47,8 +47,8 @@ abstract: This poster abstract shows the possibilities of incorporating an Intel
   horn. The setup was tested for three possible cases, with an IRS, a copper plate,
   and an absorber as the target. The merits of implementing an IRS in physiological
   sensing are discussed and evaluated.
-publication: '*Proceedings of the 8th ACM/IEEE Conference on Internet of Things Design
-  and Implementation*'
+publication: "*2023 ACM/IEEE Conference on Internet of Things Design and Implementation (IoTDI)*"
+publication_short: "ACM/IEEE IoTDI 2023"
 hugoblox:
   ids:
     doi: 10.1145/3576842.3589171

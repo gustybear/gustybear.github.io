@@ -54,7 +54,8 @@ abstract: The development of technologies related to the Internet of Things (IoT
   an integrated evaluation of the control effectiveness of crowd dynamics management
   methods under various scenarios. We also provide extensive numerical results to
   verify the effectiveness of the model.
-publication: '*IEEE Internet of Things Journal*'
+publication: "*IEEE Internet of Things Journal*"
+publication_short: "IEEE Internet of Things Journal"
 hugoblox:
   ids:
     doi: 10.1109/JIOT.2017.2724642

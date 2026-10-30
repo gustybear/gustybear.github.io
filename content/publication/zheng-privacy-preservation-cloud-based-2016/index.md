@@ -78,7 +78,8 @@ abstract: "Data privacy is a globally recognized human right for individuals to 
   \ by context, there is no one-size-fit-all solution. While some cases can be salvaged\
   \ either by cryptography or by other means, in others a rethinking of the trade-offs\
   \ between utility and privacy appears to be necessary."
-publication: 'Virginia Polytechnic Institute and State University'
+publication: "*Virginia Polytechnic Institute and State University*"
+publication_short: "Virginia Tech"
 
 
 # Custom links (uncomment lines below)

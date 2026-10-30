@@ -61,7 +61,8 @@ abstract: Personal health record (PHR) is an emerging patient-centric model of h
   supports efficient on-demand user/attribute revocation and break-glass access under
   emergency scenarios. Extensive analytical and experimental results are presented
   which show the security, scalability, and efficiency of our proposed scheme.
-publication: '*IEEE Transactions on Parallel and Distributed Systems*'
+publication: "*IEEE Transactions on Parallel and Distributed Systems*"
+publication_short: "IEEE Transactions on Parallel and Distributed Systems"
 hugoblox:
   ids:
     doi: 10.1109/TPDS.2012.97

@@ -62,7 +62,8 @@ abstract: Future generation (FutureG) wireless communication systems are envisio
   using a 28 GHz OFDM communications system. Heart rates were successfully detected
   for three human subjects within 6% of photoplethysmography (PPG) reference, with
   clear benefits of frequency diversity among OFDM subcarriers.
-publication: '*2024 21st European Radar Conference (EuRAD)*'
+publication: "*2024 European Radar Conference (EuRAD)*"
+publication_short: "EuRAD 2024"
 hugoblox:
   ids:
     doi: 10.23919/EuRAD61604.2024.10734895

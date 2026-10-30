@@ -57,7 +57,8 @@ abstract: Personal health record (PHR) service is an emerging model for health i
   note to PHR servers using KP-ABE. We evaluate the performance efficiency of different
   ABE schemes as well as the data query time of Indivo PCHR system when PHR data are
   encrypted under ABE scheme.
-publication: 'Worcester Polytechnic Institute'
+publication: "*Worcester Polytechnic Institute*"
+publication_short: "Worcester Polytechnic Institute"
 
 
 # Custom links (uncomment lines below)

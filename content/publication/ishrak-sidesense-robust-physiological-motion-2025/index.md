@@ -38,7 +38,8 @@ publication_types:
 - '2'
 abstract: 'A 28-GHz multibeam joint communication and sensing system called SideSense is presented, in which a line-of-sight (LoS) beam is used to maintain reliable communication, while other sensing beams are used to enhance physiological motion detection. SideSense decodes the motion frequency and shape from the channel state information (CSI) by first tuning the gain ratio and phase differences between the LoS communication beam and non-LoS (NLoS) beam to maximize the sensing signal-to-noise ratio (SSNR) without significantly degrading the communication channel capacity (CCC). Analytical results based on a bistatic model are presented to show a gain ratio of around 1 and a phase difference of 90° or 270°, which are ideal for optimizing both SSNR and CCC. Experiments based on an array of phased array (APA) beamformers and orthogonal frequency-division multiplexing (OFDM) waveforms with phantom and human subjects are presented to validate the performance of SideSense. Results show that SideSense can improve SSNR by 84% while reducing CCC by 35%, an acceptable decrease within the normal operational parameters of a millimeter-wave (mmWave) communication system, which would not trigger a link reestablishment procedure, e.g., communication beam realignment.'
 
-publication: '*IEEE Transactions on Microwave Theory and Techniques*'
+publication: "*IEEE Transactions on Microwave Theory and Techniques*"
+publication_short: "IEEE Transactions on Microwave Theory and Techniques"
 hugoblox:
   ids:
     doi: 10.1109/TMTT.2025.3589906

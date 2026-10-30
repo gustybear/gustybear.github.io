@@ -60,7 +60,8 @@ abstract: Orthogonal blinding based schemes for wireless physical layer security
   Empirical results show that our scheme can suppress Eve's attack success rate to
   the level of random guessing, even if she knows all the symbols transmitted through
   other antenna modes.
-publication: '*IEEE INFOCOM 2020 - IEEE Conference on Computer Communications*'
+publication: "*2020 IEEE Conference on Computer Communications (INFOCOM)*"
+publication_short: "IEEE INFOCOM 2020"
 hugoblox:
   ids:
     doi: 10.1109/INFOCOM41043.2020.9155439

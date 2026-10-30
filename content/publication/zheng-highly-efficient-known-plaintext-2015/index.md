@@ -53,7 +53,8 @@ abstract: In this letter, we describe highly effective known-plaintext attacks a
   algorithms supersedes the normalized least mean square approach discussed in the
   work of Schulz et al., e.g., by lowering the eavesdropper's SER by 82% while using
   95% less known plaintext.
-publication: '*IEEE Wireless Communications Letters*'
+publication: "*IEEE Wireless Communications Letters*"
+publication_short: "IEEE Wireless Communications Letters"
 hugoblox:
   ids:
     doi: 10.1109/LWC.2014.2363176

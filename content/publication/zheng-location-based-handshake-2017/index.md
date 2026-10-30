@@ -62,7 +62,8 @@ abstract: A location proximity test service allows mobile users to determine whe
   cryptographic primitive, to extract shared secrets between matching location tags.
   We conduct extensive analysis, simulation, and real experiments to demonstrate the
   feasibility, security, and efficiency of our scheme.
-publication: '*IEEE Transactions on Dependable and Secure Computing*'
+publication: "*IEEE Transactions on Dependable and Secure Computing*"
+publication_short: "IEEE Transactions on Dependable and Secure Computing"
 hugoblox:
   ids:
     doi: 10.1109/TDSC.2015.2472529
