@@ -17,7 +17,6 @@ featured: false
 draft: false
 tags:
 - conference
-doi: "10.1109/MASS66014.2025.00064"
 hugoblox:
   ids:
     doi: "10.1109/MASS66014.2025.00064"

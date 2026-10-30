@@ -21,7 +21,6 @@ draft: false
 tags:
 - conference
 publication_status: accepted
-doi: ""
 hugoblox:
   ids:
     doi: ""

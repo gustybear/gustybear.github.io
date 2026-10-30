@@ -17,7 +17,6 @@ featured: false
 draft: false
 tags:
 - conference
-doi: "10.1109/RadarConf2663773.2026.11675473"
 hugoblox:
   ids:
     doi: "10.1109/RadarConf2663773.2026.11675473"

@@ -16,7 +16,6 @@ featured: false
 draft: false
 tags:
 - conference
-doi: "10.1109/AIoT66900.2025.00059"
 hugoblox:
   ids:
     doi: "10.1109/AIoT66900.2025.00059"

@@ -19,7 +19,6 @@ featured: false
 draft: false
 tags:
 - conference
-doi: "10.23919/NRSM68586.2026.11550943"
 hugoblox:
   ids:
     doi: "10.23919/NRSM68586.2026.11550943"
