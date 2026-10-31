@@ -16,16 +16,18 @@
     <div class="facility-content-section">
       <div class="facility-header">
         <h1 class="facility-main-title">{{ .Title }}</h1>
-        <p class="facility-subtitle">Equipments and tools used to conduct research experiments</p>
+        <p class="facility-subtitle">{{ .Params.summary }}</p>
       </div>
 
-      <!-- Projects Section -->
+      {{ $firstFacility := true }}
+      {{ range slice (dict "title" "Testbeds" "subtypes" (slice "testbed")) (dict "title" "Design & Software" "subtypes" (slice "design" "tool")) }}
+        {{ $pages := where $.RegularPages.ByTitle "Params.subtype" "in" .subtypes }}
+        {{ $category := .title }}
+        {{ with $pages }}
       <div class="facility-section">
-        <h2 class="section-title">Testbeds</h2>
+        <h2 class="section-title">{{ $category }}</h2>
         <div class="facilities-list">
-          {{ $firstProject := true }}
-          {{ range .Pages.ByDate.Reverse }}
-            {{ if eq .Params.subtype "testbed" }}
+          {{ range . }}
               {{ $imageUrlTop := "" }}
               {{ $imageUrlBottom := "" }}
               {{ $page := . }}
@@ -56,7 +58,7 @@
                 <div class="facility-item" 
                      data-image-top="{{ $imageUrlTop }}"
                      data-image-bottom="{{ $imageUrlBottom }}"
-                     data-first="{{ $firstProject }}">
+                     data-first="{{ $firstFacility }}">
                   <div class="facility-item-header">
                     <h3 class="facility-item-title">{{ .Title }}</h3>
                     {{ with .Date }}
@@ -71,62 +73,12 @@
                   <span class="read-more-link">Read more →</span>
                 </div>
               </a>
-              {{ $firstProject = false }}
-            {{ end }}
+              {{ $firstFacility = false }}
           {{ end }}
         </div>
       </div>
-
-      <!--Tools Section -->
-      <div class="facility-section">
-        <h2 class="section-title">Tools</h2>
-        <div class="facilities-list">
-          {{ $firstProject := true }}
-          {{ range .Pages.ByDate.Reverse }}
-            {{ if eq .Params.subtype "tool" }}
-              {{ $imageUrlTop := "" }}
-              {{ $imageUrlBottom := "" }}
-              {{ with .Params.image }}
-                {{ $topFilename := .filename_top | default .filename }}
-                {{ $bottomFilename := .filename_bottom | default .filename }}
-                {{ with $topFilename }}
-                  {{ $topResource := resources.Get (printf "media/%s" .) }}
-                  {{ if $topResource }}
-                    {{ $imageUrlTop = $topResource.RelPermalink }}
-                  {{ end }}
-                {{ end }}
-                {{ with $bottomFilename }}
-                  {{ $bottomResource := resources.Get (printf "media/%s" .) }}
-                  {{ if $bottomResource }}
-                    {{ $imageUrlBottom = $bottomResource.RelPermalink }}
-                  {{ end }}
-                {{ end }}
-              {{ end }}
-              
-              <a href="{{ .RelPermalink }}" class="facility-card-link">
-                <div class="facility-item" 
-                     data-image-top="{{ $imageUrlTop }}"
-                     data-image-bottom="{{ $imageUrlBottom }}"
-                     data-first="{{ $firstProject }}">
-                  <div class="facility-item-header">
-                    <h3 class="facility-item-title">{{ .Title }}</h3>
-                    {{ with .Date }}
-                    <div class="facility-sponsor">
-                      <span>{{ .Format "January 2006" }}</span>
-                    </div>
-                    {{ end }}
-                  </div>
-                  <div class="facility-item-description">
-                    {{ .Summary | plainify | truncate 200 }}
-                  </div>
-                  <span class="read-more-link">Read more →</span>
-                </div>
-              </a>
-              {{ $firstProject = false }}
-            {{ end }}
-          {{ end }}
-        </div>
-      </div>
+        {{ end }}
+      {{ end }}
     </div>
   </div>
 </div>
