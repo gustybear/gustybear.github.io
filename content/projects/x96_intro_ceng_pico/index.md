@@ -6,9 +6,8 @@ summary: "Hands-on introduction to embedded and wireless systems using the Pico 
 
 image:
   filename: featured.png
-  filename_top: featured-top.png
-  filename_bottom: featured-bottom.png
   focal_point: Smart
+  preview_only: true
 
 date: 2025-10-29T04:14:54-08:00
 
@@ -29,7 +28,6 @@ tags:
   - robotics
   - automation
   - microcontroller
-  - vip-project
   - hands-on-learning
   - hardware-design
   - software-integration
@@ -40,21 +38,17 @@ tags:
   - undergraduate-research
   - active project
 links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
   - name: CRN
-    url: ./projects/x96_intro_ceng_pico/#logistics
+    url: /projects/x96_intro_ceng_pico/#logistics
 ---
 
 ![](./images/raspi-pico.png)
 
 
-# Executive Summary
+## Executive Summary
 This project course introduces students to hands-on Computer Engineering (CENG) projects through the Pico platform. Students learn fundamentals of embedded systems, sensors, and wireless communication while designing small-scale prototypes that integrate hardware and software. The course emphasizes practical experimentation, teamwork, and iterative design—preparing students for advanced VIP and capstone projects in automation, robotics, and intelligent sensing systems.
 
-# Logistics {#logistics}
+## Logistics {#logistics}
 - **CRN**
 | Semester    | ECE 196   |  ECE 296 |
 | ---         | ---       |  ---     |
