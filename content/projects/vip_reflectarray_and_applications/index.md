@@ -7,14 +7,14 @@ subtitle: "Vertically Integrated Project (VIP), Spring 2025 - present"
 summary: "This VIP project aims to investigate the fundamental principles of reflectarray operation, develop novel reflectarray architectures and control algorithms, and explore their application in a wide range of wireless communication, sensing, energy transfer, and security scenarios."
 
 tags:
-- vip project
+- vip-project
 - reflectarray
 - communication
 - sensing
 - 3D print
 - wireless charging
-- recent project
-- active project
+- recent-project
+- active-project
 
 date: 2024-12-10T00:00:00-10:00
 
@@ -25,51 +25,21 @@ authors:
 - Haofan Cai
 - Xiaochan Xue
 
-# Optional external URL for project (replaces project detail page).
-# external_link: "https://gustybear-research.github.io/rasre_reflectarrays_hugo/                                                                                 "
-
-# Featured image
-# To use, place an image named `featured.jpg/png` in your page's folder.
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-# Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  caption: ""
-  focal_point: ""
+  filename: featured.png
+  focal_point: Smart
   preview_only: true
 
 links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
-- name: CRN
-  url: ./projects/vip_reflectarray_and_applications/#logistics
-#- name: PUB
-#  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
-#- name: Slides
-#  url: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/presentation/EE496%20Poster_%20SIENNA.pdf
-#- name: Dataset
-#  url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
-
-
-
-# Markdown Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
-
-# gallery_item:
-
+  - name: CRN
+    url: /projects/vip_reflectarray_and_applications/#logistics
 ---
-***
-# Executive Summary
+---
+## Executive Summary
 Reflectarray present a paradigm shift in wireless communication and sensing in mmWave and sub-THz region by offering unprecedented control over the propagation environment. Traditional wireless systems are largely at the mercy of the channel, which can be severely impaired by obstacles, fading, and interference. Reflectarray, however, introduce a new degree of freedom by enabling programmable manipulation of the wireless channel. Through precise control of the reflection and refraction properties of an array of elements, reflectarray can be used to mitigate path loss, combat fading, null interference, and shape radiation patterns, which can be used to enhancing spectral efficiency, energy efficiency, and expanding coverage. This project aims to investigate the fundamental principles of reflectarray operation, develop novel reflectarray architectures and control algorithms, and explore their applications in a wide range of wireless communication, sensing, energy transfer, and security scenarios. 
-***
+---
 
-# Logistics {#logistics}
+## Logistics {#logistics}
 - **CRN**
 | Semester    | ENGR196 | ENGR296 | ENGR396 | ECE496 |
 | ---         | ---     | ---     | ---     | ---    |
@@ -90,7 +60,7 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 | ---            | ---            | ---            | ---            | ---                                                                                                     |
 | $ \geq $ 3 H/W | $ \geq $ 3 H/W | $ \geq $ 6 H/W | $ \geq $ 8 H/W | {{< spoiler text="One per group">}} Indicate the authors of the appropriate sections.{{< /spoiler >}} |
  
- ***
+---
 
 # Grading
 
@@ -118,13 +88,13 @@ Reflectarray present a paradigm shift in wireless communication and sensing in m
 | ------ | ----- | ----- |
 | 70%    | 50%   | 30%   |
 
-***
+---
 # Iterations
 | SEMESTER     | TOPICS                                                 | DOCUMENTS                    |
 | ---          | ---                                                    | ---                          |
 | Spring, 2025 | Designing 3.5GHz reflectarray with transistors         | [doc sp2025][doc sp2025 url] |
 
- ***
+---
 
 [^1]: This course adheres to UH Manoa W focus requirements and ECE Department requirements. So you are required to write 4,000 words or more throughout the semester, split between the proposal and the final report.
 
