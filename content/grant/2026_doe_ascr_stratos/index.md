@@ -2,8 +2,6 @@
 title: "DOE Genesis Mission: STRATOS: Security and Trust Runtime Architecture for Time-critical Operational Science"
 date: 2026-08-17T10:10:00-10:00
 
-# Tags: can be used for filtering projects.
-# Example: `tags = ["machine-learning", "deep-learning"]`
 tags:
 - trustworthy ai
 - ai security
@@ -28,27 +26,18 @@ authors:
 - Benjamin Blakely
 - Sonam Kharade
 
-summary: "$750,000 DOE Phase I proposal, Co-PI"
+summary: "DOE Phase I proposal | $750,000 | Co-PI"
+subtext: "DOE Phase I proposal | $750,000 | Co-PI"
 
-# Featured image
-# To use, place an image named `featured.jpg/png` in your page's folder.
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-# Set `preview_only` to `true` to just use the image for thumbnails.
 image:
   placement: 3
   caption: ""
   focal_point: "Center"
   preview_only: true
-  alt_text: " "
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+  alt_text: ""
 ---
 
-# Executive Summary
+## Executive Summary
 
 STRATOS develops a cloud-native, model-agnostic security middleware for protecting AI models used in time-critical scientific and energy-system operations. AI is increasingly embedded in workflows such as grid forecasting, contingency analysis, and operational decision making, creating new risks from adversarial perturbations, inference-time evasion, and backdoor attacks that may remain physically plausible while corrupting model outputs. STRATOS addresses this problem through a physics-grounded DevSecOps architecture that continuously evaluates inference streams, computes certified trust scores, and distinguishes malicious manipulation from legitimate operational variability without requiring modification of the protected model.
 
