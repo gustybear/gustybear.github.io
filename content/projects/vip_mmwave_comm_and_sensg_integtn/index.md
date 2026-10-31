@@ -7,12 +7,12 @@ subtitle: "Vertically Integrated Project (VIP), Spring 2022 - present"
 summary: "This VIP project aims to develop mmWave communication systems with integrated radar sensing functionality in cellular networks and Wi-Fi networks for drone detection, physiological sensing, smart RAN, etc."
 
 tags:
-- vip project
+- vip-project
 - integrated sensing and communication
 - drone detection
 - physiological sensing
-- recent project
-- active project
+- recent-project
+- active-project
 
 date: 2024-12-09T00:00:00-10:00
 
@@ -21,51 +21,21 @@ authors:
 - Aaron Ohta
 - Wayne A. Shiroma
 
-# Optional external URL for project (replaces project detail page).
-# external_link: "https://gustybear-research.github.io/monet_mmwave_sensing_hugo/"
-
-# Featured image
-# To use, place an image named `featured.jpg/png` in your page's folder.
-# Placement options: 1 = Full column width, 2 = Out-set, 3 = Screen-width
-# Focal point options: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-# Set `preview_only` to `true` to just use the image for thumbnails.
 image:
-  caption: ""
-  focal_point: ""
+  filename: featured.png
+  focal_point: Smart
   preview_only: true
 
 links:
-#- icon: twitter
-#  icon_pack: fab
-#  name: Follow
-#  url: https://twitter.com/georgecushen
-- name: CRN
-  url: ./projects/vip_mmwave_comm_and_sensg_integtn/#logistics
-#- name: PUB
-#  url: ./publication/zheng-insider-resistant-context-based-pairing-2021/
-#- name: Slides
-#  url: https://github.com/gustybear-research/conf_globecom_multi_moda_dev_pair/raw/main/presentation/EE496%20Poster_%20SIENNA.pdf
-#- name: Dataset
-#  url: https://github.com/gustybear-research/x96_wirles_physllgcl_sensing
-
-
-
-# Markdown Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
-
-# gallery_item:
-
+  - name: CRN
+    url: /projects/vip_mmwave_comm_and_sensg_integtn/#logistics
 ---
-***
-# Executive Summary
+---
+## Executive Summary
 Imagine a future where our wireless devices do more than just talk to each other. They can also "see" and "feel" their surroundings, gathering valuable information about the environment. This is the promise of Integrated Sensing and Communication (ISAC), and millimeter-wave (mmWave) frequencies are the key to unlocking its full potential. Leveraging the abundant bandwidth at mmWave band (30GHz ~ 300GHz), which are currently being explored for future generation of wireless communication systems (cellular and Wi-Fi), radar-like precise and multi-target detection can be implemented, with applications in drone detection, physiological monitoring, smart RAN etc. This VIP project, therefore, see to develop new techniques and technologies to make ISAC a reality at mmWave frequencies.
-***
+---
 
-# Logistics {#logistics}
+## Logistics {#logistics}
 - **CRN**
 | Semester    | ENGR196 | ENGR296 | ENGR396 | ECE496 |
 | ---         | ---     | ---     | ---     | ---   |
@@ -88,7 +58,7 @@ Imagine a future where our wireless devices do more than just talk to each other
 | ---            | ---            | ---            | ---            | ---                                                                                                     |
 | $ \geq $ 3 H/W | $ \geq $ 3 H/W | $ \geq $ 6 H/W | $ \geq $ 8 H/W | {{< spoiler text="One per group">}} Indicate the authors of the appropriate sections.{{< /spoiler >}} |
  
- ***
+---
 
 # Grading
 
@@ -116,13 +86,13 @@ Imagine a future where our wireless devices do more than just talk to each other
 | ------ | ----- | ----- |
 | 70%    | 50%   | 30%   |
 
-***
+---
 # Iterations
 | SEMESTER     | TOPICS                                       | DOCUMENTS                    |
 | ---          | ---                                          | ---                          |
 | Spring, 2025 | Setup an O-RAN based ISAC System at FR2 band | [doc sp2025][doc sp2025 url] |
 
- ***
+---
 
 [^1]: This course adheres to UH Manoa W focus requirements and ECE Department requirements. So you are required to write 4,000 words or more throughout the semester, split between the proposal and the final report.
 
