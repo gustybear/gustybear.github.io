@@ -27,6 +27,7 @@ authors:
 
 image:
   filename: featured.png
+  filename_top: featured.png
   focal_point: Smart
   preview_only: true
 
