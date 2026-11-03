@@ -8,7 +8,7 @@ subtitle: "Fall, 2026"
 summary: "ECE260 is the introductory course on digital circuit synthesis, focusing on the design and implementation of combinational logic, sequential logic, and basic central processor (van Neumann/Princeton architecture) through Verilog HDL and FPGA. Pre: 160 or 110 or ICS 111 or consent."
 
 date: 2026-08-10T02:58:53+00:00
-lastmod: 2026-08-12T02:58:53+00:00
+lastmod: 2026-11-03
 featured: false
 draft: false
 
@@ -98,6 +98,9 @@ This course explores the foundation of digital circuit design, starting from Boo
 - **Proscribed Conduct**: Copying or otherwise cheating on homework, lab reports, or exam will result in a failing grade for the course. More details can be found at student conduct code policies, [III.C.](http://studentaffairs.manoa.hawaii.edu/policies/conduct_code/proscribed_conduct.php)
 
 # Schedule
+
+**Final exam correction (updated November 3, 2026):** The official ECE 260 final exam for sections 001, 002, and 003 is **Monday, December 14, 2026, 12:00–2:00 p.m. HST, in Kuykendall Hall 101 (KUY 101)**, as assigned by the UH Mānoa Scheduling Office. This replaces the December 18 date previously listed on this page. See the [official Fall 2026 final exam schedule](https://manoa.hawaii.edu/undergrad/schedule/final-exams/fall/).
+
 ## Lecture
 | TIME                           | TOPICS                                                                                           | READING/HW/EXAM                   | DEADLINE       |
 | ------------------------------ | ------------------------------------------------------------------------------------------------ | --------------------------------- | -------------- |
@@ -126,7 +129,7 @@ This course explores the foundation of digital circuit design, starting from Boo
 | Week 15 (11/30, 12/2, 12/4)    | [RTL: Programmable Processors][handout 15 url]                                                   | [Read/HW 15][read 15 url]         | 12/6, 11:59PM  |
 | Week 16 (12/7, 12/9)           | Review, Practice Final                                                                           | Practice Final                    | --             |
 | Study Period (12/11–12/12)     | **Study Period**                                                                                 | --                                | --             |
-| Finals (12/18)                 | **Friday 12:00 – 2:00 pm**                                                                       | --                                | 12/18, 2:00PM  |
+| Finals (12/14)                 | **Monday 12:00 – 2:00 pm — KUY 101**                                                             | --                                | 12/14, 2:00PM  |
 
 ## Laboratory
 | TIME                         | Materials                                                      | Virtual               | DEADLINE        |
